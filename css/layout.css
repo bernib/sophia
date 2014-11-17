@@ -377,13 +377,12 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .SocialBar LI:first-child { padding-top: 15px; padding-left: 15px;}
 .SocialBar LI:last-child { padding-right: 15px;}
 .SocialBar .Comentarios { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
-.SocialBar .Comentarios A { color: #f3aa53; text-decoration: underline}
-.SocialBar .Comentarios .Lnk { font-size: 0.9em; color: #000}
+.SocialBar .Comentarios A { color: #f3aa53;}
+.SocialBar .Comentarios .Lnk { font-size: 0.9em; color: #000; text-decoration: underline}
 .SocialBar .Comentarios .Lnk:hover { text-decoration: none}
 .SocialBar .IconSep { margin-left: 15px; margin-right: 15px; position: relative; top: 5px;}
 .SocialBar .Suscribite { font-size: 1.2em; line-height: 14px; text-transform: uppercase}
 .SocialBar .Suscribite A { color: #000;}
-.SocialBar .Suscribite A:hover { text-decoration: underline}
 .SocialBar .Suscribite .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
 .SocialBar .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
 .SocialBar .Share A { color: #000}
@@ -442,6 +441,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Comentarios H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; margin-bottom: 16px;}
 .Comentarios H3 STRONG {font-family: "museo_slab700", Arial, Helvetica, sans-serif}
 .Comentarios H3 SPAN { color: #fbb461;}
+.Comentarios .Widget { width: 100%; overflow: hidden;}
 /**/
 .SideBar { margin-top: 30px; width: 31.6239%; float: right;}
 .SideBar .InfoBox { width: 100%;}

@@ -21,6 +21,19 @@
 	.Foot .Cell:first-child { width: 19%}
 	.Foot .Cell { width: 24%; margin-left: 3%; padding-top: 30px; padding-bottom: 30px;}
 	.Foot .LaRevista .Btn { padding-left: 14px; padding-right: 14px;}
+	/**/
+	.SocialBar UL { padding-left: 0}
+	.SocialBar LI:last-child { padding-right: 0}
+	.SocialBar .Suscribite .fa {padding: 9px 10px;}
+	.SocialBar .Share .fa {padding: 9px 10px;}
+	.SocialBar .Share .fa-facebook { padding: 9px 12px}
+	.LoadBar A {width: 31.5040%;}
+	/**/
+	.Nota .Imagen .Share {width: 29%;}
+	.Nota .Imagen .Caption {width: 70.8%;}
+	.Nota .Imagenes .Counter {width: 19%;}
+	.Nota .Imagenes .Caption {width: 80.8%;}
+	.Agenda .Date { padding-left: 3%;}
 }
 @media screen and (max-width: 1020px) {
 	.TopBanner { display: none}
@@ -77,7 +90,10 @@
 	.Foot .Cell { width: 49%; margin-left: 2%; padding: 30px; border: 1px solid #ced0d0; background: #f5f5f5; margin-bottom: 20px; min-height: 280px;}
 	.Foot .Cell:first-child { width: 49%; margin-left: 0}
 	.Foot .Cell:nth-child(3) { margin-left: 0}
-	
+	/**/
+	.Articulo { width: 100%;}
+	.SideBar { width: 100%; float: left}
+	.SocialBar LI:last-child {padding-right: 15px;}
 }
 @media screen and (max-width: 950px) {
 	#MsGrid .grid-sizer { width: 49%}
@@ -156,10 +172,16 @@
 	.Suscribirme INPUT[type="submit"] { float: none; margin-top: 20px;}
 	.Foot .Final P { width: 100%;}
 	.Foot .Final H5 { width: 100%; float: left; padding-top: 15px;}
+	/**/
+	.FullImgDoble .InnerBox .Data { position: static; background: rgba(58, 58, 58, 1);}
+	.Agenda .Date { padding-left: 3%;}
+	.Frase .InnerBox H3 { font-size: 2.4em;}
+	
 }
 @media screen and (max-width: 320px) {
 	.ColumnistasBar LI:first-child { width: 125px;}
 	.ColumnistasBar LI { width: 125px;}
+	.ColumnistasBar .Next2:hover {border-left: 1px solid #DBDDDD;}
 }
 @media screen and (orientation: portrait) {}
 @media screen and (orientation: landscape) {}

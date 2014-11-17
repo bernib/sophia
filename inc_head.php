@@ -8,6 +8,7 @@
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="css/media.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
 <!--[if (gte IE 6)&(lte IE 8)]>
     <script type="text/javascript" src="js/html5shiv.js"></script>
     <script type="text/javascript" src="js/selectivizr-min.js"></script>

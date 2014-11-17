@@ -5,4 +5,5 @@
 <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/funciones.js"></script>
