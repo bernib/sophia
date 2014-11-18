@@ -47,7 +47,7 @@
 	.MobileNav .Logo { float: left;}
 	.MobileNav .Logo A { display: block; background: url(../images/layout/logo-mobile.png) no-repeat; width: 104px; height: 38px; text-indent: -5000px; position: absolute; top: 8px; left: 50%; margin-left: -52px;}
 	.MobileNav .Login { float: left;}
-	.MobileNav .ShowLogin { font-size: 1.3em; line-height: 15px; color: #fff; position: absolute; top: 21px; right: 12%}
+	.MobileNav .CallLogin { font-size: 1.3em; line-height: 15px; color: #fff; position: absolute; top: 21px; right: 12%}
 	.MobileNav .Box { float: right; width: 64px}
 	.MobileNav .Box .IconSep { background: url(../images/layout/separador-blaco.png) no-repeat; position: relative; top: 3px;}
 	.MobileNav .ShowSearch { font-size: 2.2em; line-height: 22px; width: 53px; text-align: center; height: 53px; padding-top: 16px; color: #fff; display: inline-block;}
@@ -73,6 +73,8 @@
 	.MobileNav .Search SPAN { display: block; overflow: hidden; width: 90%; margin: 0 auto;}
 	.MobileNav .Search INPUT[type="text"] {height: 44px; font-size: 1.6em; line-height: 18px; text-transform: uppercase; float: left; padding-left: 14px; width: 85%; border: none}
 	.MobileNav .Search BUTTON[type="submit"] { height: 44px; border: none; background: #fff; float: right; font-size: 2em; color: #000; width: 15%; text-transform: uppercase; font-family: "karlabold", Arial, Helvetica, sans-serif;}
+	.AccessLayer { top: 53px;}
+	.AccessLayer .Arrow { right: 40%;}
 	.ColumnistasBar { position: relative}
 	.ColumnistasBar UL { margin-top: 30px;}
 	.ColumnistasBar LI H4 { position: absolute; left: 0; top: 0; width: 100%; text-align: center; padding-top: 10px; font-size: 1.6em; line-height: 18px; background: url(../images/layout/columnistas-bg.png) no-repeat center 70%}
@@ -106,6 +108,7 @@
 	.Blogs .Slider LI IMG { width: 100%; height: auto;}
 	.Foot .Final { border: none; padding-top: 0;}
 	.Foot .Final P { width: 70%; line-height: 20px;}
+	.AccessLayer .Arrow { right: 34%;}
 }
 
 @media screen and (max-width: 750px) {
@@ -116,6 +119,7 @@
 	.MobileNav .ShowLogin { right: 20px;}
 	.MobileNav .Box { display: none}
 	.MobileNav .Search { display: block}
+	.AccessLayer .Arrow { right: 28%;}
 	.ColumnistasBar { border-bottom: none}
 	.ColumnistasBar .Desktop { display: none}
 	.ColumnistasBar .Mobile { display: block}
@@ -127,9 +131,9 @@
 	.ColumnistasBar LI:first-child { width: 130px; text-align: center}
 	.ColumnistasBar LI A { border-left: 1px solid #e2e4e4; border-right: none}
 	.ColumnistasBar LI A:hover { border-right: none; border-left: 1px solid #e2e4e4;}
-	.ColumnistasBar .Control { width: 32px; height: 100px; color: #000; text-align: center; padding-top: 40px; font-size: 2.4em; top: 0; position: absolute; display: block}
-	.ColumnistasBar .Next2 { right: 0; border-left: 1px solid #e2e4e4}
-	.ColumnistasBar .Next2:hover { border-right: 1px solid #fff;}
+	.ColumnistasBar .Control { width: 32px; height: 100px; color: #000; text-align: center; padding-top: 40px; font-size: 2.4em; top: 0; position: absolute; display: block; z-index: 10}
+	.ColumnistasBar .Next2 { right: 0; border-left: 1px solid #DBDDDD; background: #fff;}
+	.ColumnistasBar .Next2:hover { border-left: 1px solid #DBDDDD;}
 	.ColumnistasBar .Prev2 { left: 0;}
 	.ColumnistasBar .Prev2:hover { border: none}
 	/**/
@@ -147,6 +151,9 @@
 	.TopBanner { display: block}
 	.TopBanner .Desktop { display: none}
 	.TopBanner .Mobile { display: block; margin: 0 auto;}
+	.MobileNav .CallLogin { right: 5%;}
+	.AccessLayer { width: 100%}
+	.AccessLayer .Arrow { right: 10%;}
 	MAIN { border: none}
 	.Blogs { margin-bottom: 20px; border: none}
 	.Blogs .Desktop { display: none}

@@ -85,6 +85,49 @@ MAIN { border-bottom: 1px solid #d0d2d2;}
 .MainHead .Inscribite BUTTON[type="submit"]:hover { background: #fff; color: #fac68a; border: 1px solid #fac68a}
 .MainHead .Inscribite BUTTON[type="submit"] SPAN { display: none}
 /**/
+.AccessLayer { position: absolute; right: 0; top: 25px; width: 330px; background: #fac68a; text-align: center; padding: 28px 36px; -webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,.3); box-shadow: 1px 1px 3px 0 rgba(0,0,0,.3); display: none }
+.AccessLayer .Arrow { display: block; width: 20px; height: 7px; background: url(../images/layout/ingresa-arrow.png) no-repeat; position: absolute; top: -7px; right: 20px;}
+.AccessLayer .Registro { display: none}
+.AccessLayer .TitleBtn { padding-bottom: 23px; border-bottom: 1px solid #d1aa7b;}
+.AccessLayer .Inner { padding-top: 22px;}
+.AccessLayer .Inner H4 { font-size: 1.4em; line-height: 16px; margin-bottom: 20px;}
+.AccessLayer .Inner INPUT[type="text"],
+.AccessLayer .Inner INPUT[type="password"] { width: 100%; font-size: 1.4em; line-height: 16px; height: 34px; border: 1px solid #d0d2d2; margin-bottom: 15px; padding-left: 14px; text-transform: uppercase;}
+.AccessLayer .Inner INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="text"]:focus:-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="text"]:focus::-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus::-webkit-input-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus:-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus::-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus:-ms-input-placeholder { color: #fff;}
+.AccessLayer .Inner INPUT[type="submit"] { margin-bottom: 18px; border: 1px solid #000; background: #000; color: #fff; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; text-transform: uppercase; width: 134px; height: 34px;}
+.AccessLayer .Inner INPUT[type="submit"]:hover { background: transparent; color: #000;}
+.AccessLayer .Inner .Legales { text-align: left; font-size: 1.3em; line-height: 15px; padding-bottom: 22px;}
+.AccessLayer .Inner .Legales A { text-decoration: underline; color: #000;}
+.AccessLayer .Inner .Legales A:hover { text-decoration: none}
+.AccessLayer .ErrorMsg { background: #df2d1f; color: #fff; font-size: 1.4em; line-height: 16px; display: block; padding-top: 5px; padding-bottom: 5px; margin-bottom: 15px;}
+.AccessLayer .Inner INPUT[type="text"].Error,
+.AccessLayer .Inner INPUT[type="password"].Error { color: #df2d1f;}
+.AccessLayer .ActionBot { padding-top: 17px; border-top: 1px solid #d1aa7b;}
+.AccessLayer .ActionBot P { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.AccessLayer .ActionBot P A { color: #000; text-decoration: underline}
+.AccessLayer .ActionBot P A:hover { text-decoration: none}
+/**/
+.AccessLayer .LoginBox .Legales LABEL SPAN { text-decoration: underline;}
+.AccessLayer .LoginBox INPUT[type="submit"] { width: 88px;}
+/**/
+.AccessLayer .ForgetPass { display: none}
+.AccessLayer .ForgetPass .Inner { padding-top: 0}
+.AccessLayer .ForgetPass H4 {padding-bottom: 23px; border-bottom: 1px solid #d1aa7b;}
+.AccessLayer .ForgetPass .Text { font-size: 1.4em; line-height: 16px; margin-bottom: 15px;}
+.AccessLayer .ForgetPass INPUT[type="submit"] { width: 88px; margin-bottom: 0}
+/**/
+.AccessLayer .Welcome { color: #fff; display: none}
+.AccessLayer .Welcome .fa { font-size: 2em; margin-bottom: 10px;}
+.AccessLayer .Welcome H4 { font-size: 2.2em; line-height: 24px; font-family: font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 10px;}
+.AccessLayer .Welcome P { font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-bottom: 15px;}
+/**/
 NAV { background: #919699; height: 44px; width: 100%; float: left; position: relative; z-index: 90}
 .MainNav .LogoBar { display: none}
 .MainNav .IconSep { display: none}

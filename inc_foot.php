@@ -7,3 +7,16 @@
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/funciones.js"></script>
+
+<script>
+$(function(){
+	/*FAKE WELCOME*/
+	$(".AccessLayer INPUT[type='submit']").click(function(e){
+		e.preventDefault();
+		$(".Login").hide();
+		$(".ForgetPass").hide();
+		$(".Registro").hide();
+		$(".Welcome").show();
+	});	
+});
+</script>

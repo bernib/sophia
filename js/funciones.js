@@ -13,6 +13,36 @@ $(function(){
 		$(".LayerRevista").stop().fadeOut();	
 	});
 	
+	/*LOGIN*/
+	$(".CallLogin").click(function(e){
+		e.preventDefault();
+		$(".AccessLayer").fadeToggle();
+		$(".LoginBox").show();
+		$(".ForgetPass").hide();
+		$(".Welcome").hide();
+	});
+	
+	$(".ShowForget").click(function(e){
+		e.preventDefault();
+		$(".LoginBox").hide();
+		$(".ForgetPass").fadeIn();
+		$(".Welcome").hide();
+	});
+	
+	$(".ShowRegistro").click(function(e){
+		e.preventDefault();
+		$(".LoginBox").hide();
+		$(".Registro").fadeIn();
+		$(".Welcome").hide();
+	});
+	
+	$(".ShowLogin").click(function(e){
+		e.preventDefault();
+		$(".LoginBox").show();
+		$(".Registro").hide();
+		$(".Welcome").hide();
+	});
+	
 	/*MOBILE NAV*/
 	$(".ShowMenu").click(function(e){
 		e.preventDefault();
