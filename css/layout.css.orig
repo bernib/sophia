@@ -1,0 +1,964 @@
+<<<<<<< HEAD
+/*PUBLILAND GLOBAL FRAMEWORK V2.3 - AUTHORIZED PERSONNEL ONLY - EYES ONLY - W3C VALID*/
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, 
+CODE, DEL, DFN, EM, IMG, INS, KBD, Q, S, SAMP, SMALL, STRIKE, STRONG, SUB, SUP, TT, VAR, B, U, I, CENTER, DL, DT, DD, OL, UL, LI, 
+FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD, ARTICLE, ASIDE, CANVAS, DETAILS, EMBED, FIGURE, 
+FIGCAPTION, FOOTER, HEADER, HGROUP, MENU, NAV, OUTPUT, RUBY, SECTION, SUMMARY, TIME, MARK, AUDIO, VIDEO, MAIN {margin: 0; padding: 0; border: 0 none; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+HTML {-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+BODY {font: 62.5% "karlaregular", Arial, Helvetica, sans-serif; color: #000; background: #FFFFFF; height:100%; min-height:100%; line-height: 1}
+HTML, BODY { height: 100%;}
+H1, H2, H3, H4, H5, H6 {font-weight: normal; font-size: 100%; display: block}
+ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, MENU, NAV, SECTION, MAIN {display: block; }
+TABLE {border-collapse: collapse; border-spacing: 0;}
+TH {text-align: left;}
+TD, TH {empty-cells: show}
+INPUT, SELECT, TEXTAREA { font: 1em "karlaregular", Arial, Helvetica, sans-serif; color: #000; background: #FFF; border: 1px solid #d6d7d7; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+INPUT:focus, TEXTAREA:focus { outline: none;}
+INPUT, SELECT { vertical-align: middle}
+INPUT[type="radio"], INPUT[type="checkbox"] {border: none; height: auto !important; width: auto !important; background: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+INPUT[type="submit"], INPUT[type="reset"], INPUT[type="buttom"], BUTTON {cursor: pointer; -webkit-appearance:none;}
+TEXTAREA {overflow:auto; -webkit-appearance:none; resize: none}
+INPUT::-moz-focus-inner, BUTTON::-moz-focus-inner {border: 0; padding: 0;}
+::-webkit-input-placeholder {color: #000;}
+:-moz-placeholder {color: #000; opacity: 1}
+::-moz-placeholder {color: #000; opacity: 1}
+:-ms-input-placeholder { color: #000;}
+UL, OL, LI {list-style: none;}
+IMG { vertical-align: top;}
+A {text-decoration: none; cursor:pointer; background: transparent;}
+A:active, A:hover { outline: 0}
+STRONG { font-weight: normal; font-family: "karlabold", Arial, Helvetica, sans-serif;}
+EM { font-style: normal; font-family: "karlaitalic", Arial, Helvetica, sans-serif}
+.Clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+/*FIN FRAMEWORK*/
+
+/*MAIN STRUCTURE*/
+.Wrapper {text-align: left; margin: 0px auto; width: 100%; max-width: 1170px;}
+.Row { width: 100%; float: left}
+.IconSep { display: inline-block; background: url(../images/layout/separador.png) no-repeat; width: 4px; height: 20px; position: relative}
+MAIN { border-bottom: 1px solid #d0d2d2;}
+
+/*HEAD*/
+.Banner { text-align: center; width: 100%; float: left}
+.TopBanner .Mobile { display: none}
+/**/
+.TopNav { border-top: 1px solid #d0d2d2; border-bottom: 1px solid #d0d2d2; padding-top: 9px; padding-bottom: 7px; height: 35px; position: relative; z-index: 100}
+.QuickTopNav { float: left; position: relative; z-index: 10}
+.QuickTopNav .ShowRevista { display: inline-block; position: relative; z-index: 10; margin-right: 5px; padding-bottom: 7px; margin-bottom: -7px;}
+.QuickTopNav P { font-size: 1.5em; line-height: 17px; display: inline-block;}
+.QuickTopNav P STRONG { cursor: pointer;}
+.QuickTopNav P A { color: #000; display: inline-block; margin-right: 3px; margin-left: 3px;}
+.QuickTopNav P A:hover { text-decoration: underline;}
+.QuickTopActions { float: right; position: relative;}
+.QuickTopActions .CallLogin { font-size: 1.4em; line-height: 16px;}
+.QuickTopActions .CallLogin A { color: #000;}
+.QuickTopActions .CallLogin A:hover { text-decoration: underline}
+.LayerRevista { background: #fac68a; padding: 24px; width: 372px; position: absolute; left: 0; top: 25px; display: none}
+.LayerRevista .Arrow { position: absolute; left: 20px; top: -8px; background: url(../images/layout/revista-arrow.png) no-repeat; width: 21px; height: 8px; display: block}
+.LayerRevista FIGURE { float: left; width: 48%;}
+.LayerRevista FIGURE IMG { width: 100%; height: auto;}
+.LayerRevista .Summary { float: left; margin-left: 6.1728%; width: 45%;}
+.LayerRevista .Summary H3 { font-size: 1.8em; line-height: 22px; color: #fff; font-family: "museo_slab700", Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+.LayerRevista .Summary H3 STRONG { font-size: 0.9em;}
+.LayerRevista .Summary .Lnk { font-size: 1.2em; line-height: 14px; text-decoration: underline; color: #000; text-transform: uppercase}
+.LayerRevista .Summary .Lnk:hover { text-decoration: none;}
+.LayerRevista .Summary .Btn { display: inline-block; background: #000; color: #fff; font-size: 1.3em; line-height: 15px; padding: 10px 15px 0px; margin-bottom: 25px; height: 34px; border: 1px solid #000 }
+.LayerRevista .Summary .Btn:hover { background: transparent; color: #000;}
+.LayerRevista .Summary LI:first-child { margin-bottom: 42px;}
+/**/
+.MainHead { height: 119px; position: relative}
+.MainHead H1 { width: 60.6837%; float: left}
+.MainHead H1 A { display: block; background: url(../images/layout/logo.png) no-repeat; width: 248px; height: 92px; text-indent: -5000px; margin-top: 15px; float: right}
+.MainHead .Acciones { width: 39.3162%; float: right; margin-top: 32px;}
+.MainHead .Seguinos { width: 38.2608%; float: left}
+.MainHead .Seguinos .Block { float: right; width: 57%;}
+.MainHead .Seguinos H4 { font-family: "museo_slab500", Arial, Helvetica, sans-serif; font-size: 1.6em; line-height: 18px; margin-bottom: 17px;}
+.MainHead .Seguinos P A { font-size: 2.3em; color: #000; margin-right: 10px;}
+.MainHead .Inscribite { width: 61.7391%; float: left; border-left: 1px solid #dadadc;}
+.MainHead .Inscribite FIELDSET { float: right; width: 90%;}
+.MainHead .Inscribite H4 { font-family: "museo_slab500", Arial, Helvetica, sans-serif; font-size: 1.6em; line-height: 18px; margin-bottom: 5px;}
+.MainHead .Inscribite INPUT[type="text"] { height: 34px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; float: left; padding-left: 14px; width: 80%}
+.MainHead .Inscribite INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.MainHead .Inscribite INPUT[type="text"]:focus:-moz-placeholder {color: #fff;}
+.MainHead .Inscribite INPUT[type="text"]:focus::-moz-placeholder {color: #fff;}
+.MainHead .Inscribite INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.MainHead .Inscribite BUTTON[type="submit"] { height: 34px; border: none; background: #fac68a; float: right; font-size: 2.3em; color: #fff; width: 17%;}
+.MainHead .Inscribite BUTTON[type="submit"]:hover { background: #fff; color: #fac68a; border: 1px solid #fac68a}
+.MainHead .Inscribite BUTTON[type="submit"] SPAN { display: none}
+/**/
+.AccessLayer { position: absolute; right: 0; top: 25px; width: 330px; background: #fac68a; text-align: center; padding: 28px 36px; -webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,.3); box-shadow: 1px 1px 3px 0 rgba(0,0,0,.3); display: none }
+.AccessLayer .Arrow { display: block; width: 20px; height: 7px; background: url(../images/layout/ingresa-arrow.png) no-repeat; position: absolute; top: -7px; right: 20px;}
+.AccessLayer .Registro { display: none}
+.AccessLayer .TitleBtn { padding-bottom: 23px; border-bottom: 1px solid #d1aa7b;}
+.AccessLayer .Inner { padding-top: 22px;}
+.AccessLayer .Inner H4 { font-size: 1.4em; line-height: 16px; margin-bottom: 20px;}
+.AccessLayer .Inner INPUT[type="text"],
+.AccessLayer .Inner INPUT[type="password"] { width: 100%; font-size: 1.4em; line-height: 16px; height: 34px; border: 1px solid #d0d2d2; margin-bottom: 15px; padding-left: 14px; text-transform: uppercase;}
+.AccessLayer .Inner INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="text"]:focus:-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="text"]:focus::-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus::-webkit-input-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus:-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus::-moz-placeholder {color: #fff;}
+.AccessLayer .Inner INPUT[type="password"]:focus:-ms-input-placeholder { color: #fff;}
+.AccessLayer .Inner INPUT[type="submit"] { margin-bottom: 18px; border: 1px solid #000; background: #000; color: #fff; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; text-transform: uppercase; width: 134px; height: 34px;}
+.AccessLayer .Inner INPUT[type="submit"]:hover { background: transparent; color: #000;}
+.AccessLayer .Inner .Legales { text-align: left; font-size: 1.3em; line-height: 15px; padding-bottom: 22px;}
+.AccessLayer .Inner .Legales A { text-decoration: underline; color: #000;}
+.AccessLayer .Inner .Legales A:hover { text-decoration: none}
+.AccessLayer .ErrorMsg { background: #df2d1f; color: #fff; font-size: 1.4em; line-height: 16px; display: block; padding-top: 5px; padding-bottom: 5px; margin-bottom: 15px;}
+.AccessLayer .Inner INPUT[type="text"].Error,
+.AccessLayer .Inner INPUT[type="password"].Error { color: #df2d1f;}
+.AccessLayer .ActionBot { padding-top: 17px; border-top: 1px solid #d1aa7b;}
+.AccessLayer .ActionBot P { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.AccessLayer .ActionBot P A { color: #000; text-decoration: underline}
+.AccessLayer .ActionBot P A:hover { text-decoration: none}
+/**/
+.AccessLayer .LoginBox .Legales LABEL SPAN { text-decoration: underline;}
+.AccessLayer .LoginBox INPUT[type="submit"] { width: 88px;}
+/**/
+.AccessLayer .ForgetPass { display: none}
+.AccessLayer .ForgetPass .Inner { padding-top: 0}
+.AccessLayer .ForgetPass H4 {padding-bottom: 23px; border-bottom: 1px solid #d1aa7b;}
+.AccessLayer .ForgetPass .Text { font-size: 1.4em; line-height: 16px; margin-bottom: 15px;}
+.AccessLayer .ForgetPass INPUT[type="submit"] { width: 88px; margin-bottom: 0}
+/**/
+.AccessLayer .Welcome { color: #fff; display: none}
+.AccessLayer .Welcome .fa { font-size: 2em; margin-bottom: 10px;}
+.AccessLayer .Welcome H4 { font-size: 2.2em; line-height: 24px; font-family: font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 10px;}
+.AccessLayer .Welcome P { font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-bottom: 15px;}
+/**/
+NAV { background: #919699; height: 44px; width: 100%; float: left; position: relative; z-index: 90}
+.MainNav .LogoBar { display: none}
+.MainNav .IconSep { display: none}
+.MainNav LI { float: left; margin-top: 15px; position: relative; padding-bottom: 15px;}
+.MainNav .LogoBar + LI A { margin-left: 0}
+.MainNav LI:last-child A { margin-right: 0}
+.MainNav LI A { font-size: 1.4em; line-height: 16px; text-transform: uppercase; color: #fff; display: inline-block; margin-left: 8px; margin-right: 8px;}
+.MainNav LI .Menu { position: absolute; background: #919699; border-top: 1px solid #fff; left: 0; top: 29px; min-width: 110px; padding-top: 8px; padding-bottom: 8px; display: none}
+.MainNav LI .Menu LI { float: none; margin-top: 0; padding-bottom: 0}
+.MainNav LI .Menu LI A { font-size: 1.5em; line-height: 17px; display: block; margin: 0; padding: 8px 22px; text-transform: none; white-space: nowrap }
+.MainNav LI:hover .Menu { display: block}
+.MainNav .SepL > A { border-left: 1px solid #fff; padding-left: 16px; margin-left: 0px;}
+.MainNav .SepR > A { border-right: 1px solid #fff; padding-right: 16px;}
+.MainNav .SepR + LI A { margin-left: 0}
+.MainNav .Box { float: right; z-index: 10}
+.MainNav .ShowSearch { font-size: 2em; line-height: 20px; width: 44px; text-align: center; height: 44px; position: relative; top: -15px; padding-top: 12px;}
+.MainNav .ShowSearch:hover { color: #fff;}
+.MainNav .ShowSearch.Open { color: #fff; }
+.MainNav .SearchBox { width: 360px; padding: 20px; background: #afb4b5; position: absolute; top: 29px; right: 0; display: none }
+.MainNav .SearchBox .Arrow { position: absolute; top: -8px; right: 10px; width: 22px; height: 8px; display: block; background: url(../images/layout/search-arrow.png) no-repeat}
+.MainNav .SearchBox INPUT[type="text"] {height: 34px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; float: left; padding-left: 14px; width: 225px;}
+.MainNav .SearchBox INPUT[type="submit"] { height: 34px; border: 1px solid #000; background: #232424; float: right; font-size: 1.4em; color: #fff; width: 80px; text-transform: uppercase; font-family: "karlabold", Arial, Helvetica, sans-serif;}
+.MainNav .SearchBox INPUT[type="submit"]:hover { color: #000; background: transparent}
+.MainNav .Box:hover .SearchBox { display: block;}
+.FixThis { position: fixed; width: 100%; height: 54px;}
+.FixThis LI { margin-top: 21px; padding-bottom: 17px;}
+.FixThis .LogoBar { display: inline-block; padding-right: 25px;}
+.FixThis .LogoBar A { display: block; width: 104px; height: 38px; background: url(../images/layout/logo-nav.png) no-repeat; text-indent: -5000px; margin: -12px 0px 0px; font-size: 0; line-height: 0 }
+.FixThis .LogoBar .IconSep { display: block; position: absolute; right: 10px; top: -2px; background-image: url(../images/layout/separador-blaco.png)}
+.FixThis .Box .IconSep { display: block; position: absolute; left: -3px; top: -2px; background-image: url(../images/layout/separador-blaco.png)}
+.FixThis LI .Menu { top: 33px;}
+.FixThis .SearchBox { top: 33px;}
+.FixThis .ShowSearch { height: 48px;}
+.FixThis LI A { font-size: 1.3em;}
+.MobileNav { display: none}
+/**/
+.ColumnistasBar { border-bottom: 1px solid #dbdddd;}
+.ColumnistasBar UL {width: 100%; overflow: hidden}
+.ColumnistasBar LI {float: left;}
+.ColumnistasBar LI:first-child { padding-top: 29px; padding-right: 14px;}
+.ColumnistasBar A { display: block; padding: 17px 10px; border-left: 1px solid #fff; border-right: 1px solid #fff; position: relative;}
+.ColumnistasBar A:hover { background: #f5f5f5; overflow: hidden; border-left: 1px solid #dbdddd; border-right: 1px solid #dbdddd;}
+.ColumnistasBar H4 { color: #fbb96d; font-size: 1.5em; line-height: 17px; font-family: "museo_slab700", Arial, Helvetica, sans-serif;}
+.ColumnistasBar IMG { border: 1px solid #cbcbca; border-radius: 100%; overflow: hidden; position: absolute; left: 10px; top: 17px}
+.ColumnistasBar FIGCAPTION { font-size: 1.2em; line-height: 16px; color: #000; text-transform: uppercase; padding-top: 7px; padding-left: 49px;}
+.ColumnistasBar .Mobile { display: none}
+
+/*FOOT*/
+.Blogs { border-bottom: 1px solid #d0d2d2; padding-top: 28px; padding-bottom: 28px;}
+.Blogs .Head { overflow: hidden; margin-bottom: 25px;}
+.Blogs .Head H3 { float: left; font-size: 2.1em; line-height: 23px; font-family: "museo_slab500", Arial, Helvetica, sans-serif}
+.Blogs .Head .IconSep { margin-left: 10px; margin-right: 10px; top: 5px;}
+.Blogs .Head H3 STRONG { font-family: "museo_slab700", Arial, Helvetica, sans-serif; color: #50c3a7;}
+.Blogs .Head .Lnk { display: inline-block; float: left; font-size: 1.2em; line-height: 14px; color: #000; text-transform: uppercase; text-decoration: underline; margin-left: 22px; position: relative; top: 8px;}
+.Blogs .Head .Lnk:hover { text-decoration: none}
+.Blogs .Slider { width: 100%; position: relative; overflow: hidden; padding-left: 50px;}
+.Blogs .Slider UL { width: 1170px float: left;}
+.Blogs .Slider LI { float: left; width: 181px; padding-right: 26px;}
+.Blogs .Slider H4 { font-size: 1.2em; line-height: 14px; color: #51c4a8; margin-bottom: 10px;}
+.Blogs .Slider H4 A {color: #51c4a8; text-decoration: underline}
+.Blogs .Slider H4:hover { text-decoration: none}
+.Blogs .Slider FIGURE { margin-bottom: 12px;}
+.Blogs .Slider P { color: #000;}
+.Blogs .Slider P A { color: #000;}
+.Blogs .Slider P A:hover { text-decoration: underline;}
+.Blogs .Slider SPAN { display: block; font-size: 1.2em; line-height: 14px; margin-bottom: 5px;}
+.Blogs .Slider P STRONG { font-size: 1.4em; line-height: 16px;}
+.Blogs .Slider .Control { position: absolute; top: 22px; display: block; background: #000; color: #fff; text-align: center; font-size: 2em; line-height: 20px; width: 34px; height: 90px; padding-top: 35px; border: 1px solid #000;}
+.Blogs .Slider .Control:hover { color: #000; background: #fff;}
+.Blogs .Slider .Prev { left: 0}
+.Blogs .Slider .Next { right: 0}
+.Blogs .Mobile { display: none}
+/**/
+.Suscribirme { background: #fac68a; overflow: hidden; padding-top: 17px; padding-bottom: 17px; border-bottom: 1px solid #fff;}
+.Suscribirme LABEL { font-family: "museo_slab700", Arial, Helvetica, sans-serif; font-size: 2.1em; line-height: 23px; color: #fff; display: block; float: left; margin-right: 18px; height: 34px; padding-top: 5px;}
+.Suscribirme INPUT[type="text"] { float: left; height: 34px; width: 257px; border: none; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 14px; margin-right: 13px;}
+.Suscribirme INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.Suscribirme INPUT[type="text"]:focus:-moz-placeholder {color: #fff;}
+.Suscribirme INPUT[type="text"]:focus::-moz-placeholder {color: #fff;}
+.Suscribirme INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.Suscribirme INPUT[type="text"].Error { color: #df2d1f;}
+.Suscribirme INPUT[type="submit"] { float: left; font-size: 1.2em; color: #fff; background: #000; border: none; width: 134px; height: 34px; font-family: "karlabold", Arial, Helvetica, sans-serif}
+.Suscribirme INPUT[type="submit"]:hover { background: #fac68a; color: #000; border: 1px solid #000; }
+.Suscribirme .Mensaje { display: none;}
+/**/
+.Foot { background: #ebecec;}
+.Foot .Cell { width: 23.0769%; float: left; margin-left: 2.5641%; padding-top: 44px; padding-bottom: 44px;}
+.Foot .Cell:first-child { margin-left: 0}
+.Foot .Cell H3 { font-size: 1.8em; line-height: 20px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 18px;}
+.Foot .Cell H3 A { color: #000;}
+.Foot .Cell H3 .fa { margin-left: 10px; color: #000}
+.Foot .Cell H2 A { background: url(../images/layout/logo-footer.png) no-repeat; width: 87px; height: 31px; text-indent: -5000px; margin-top: -10px; margin-bottom: 18px; display: block}
+.Foot .Sophia UL { border-top: 1px solid #ced0d0; border-bottom: 1px solid #ced0d0; padding-top: 15px; margin-bottom: 15px; padding-bottom: 5px;}
+.Foot .Sophia LI { font-size: 1.2em; line-height: 14px; text-transform: uppercase; padding-bottom: 6px;}
+.Foot .Sophia LI A { color: #000;}
+.Foot .Sophia LI A:hover { text-decoration: underline;}
+.Foot .Sophia P SPAN { font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; font-size: 1.6em; line-height: 18px;}
+.Foot .Sophia .fa { font-size: 1.9em; line-height: 19px; color: #000; margin-left: 16px;}
+.Foot .LaRevista FIGURE { float: left; width: 48%; margin-right: 5%;}
+.Foot .LaRevista IMG { width: 100%; height: auto;}
+.Foot .LaRevista .Summary { float: left; width: 47%;}
+.Foot .LaRevista H4 { margin-bottom: 16px;}
+.Foot .LaRevista H4 STRONG { font-size: 1.8em; line-height: 20px;}
+.Foot .LaRevista H4 SPAN { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.Foot .LaRevista .Lnk { font-size: 1.2em; line-height: 14px; text-transform: uppercase; color: #000; text-decoration: underline}
+.Foot .LaRevista .Lnk:hover { text-decoration: none}
+.Foot .LaRevista .Btn { background: #000; color: #fff; display: inline-block; font-size: 1.2em; line-height: 14px; padding: 9px 20px; margin-top: 22px; margin-bottom: 24px; border: 1px solid #000; }
+.Foot .LaRevista .Btn:hover { color: #000; background: transparent;}
+.Foot .Tweets LI {border-top: 1px solid #ced0d0; font-size: 1.4em; line-height: 20px; padding-top: 14px; padding-bottom: 14px;}
+.Foot .Tweets LI A { color: #000; text-decoration: underline}
+.Foot .Tweets LI A:hover { text-decoration: none}
+.Foot .Tweets LI:last-child { padding-bottom: 0}
+.Foot .LaCarta LI {border-top: 1px solid #ced0d0; padding-top: 20px;}
+.Foot .LaCarta .Fecha { font-size: 1.2em; line-height: 14px; margin-bottom: 15px; display: inline-block;}
+.Foot .LaCarta P { font-size: 1.4em; line-height: 20px; margin-bottom: 15px;}
+.Foot .LaCarta P STRONG { font-size: 1.2em;}
+.Foot .LaCarta P A { color: #000;}
+.Foot .LaCarta P A:hover { text-decoration: underline}
+.Foot .LaCarta .Lnk {font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; text-transform: uppercase}
+.Foot .LaCarta .Lnk:hover { text-decoration: none}
+.Foot .Final { border-top: 1px solid #ced0d0; padding-top: 20px; padding-bottom: 20px;}
+.Foot .Final P { float: left; color: #818384; font-size: 1.2em; line-height: 14px;}
+.Foot .Final SPAN { display: inline-block; margin-left: 5px; margin-right: 5px;}
+.Foot .Final A { color: #818384;}
+.Foot .Final A:hover { text-decoration: underline}
+.Foot .Final H5 { float: right; font-size: 1.2em; line-height: 14px; color: #818384;}
+.Foot .Final H5 A { text-decoration: underline}
+
+/*NOTAS BOXES*/
+.BoxesGrid { margin-top: 30px;}
+#MsGrid .grid-sizer {width: 31.6239%;}
+#MsGrid .gutter-sizer {width: 2.5641%}
+/**/
+.InfoBox { width: 31.6239%; border: 1px solid #d4d7d7; padding: 21px; margin-bottom: 30px;}
+.InfoBox .Head { overflow: hidden; margin-bottom: 20px;}
+.InfoBox .Single H4 { font-size: 1.2em; line-height: 14px; text-transform: uppercase}
+.InfoBox .Single H4 A { color: #000; text-decoration: underline;}
+.InfoBox .Single H4 A:hover { text-decoration: none}
+.InfoBox .Single .Spacer { display: inline-block; margin-left: 5px; margin-right: 5px;}
+.InfoBox .Single H4 .Lnk { text-decoration: none}
+.InfoBox .Single H4 .Lnk:hover { text-decoration: underline}
+.InfoBox FIGURE IMG { width: 100%; height: auto}
+.InfoBox .Video {height: 0; padding-bottom: 56.25%; position: relative; width: 100%;}
+.InfoBox .Video IFRAME {height: 100%;left: 0; position: absolute; top: 0; width: 100%;}
+.InfoBox .Categoria { margin-bottom: 22px;}
+.InfoBox .Categoria H4 { display: inline-block; background: #333; color: #fff; font-size: 1.2em; line-height: 14px; text-transform: uppercase; padding: 5px 11px; }
+.InfoBox .Categoria H4 A { color: #fff;}
+.InfoBox .InnerData H3 { font-size: 2.6em; line-height: 28px; margin-bottom: 20px; margin-top: 12px;}
+.InfoBox .InnerData H3 A { color: #000;}
+.InfoBox .InnerData H3 A:hover { text-decoration: underline}
+.InfoBox .Categoria + H3 { margin-top: 0}
+.InfoBox .InnerData P { font-size: 1.4em; line-height: 19px; margin-bottom: 20px; margin-top: 15px;}
+.InfoBox .InnerData H3 + P { margin-top: -10px;}
+.InfoBox .InnerHead H3 { font-size: 2.6em; line-height: 28px; margin-bottom: 20px;}
+.InfoBox .InnerHead H3 A { color: #000;}
+.InfoBox .InnerHead H3 A:hover { text-decoration: underline}
+/**/
+.SocialToolBar .Comentarios { font-size: 1.3em; line-height: 15px; color: #000; position: relative; top: -4px; text-decoration: underline}
+.SocialToolBar .Comentarios .fa { font-size: 1.3em; margin-right: 5px;}
+.SocialToolBar .Comentarios:hover { text-decoration: none}
+.SocialToolBar .IconSep { margin-left: 10px; margin-right: 10px;}
+.SocialToolBar .Label { font-size: 1.2em; line-height: 14px; text-transform: uppercase; position: relative; top: -5px;}
+.SocialToolBar .Label .fa { font-size: 1.3em; margin-left: 7px;}
+.SocialToolBar .LabelLayer A { color: #000}
+.SocialToolBar .LabelLayer A:hover { color: rgba(0,0,0,.75)}
+.SocialToolBar .LabelLayer .fa { font-size: 1.9em; line-height: 19px; position: relative; top: -3px; margin-left: 15px;}
+.SocialToolBar .Share { display: inline-block;}
+/**/
+.InfoBox .Espiritualidad H4 { background: #f8bb72;}
+.InfoBox .Espiritualidad H4:hover { background-color: rgba(248,187,114,.75); }
+.InfoBox .Cultura H4 { background: #a186bd;}
+.InfoBox .Cultura H4:hover { background-color: rgba(161,134,189,.75); }
+.InfoBox .Solidaridad H4 { background: #ceaa8e;}
+.InfoBox .Solidaridad H4:hover { background-color: rgba(206,170,142,.75); }
+.InfoBox .Genero H4 { background: #fa9099;}
+.InfoBox .Genero H4:hover { background-color: rgba(250,144,153,.75); }
+.InfoBox .VivirBien H4 { background: #64cdb4;}
+.InfoBox .VivirBien H4:hover { background-color: rgba(100,205,180,.75); }
+.InfoBox .Tendencias H4 { background: #7bcbeb;}
+.InfoBox .Tendencias H4:hover { background-color: rgba(123,203,235,.75); }
+/**/
+.BoxGris { background: #f5f5f5;}
+/**/
+.FullImg .InnerBox { position: relative; overflow: hidden}
+.FullImg .InnerBox .Data { position: absolute; left: 0; bottom: 0; background: rgba(58,58,58,.60); padding: 22px; color: #fff; width: 100%; transform: translateY(50px); transition: all 0.3s ease-in}
+.FullImg .InnerBox .Data:hover { transform: translateY(0)}
+.FullImg .InnerBox H3 { margin-top: 0}
+.FullImg .InnerBox H3 A { color: #fff;}
+.FullImg .SocialToolBar .Comentarios { color: #fff;}
+.FullImg .SocialToolBar .LabelLayer A { color: #fff}
+.FullImg .SocialToolBar .LabelLayer A:hover { color: rgba(255,255,255,.75)}
+.FullImg .SocialToolBar .IconSep { background: url(../images/layout/separador-blaco.png) no-repeat;}
+/**/
+.Opina IMG { float: left; border-radius: 100%; margin-right: 11px; border: 1px solid #cbcbca;}
+.Opina.Single H4 { line-height: 19px; margin-top: 2px;}
+/**/
+.InfoBox .Doble H5 {font-size: 1.2em; line-height: 14px; float: left}
+.InfoBox .Doble H4 { font-size: 1.2em; line-height: 14px; text-transform: uppercase; float: right; color: #19af8b;}
+.InfoBox .Doble H4 A { color: #19af8b; text-decoration: underline}
+.InfoBox .Doble H4 A:hover { text-decoration: none}
+/**/
+.Frase { background: #7bd3be;}
+.Frase .InnerBox H3 {color: #fff; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; line-height: 35px; font-size: 2.8em;}
+.Frase .InnerBox H3 A { color: #fff;}
+.Frase .InnerBox .InnerData P { color: #fff; font-size: 1.6em; line-height: 18px; text-transform: uppercase; margin-bottom: 30px;}
+.SocialActions .Label { text-transform: uppercase; position: relative; top: -3px;}
+.SocialActions .Label .fa { font-size: 1.9em; line-height: 19px; margin-right: 12px; color: #000}
+.SocialActions .Label .fa:hover { color: rgba(0,0,0,.75)}
+.SocialActions .IconSep { margin-right: 12px;}
+.SocialActions .Send { font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; position: relative; top: -5px; text-transform: uppercase}
+.SocialActions .Send:hover { text-decoration: none}
+/**/
+.Advertise {border: none; padding: 0; text-align: center}
+/**/
+.InfoBox .Canal { padding-top: 5px; margin-top: -5px;}
+.InfoBox .Canal H4 { float: left}
+.InfoBox .Canal H5 { float: right; font-size: 1.2em; line-height: 14px; text-transform: uppercase; margin-top: -5px;}
+.InfoBox .Canal H5 A { color: #000; text-decoration: underline; position: relative; top: -3px;}
+.InfoBox .Canal H5 A:hover { text-decoration: none}
+.InfoBox .Canal H5 .fa { margin-left: 7px; position: relative; font-size: 1.8em;}
+/**/
+.Encuesta H4 { font-family: "museo_slab700", Arial, Helvetica, sans-serif; font-size: 2.1em; line-height: 23px; color: #fbb96d; margin-bottom: 20px;}
+.Encuesta H3 { font-size: 2.6em; line-height: 28px; margin-bottom: 20px;}
+.Encuesta LI { font-size: 1.4em; line-height: 16px; margin-bottom: 15px;}
+.Encuesta LABEL { position: relative; top: 3px;}
+.Encuesta .Actions { overflow: hidden; padding-top: 15px;}
+.Encuesta .Lnk { font-size: 1.2em; line-height: 14px; color: #000; text-transform: uppercase; text-decoration: underline; float: left; margin-top: 10px;}
+.Encuesta .Lnk:hover { text-decoration: none}
+.Encuesta INPUT[type="submit"] { float: right; border: 1px solid #000; background: #000; color: #fff; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; width: 76px; height: 34px;}
+.Encuesta INPUT[type="submit"]:hover { color: #000; background: transparent}
+/**/
+.Agenda H3 { font-size: 2.1em; line-height: 23px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+.Agenda H3 STRONG { color: #3fba9c; font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.Agenda H3 .IconSep { margin-left: 7px; margin-right: 7px;}
+.Agenda UL { margin-bottom: 20px;}
+.Agenda LI {display: table; table-layout: fixed; width: 100%; margin-bottom: 1px;}
+.Agenda .Date { display: table-cell; background: #87d6c3; width: 26%; vertical-align: middle; font-size: 1.4em; line-height: 16px; color: #fff; text-transform: uppercase; padding-left: 14px;}
+.Agenda .Data { display: table-cell; background: #fff; width: 74%; padding: 10px 10px 10px 14px; font-size: 1.4em; line-height: 19px; }
+.Agenda .Data A { text-transform: uppercase; color: #35b596; font-size: 0.9em;}
+.Agenda .Data A SPAN { text-decoration: underline}
+.Agenda .Data A:hover SPAN { text-decoration: none}
+.Agenda .Lnk { font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; text-transform: uppercase}
+.Agenda .Lnk:hover { text-decoration: none}
+/**/
+.MasVisto H3 { font-family: "museo_slab700", Arial, Helvetica, sans-serif; font-size: 2.1em; line-height: 23px; color: #fbb96d; margin-bottom: 25px;}
+.MasVisto LI { font-size: 1.4em; line-height: 16px; margin-bottom: 20px;}
+.MasVisto LI A { color: #000;}
+.MasVisto LI A:hover { text-decoration: underline}
+.MasVisto LI STRONG { margin-right: 5px; font-size: 1.1em}
+/**/
+.FullImgDoble { padding: 0; width: 65.8119%;}
+.FullImgDoble .Categoria { position: absolute; top: 0; left: 0; margin-left: 22px;}
+/**/
+.LoadBar { width: 100%; text-align: center; margin-bottom: 45px;}
+.LoadBar A { display: block; width: 370px; height: 34px; background: #000; color: #fff; text-align: center; margin: 0 auto; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-top: 8px; border: 1px solid #000}
+.LoadBar A:hover { color: #000; background: transparent}
+
+/*CATEGORIA*/
+.CatHead.Solidaridad { background: #dcc0aa;}
+.CatHead.Psicologia { background: #b1e09e;}
+.CatHead.VivirBien { background: #7bd3be;}
+.CatHead.Tendendias { background: #7bcbeb;}
+.CatHead.Genero { background: #fa9099;}
+.CatHead.Espiritualidad { background: #fac68a;}
+.CatHead.Cultura { background: #a186bd;}
+.CatHead { height: 75px; border-top: 1px solid #d4d7d7; border-bottom: 1px solid #d4d7d7; text-align: center; color: #fff; padding-top: 24px;}
+.CatHead H2 { font-size: 2.6em; line-height: 28px; text-transform: uppercase;}
+.CatHead H2 .fa { font-size: 0.8em;}
+
+/*ARTICULO*/
+.Articulo { margin-top: 30px; width: 65.8119%; float: left}
+.Articulo .Head H4 { font-size: 1.2em; line-height: 14px; color: #fff; display: inline-block; padding: 3px 10px; text-transform: uppercase; margin-bottom: 30px; }
+.Articulo H4.Solidaridad { background: #dcc0aa;}
+.Articulo H4.Psicologia { background: #b1e09e;}
+.Articulo H4.VivirBien { background: #7bd3be;}
+.Articulo H4.Tendendias { background: #7bcbeb;}
+.Articulo H4.Genero { background: #fa9099;}
+.Articulo H4.Espiritualidad { background: #fac68a;}
+.Articulo H4.Cultura { background: #a186bd;}
+.Articulo .Head P { font-size: 1.2em; line-height: 14px; margin-bottom: 12px;}
+.Articulo .Head P A { color: #000; text-decoration: underline}
+.Articulo .Head P A:hover { text-decoration: none}
+.Articulo .Head H2 { font-size: 5.5em; line-height: 58px; margin-bottom: 15px;}
+.Articulo .Head H3 { font-size: 2em; line-height: 27px; margin-bottom: 25px;}
+.Articulo .Ancla { position: relative; top: -50px}
+/**/
+.SocialBar {margin-bottom: 15px;}
+.SocialBar UL { width: 100%; overflow: hidden; padding-left: 6%; background: url(../images/categoria/social-lines.png) repeat-x left 55%;}
+.SocialBar LI { float: left; background: #fff;}
+.SocialBar LI:first-child { padding-top: 15px; padding-left: 15px;}
+.SocialBar LI:last-child { padding-right: 15px;}
+.SocialBar .Comentarios { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.SocialBar .Comentarios A { color: #f3aa53;}
+.SocialBar .Comentarios .Lnk { font-size: 0.9em; color: #000; text-decoration: underline}
+.SocialBar .Comentarios .Lnk:hover { text-decoration: none}
+.SocialBar .IconSep { margin-left: 15px; margin-right: 15px; position: relative; top: 5px;}
+.SocialBar .Suscribite { font-size: 1.2em; line-height: 14px; text-transform: uppercase}
+.SocialBar .Suscribite A { color: #000;}
+.SocialBar .Suscribite .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
+.SocialBar .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
+.SocialBar .Share A { color: #000}
+.SocialBar .Share .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
+.SocialBar .Share .fa-facebook {padding: 11px 14px;}
+.SocialBar .Share .fa-facebook:hover { color: #fff; background: #405da9; border-color: #405da9}
+.SocialBar .Share .fa-twitter:hover { color: #fff; background: #00c3ff; border-color: #00c3ff}
+.SocialBar .Share .fa-google-plus:hover { color: #fff; background: #d6402b; border-color: #d6402b}
+.SocialBar .Share .fa-envelope:hover { color: #fff; background: #8e8e91; border-color: #8e8e91}
+/**/
+.Nota .Imagen { position: relative; overflow: hidden; margin-bottom: 28px;}
+.Nota .Imagen .CaptionBar { position: absolute; left: 0; bottom: 0; color: #fff; width: 100%; overflow: hidden}
+.Nota .Imagen .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase; height: 41px; display: block; background: rgba(58,58,58,.70); width: 23%; float: left; padding-left: 20px; padding-top: 11px;}
+.Nota .Imagen .Label { position: relative; top: -3px;}
+.Nota .Imagen .Share .fa { color: #fff; font-size: 1.8em; margin-left: 13px;}
+.Nota .Imagen .Caption { font-size: 1.3em; line-height: 15px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; height: 41px; display: block; background: rgba(58,58,58,.70); width: 76.8%; float: left; margin-left: 0.2%; padding-left: 18px; padding-top: 14px;}
+.Nota .Imagen .ShowFullPic { color: #fff; background: rgba(0,0,0,0.60); font-size: 1.4em; position: absolute; top: 0; right: 0; padding: 12px;}
+/**/
+.Nota P { font-size: 1.4em; line-height: 27px; margin-bottom: 28px}
+.Nota H3 { font-size: 2.4em; line-height: 28px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+.Nota IMG { width: 100%; height: auto;}
+/**/
+.Nota .Imagenes { position: relative; margin-bottom: 28px; overflow: hidden}
+.Nota .Imagenes .Item { position: relative; float: left}
+.Nota .Imagenes .CaptionBar { width: 100%; overflow: hidden; position: absolute; left: 0; bottom: 0;}
+.Nota .Imagenes .Counter { display:block; float: left; height: 41px; background: rgba(58,58,58,.70); color: #fff; width: 12%; font-size: 1.4em; line-height: 16px; padding-left: 40px; padding-top: 13px;}
+.Nota .Imagenes .Caption { display: block; float: left; height: 41px; background: rgba(58,58,58,.70); color: #fff; width: 87.8%; margin-left: 0.2%; padding-left: 18px; font-size: 1.3em; line-height: 15px; padding-top: 14px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif;}
+.Nota .Imagenes .Control { position: absolute; bottom: 0; color: #fff; font-size: 2.5em; padding: 8px;}
+.Nota .Imagenes .Prev { left: 10px;}
+.Nota .Imagenes .Next { right: 10px;}
+/**/
+.Nota BLOCKQUOTE { background: #fac68a; float: right; width: 48%; padding: 28px; margin-left: 4%;}
+.Nota BLOCKQUOTE P { color: #fff; font-size: 2em; line-height: 27px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif}
+.Nota BLOCKQUOTE .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
+.Nota BLOCKQUOTE .Label { position: relative; top: -3px;}
+.Nota BLOCKQUOTE .Share A { color: #000; font-size: 1.7em; margin-left: 12px;}
+/**/
+.Tags { margin-bottom: 28px;}
+.Tags P { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
+.Tags P STRONG { display: inline-block; padding: 4px 0px 2px; border: 1px solid #fff; margin-right: 5px; }
+.Tags P A { color: #000}
+.Tags P A STRONG {border: 1px solid #000; padding: 4px 10px 2px;}
+/**/
+.Recibir { background: #fac68a; color: #fff; padding: 28px; overflow: hidden; margin-bottom: 40px;}
+.Recibir H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab700", Arial, Helvetica, sans-serif; margin-bottom: 15px;}
+.Recibir P { font-size: 1.4em; line-height: 16px; color: #000; text-transform: uppercase; margin-bottom: 15px;}
+.Recibir INPUT[type="text"] {float: left; border: none; width: 244px; height: 34px; margin-right: 10px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 16px;}
+.Recibir INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.Recibir INPUT[type="text"]:focus:-moz-placeholder {color: #fff; opacity: 1}
+.Recibir INPUT[type="text"]:focus::-moz-placeholder {color: #fff; opacity: 1}
+.Recibir INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.Recibir INPUT[type="submit"] { float: left; border: 1px solid #000; background: #000; color: #fff; text-transform: uppercase; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; height: 34px; width: 134px;}
+.Recibir INPUT[type="submit"]:hover { color: #000; background: transparent;}
+/**/
+.Comentarios { margin-bottom: 40px;}
+.Comentarios H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; margin-bottom: 16px;}
+.Comentarios H3 STRONG {font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.Comentarios H3 SPAN { color: #fbb461;}
+.Comentarios .Widget { width: 100%; overflow: hidden;}
+/**/
+.SideBar { margin-top: 30px; width: 31.6239%; float: right;}
+.SideBar .InfoBox { width: 100%;}
+/**/
+.UltimasNotas { border-top: 1px solid #d0d2d2;}
+.UltimasNotas .Titulo { padding-top: 30px; padding-bottom: 30px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; font-size: 2.4em; line-height: 26px;}
+.UltimasNotas .Titulo STRONG { font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.UltimasNotas LI { float: left; width: 31.6239%; margin-left: 2.5641%}
+.UltimasNotas LI:first-child { margin-left: 0}
+.UltimasNotas LI .InfoBox { width: 100%;}
+
+
+
+
+
+=======
+/*PUBLILAND GLOBAL FRAMEWORK V2.3 - AUTHORIZED PERSONNEL ONLY - EYES ONLY - W3C VALID*/
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, 
+CODE, DEL, DFN, EM, IMG, INS, KBD, Q, S, SAMP, SMALL, STRIKE, STRONG, SUB, SUP, TT, VAR, B, U, I, CENTER, DL, DT, DD, OL, UL, LI, 
+FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD, ARTICLE, ASIDE, CANVAS, DETAILS, EMBED, FIGURE, 
+FIGCAPTION, FOOTER, HEADER, HGROUP, MENU, NAV, OUTPUT, RUBY, SECTION, SUMMARY, TIME, MARK, AUDIO, VIDEO, MAIN {margin: 0; padding: 0; border: 0 none; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+HTML {-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+BODY {font: 62.5% "karlaregular", Arial, Helvetica, sans-serif; color: #000; background: #FFFFFF; height:100%; min-height:100%; line-height: 1}
+HTML, BODY { height: 100%;}
+H1, H2, H3, H4, H5, H6 {font-weight: normal; font-size: 100%; display: block}
+ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, MENU, NAV, SECTION, MAIN {display: block; }
+TABLE {border-collapse: collapse; border-spacing: 0;}
+TH {text-align: left;}
+TD, TH {empty-cells: show}
+INPUT, SELECT, TEXTAREA { font: 1em "karlaregular", Arial, Helvetica, sans-serif; color: #000; background: #FFF; border: 1px solid #d6d7d7; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+INPUT:focus, TEXTAREA:focus { outline: none;}
+INPUT, SELECT { vertical-align: middle}
+INPUT[type="radio"], INPUT[type="checkbox"] {border: none; height: auto !important; width: auto !important; background: none; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+INPUT[type="submit"], INPUT[type="reset"], INPUT[type="buttom"], BUTTON {cursor: pointer; -webkit-appearance:none;}
+TEXTAREA {overflow:auto; -webkit-appearance:none; resize: none}
+INPUT::-moz-focus-inner, BUTTON::-moz-focus-inner {border: 0; padding: 0;}
+::-webkit-input-placeholder {color: #000;}
+:-moz-placeholder {color: #000; opacity: 1}
+::-moz-placeholder {color: #000; opacity: 1}
+:-ms-input-placeholder { color: #000;}
+UL, OL, LI {list-style: none;}
+IMG { vertical-align: top;}
+A {text-decoration: none; cursor:pointer; background: transparent;}
+A:active, A:hover { outline: 0}
+STRONG { font-weight: normal; font-family: "karlabold", Arial, Helvetica, sans-serif;}
+EM { font-style: normal; font-family: "karlaitalic", Arial, Helvetica, sans-serif}
+.Clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+/*FIN FRAMEWORK*/
+
+/*MAIN STRUCTURE*/
+.Wrapper {text-align: left; margin: 0px auto; width: 100%; max-width: 1170px;}
+.Row { width: 100%; float: left}
+.IconSep { display: inline-block; background: url(../images/layout/separador.png) no-repeat; width: 4px; height: 20px; position: relative}
+MAIN { border-bottom: 1px solid #d0d2d2;}
+
+/*HEAD*/
+.Banner { text-align: center; width: 100%; float: left}
+.TopBanner .Mobile { display: none}
+/**/
+.TopNav { border-top: 1px solid #d0d2d2; border-bottom: 1px solid #d0d2d2; padding-top: 9px; padding-bottom: 7px; height: 35px; position: relative; z-index: 100}
+.QuickTopNav { float: left; position: relative; z-index: 10}
+.QuickTopNav .ShowRevista { display: inline-block; position: relative; z-index: 10; margin-right: 5px; padding-bottom: 7px; margin-bottom: -7px;}
+.QuickTopNav P { font-size: 1.5em; line-height: 17px; display: inline-block;}
+.QuickTopNav P STRONG { cursor: pointer;}
+.QuickTopNav P A { color: #000; display: inline-block; margin-right: 3px; margin-left: 3px;}
+.QuickTopNav P A:hover { text-decoration: underline;}
+.QuickTopActions { float: right; position: relative;}
+.QuickTopActions .CallLogin { font-size: 1.4em; line-height: 16px;}
+.QuickTopActions .CallLogin A { color: #000;}
+.QuickTopActions .CallLogin A:hover { text-decoration: underline}
+.LayerRevista { background: #fac68a; padding: 24px; width: 372px; position: absolute; left: 0; top: 25px; display: none}
+.LayerRevista .Arrow { position: absolute; left: 20px; top: -8px; background: url(../images/layout/revista-arrow.png) no-repeat; width: 21px; height: 8px; display: block}
+.LayerRevista FIGURE { float: left; width: 48%;}
+.LayerRevista FIGURE IMG { width: 100%; height: auto;}
+.LayerRevista .Summary { float: left; margin-left: 6.1728%; width: 45%;}
+.LayerRevista .Summary H3 { font-size: 1.8em; line-height: 22px; color: #fff; font-family: "museo_slab700", Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+.LayerRevista .Summary H3 STRONG { font-size: 0.9em;}
+.LayerRevista .Summary .Lnk { font-size: 1.2em; line-height: 14px; text-decoration: underline; color: #000; text-transform: uppercase}
+.LayerRevista .Summary .Lnk:hover { text-decoration: none;}
+.LayerRevista .Summary .Btn { display: inline-block; background: #000; color: #fff; font-size: 1.3em; line-height: 15px; padding: 10px 15px 0px; margin-bottom: 25px; height: 34px; border: 1px solid #000 }
+.LayerRevista .Summary .Btn:hover { background: transparent; color: #000;}
+.LayerRevista .Summary LI:first-child { margin-bottom: 42px;}
+/**/
+.MainHead { height: 119px; position: relative}
+.MainHead H1 { width: 60.6837%; float: left}
+.MainHead H1 A { display: block; background: url(../images/layout/logo.png) no-repeat; width: 248px; height: 92px; text-indent: -5000px; margin-top: 15px; float: right}
+.MainHead .Acciones { width: 39.3162%; float: right; margin-top: 32px;}
+.MainHead .Seguinos { width: 38.2608%; float: left}
+.MainHead .Seguinos .Block { float: right; width: 57%;}
+.MainHead .Seguinos H4 { font-family: "museo_slab500", Arial, Helvetica, sans-serif; font-size: 1.6em; line-height: 18px; margin-bottom: 17px;}
+.MainHead .Seguinos P A { font-size: 2.3em; color: #000; margin-right: 10px;}
+.MainHead .Inscribite { width: 61.7391%; float: left; border-left: 1px solid #dadadc;}
+.MainHead .Inscribite FIELDSET { float: right; width: 90%;}
+.MainHead .Inscribite H4 { font-family: "museo_slab500", Arial, Helvetica, sans-serif; font-size: 1.6em; line-height: 18px; margin-bottom: 5px;}
+.MainHead .Inscribite INPUT[type="text"] { height: 34px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; float: left; padding-left: 14px; width: 80%}
+.MainHead .Inscribite INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.MainHead .Inscribite INPUT[type="text"]:focus:-moz-placeholder {color: #fff;}
+.MainHead .Inscribite INPUT[type="text"]:focus::-moz-placeholder {color: #fff;}
+.MainHead .Inscribite INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.MainHead .Inscribite BUTTON[type="submit"] { height: 34px; border: none; background: #fac68a; float: right; font-size: 2.3em; color: #fff; width: 17%;}
+.MainHead .Inscribite BUTTON[type="submit"]:hover { background: #fff; color: #fac68a; border: 1px solid #fac68a}
+.MainHead .Inscribite BUTTON[type="submit"] SPAN { display: none}
+/**/
+NAV { background: #919699; height: 44px; width: 100%; float: left; position: relative; z-index: 90}
+.MainNav .LogoBar { display: none}
+.MainNav .IconSep { display: none}
+.MainNav LI { float: left; margin-top: 15px; position: relative; padding-bottom: 15px;}
+.MainNav .LogoBar + LI A { margin-left: 0}
+.MainNav LI:last-child A { margin-right: 0}
+.MainNav LI A { font-size: 1.4em; line-height: 16px; text-transform: uppercase; color: #fff; display: inline-block; margin-left: 8px; margin-right: 8px;}
+.MainNav LI .Menu { position: absolute; background: #919699; border-top: 1px solid #fff; left: 0; top: 29px; min-width: 110px; padding-top: 8px; padding-bottom: 8px; display: none}
+.MainNav LI .Menu LI { float: none; margin-top: 0; padding-bottom: 0}
+.MainNav LI .Menu LI A { font-size: 1.5em; line-height: 17px; display: block; margin: 0; padding: 8px 22px; text-transform: none; white-space: nowrap }
+.MainNav LI:hover .Menu { display: block}
+.MainNav .SepL > A { border-left: 1px solid #fff; padding-left: 16px; margin-left: 0px;}
+.MainNav .SepR > A { border-right: 1px solid #fff; padding-right: 16px;}
+.MainNav .SepR + LI A { margin-left: 0}
+.MainNav .Box { float: right; z-index: 10}
+.MainNav .ShowSearch { font-size: 2em; line-height: 20px; width: 44px; text-align: center; height: 44px; position: relative; top: -15px; padding-top: 12px;}
+.MainNav .ShowSearch:hover { color: #fff;}
+.MainNav .ShowSearch.Open { color: #fff; }
+.MainNav .SearchBox { width: 360px; padding: 20px; background: #afb4b5; position: absolute; top: 29px; right: 0; display: none }
+.MainNav .SearchBox .Arrow { position: absolute; top: -8px; right: 10px; width: 22px; height: 8px; display: block; background: url(../images/layout/search-arrow.png) no-repeat}
+.MainNav .SearchBox INPUT[type="text"] {height: 34px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; float: left; padding-left: 14px; width: 225px;}
+.MainNav .SearchBox INPUT[type="submit"] { height: 34px; border: 1px solid #000; background: #232424; float: right; font-size: 1.4em; color: #fff; width: 80px; text-transform: uppercase; font-family: "karlabold", Arial, Helvetica, sans-serif;}
+.MainNav .SearchBox INPUT[type="submit"]:hover { color: #000; background: transparent}
+.MainNav .Box:hover .SearchBox { display: block;}
+.FixThis { position: fixed; width: 100%; height: 54px;}
+.FixThis LI { margin-top: 21px; padding-bottom: 17px;}
+.FixThis .LogoBar { display: inline-block; padding-right: 25px;}
+.FixThis .LogoBar A { display: block; width: 104px; height: 38px; background: url(../images/layout/logo-nav.png) no-repeat; text-indent: -5000px; margin: -12px 0px 0px; font-size: 0; line-height: 0 }
+.FixThis .LogoBar .IconSep { display: block; position: absolute; right: 10px; top: -2px; background-image: url(../images/layout/separador-blaco.png)}
+.FixThis .Box .IconSep { display: block; position: absolute; left: -3px; top: -2px; background-image: url(../images/layout/separador-blaco.png)}
+.FixThis LI .Menu { top: 33px;}
+.FixThis .SearchBox { top: 33px;}
+.FixThis .ShowSearch { height: 48px;}
+.FixThis LI A { font-size: 1.3em;}
+.MobileNav { display: none}
+/**/
+.ColumnistasBar { border-bottom: 1px solid #dbdddd;}
+.ColumnistasBar UL {width: 100%; overflow: hidden}
+.ColumnistasBar LI {float: left;}
+.ColumnistasBar LI:first-child { padding-top: 29px; padding-right: 14px;}
+.ColumnistasBar A { display: block; padding: 17px 10px; border-left: 1px solid #fff; border-right: 1px solid #fff; position: relative;}
+.ColumnistasBar A:hover { background: #f5f5f5; overflow: hidden; border-left: 1px solid #dbdddd; border-right: 1px solid #dbdddd;}
+.ColumnistasBar H4 { color: #fbb96d; font-size: 1.5em; line-height: 17px; font-family: "museo_slab700", Arial, Helvetica, sans-serif;}
+.ColumnistasBar IMG { border: 1px solid #cbcbca; border-radius: 100%; overflow: hidden; position: absolute; left: 10px; top: 17px}
+.ColumnistasBar FIGCAPTION { font-size: 1.2em; line-height: 16px; color: #000; text-transform: uppercase; padding-top: 7px; padding-left: 49px;}
+.ColumnistasBar .Mobile { display: none}
+
+/*FOOT*/
+.Blogs { border-bottom: 1px solid #d0d2d2; padding-top: 28px; padding-bottom: 28px;}
+.Blogs .Head { overflow: hidden; margin-bottom: 25px;}
+.Blogs .Head H3 { float: left; font-size: 2.1em; line-height: 23px; font-family: "museo_slab500", Arial, Helvetica, sans-serif}
+.Blogs .Head .IconSep { margin-left: 10px; margin-right: 10px; top: 5px;}
+.Blogs .Head H3 STRONG { font-family: "museo_slab700", Arial, Helvetica, sans-serif; color: #50c3a7;}
+.Blogs .Head .Lnk { display: inline-block; float: left; font-size: 1.2em; line-height: 14px; color: #000; text-transform: uppercase; text-decoration: underline; margin-left: 22px; position: relative; top: 8px;}
+.Blogs .Head .Lnk:hover { text-decoration: none}
+.Blogs .Slider { width: 100%; position: relative; overflow: hidden; padding-left: 50px;}
+.Blogs .Slider UL { width: 1170px float: left;}
+.Blogs .Slider LI { float: left; width: 181px; padding-right: 26px;}
+.Blogs .Slider H4 { font-size: 1.2em; line-height: 14px; color: #51c4a8; margin-bottom: 10px;}
+.Blogs .Slider H4 A {color: #51c4a8; text-decoration: underline}
+.Blogs .Slider H4:hover { text-decoration: none}
+.Blogs .Slider FIGURE { margin-bottom: 12px;}
+.Blogs .Slider P { color: #000;}
+.Blogs .Slider P A { color: #000;}
+.Blogs .Slider P A:hover { text-decoration: underline;}
+.Blogs .Slider SPAN { display: block; font-size: 1.2em; line-height: 14px; margin-bottom: 5px;}
+.Blogs .Slider P STRONG { font-size: 1.4em; line-height: 16px;}
+.Blogs .Slider .Control { position: absolute; top: 22px; display: block; background: #000; color: #fff; text-align: center; font-size: 2em; line-height: 20px; width: 34px; height: 90px; padding-top: 35px; border: 1px solid #000;}
+.Blogs .Slider .Control:hover { color: #000; background: #fff;}
+.Blogs .Slider .Prev { left: 0}
+.Blogs .Slider .Next { right: 0}
+.Blogs .Mobile { display: none}
+/**/
+.Suscribirme { background: #fac68a; overflow: hidden; padding-top: 17px; padding-bottom: 17px; border-bottom: 1px solid #fff;}
+.Suscribirme LABEL { font-family: "museo_slab700", Arial, Helvetica, sans-serif; font-size: 2.1em; line-height: 23px; color: #fff; display: block; float: left; margin-right: 18px; height: 34px; padding-top: 5px;}
+.Suscribirme INPUT[type="text"] { float: left; height: 34px; width: 257px; border: none; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 14px; margin-right: 13px;}
+.Suscribirme INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.Suscribirme INPUT[type="text"]:focus:-moz-placeholder {color: #fff;}
+.Suscribirme INPUT[type="text"]:focus::-moz-placeholder {color: #fff;}
+.Suscribirme INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.Suscribirme INPUT[type="text"].Error { color: #df2d1f;}
+.Suscribirme INPUT[type="submit"] { float: left; font-size: 1.2em; color: #fff; background: #000; border: none; width: 134px; height: 34px; font-family: "karlabold", Arial, Helvetica, sans-serif}
+.Suscribirme INPUT[type="submit"]:hover { background: #fac68a; color: #000; border: 1px solid #000; }
+.Suscribirme .Mensaje { display: none;}
+/**/
+.Foot { background: #ebecec;}
+.Foot .Cell { width: 23.0769%; float: left; margin-left: 2.5641%; padding-top: 44px; padding-bottom: 44px;}
+.Foot .Cell:first-child { margin-left: 0}
+.Foot .Cell H3 { font-size: 1.8em; line-height: 20px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 18px;}
+.Foot .Cell H3 A { color: #000;}
+.Foot .Cell H3 .fa { margin-left: 10px; color: #000}
+.Foot .Cell H2 A { background: url(../images/layout/logo-footer.png) no-repeat; width: 87px; height: 31px; text-indent: -5000px; margin-top: -10px; margin-bottom: 18px; display: block}
+.Foot .Sophia UL { border-top: 1px solid #ced0d0; border-bottom: 1px solid #ced0d0; padding-top: 15px; margin-bottom: 15px; padding-bottom: 5px;}
+.Foot .Sophia LI { font-size: 1.2em; line-height: 14px; text-transform: uppercase; padding-bottom: 6px;}
+.Foot .Sophia LI A { color: #000;}
+.Foot .Sophia LI A:hover { text-decoration: underline;}
+.Foot .Sophia P SPAN { font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; font-size: 1.6em; line-height: 18px;}
+.Foot .Sophia .fa { font-size: 1.9em; line-height: 19px; color: #000; margin-left: 16px;}
+.Foot .LaRevista FIGURE { float: left; width: 48%; margin-right: 5%;}
+.Foot .LaRevista IMG { width: 100%; height: auto;}
+.Foot .LaRevista .Summary { float: left; width: 47%;}
+.Foot .LaRevista H4 { margin-bottom: 16px;}
+.Foot .LaRevista H4 STRONG { font-size: 1.8em; line-height: 20px;}
+.Foot .LaRevista H4 SPAN { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.Foot .LaRevista .Lnk { font-size: 1.2em; line-height: 14px; text-transform: uppercase; color: #000; text-decoration: underline}
+.Foot .LaRevista .Lnk:hover { text-decoration: none}
+.Foot .LaRevista .Btn { background: #000; color: #fff; display: inline-block; font-size: 1.2em; line-height: 14px; padding: 9px 20px; margin-top: 22px; margin-bottom: 24px; border: 1px solid #000; }
+.Foot .LaRevista .Btn:hover { color: #000; background: transparent;}
+.Foot .Tweets LI {border-top: 1px solid #ced0d0; font-size: 1.4em; line-height: 20px; padding-top: 14px; padding-bottom: 14px;}
+.Foot .Tweets LI A { color: #000; text-decoration: underline}
+.Foot .Tweets LI A:hover { text-decoration: none}
+.Foot .Tweets LI:last-child { padding-bottom: 0}
+.Foot .LaCarta LI {border-top: 1px solid #ced0d0; padding-top: 20px;}
+.Foot .LaCarta .Fecha { font-size: 1.2em; line-height: 14px; margin-bottom: 15px; display: inline-block;}
+.Foot .LaCarta P { font-size: 1.4em; line-height: 20px; margin-bottom: 15px;}
+.Foot .LaCarta P STRONG { font-size: 1.2em;}
+.Foot .LaCarta P A { color: #000;}
+.Foot .LaCarta P A:hover { text-decoration: underline}
+.Foot .LaCarta .Lnk {font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; text-transform: uppercase}
+.Foot .LaCarta .Lnk:hover { text-decoration: none}
+.Foot .Final { border-top: 1px solid #ced0d0; padding-top: 20px; padding-bottom: 20px;}
+.Foot .Final P { float: left; color: #818384; font-size: 1.2em; line-height: 14px;}
+.Foot .Final SPAN { display: inline-block; margin-left: 5px; margin-right: 5px;}
+.Foot .Final A { color: #818384;}
+.Foot .Final A:hover { text-decoration: underline}
+.Foot .Final H5 { float: right; font-size: 1.2em; line-height: 14px; color: #818384;}
+.Foot .Final H5 A { text-decoration: underline}
+
+/*NOTAS BOXES*/
+.BoxesGrid { margin-top: 30px;}
+#MsGrid .grid-sizer {width: 31.6239%;}
+#MsGrid .gutter-sizer {width: 2.5641%}
+/**/
+.InfoBox { width: 31.6239%; border: 1px solid #d4d7d7; padding: 21px; margin-bottom: 30px;}
+.InfoBox .Head { overflow: hidden; margin-bottom: 20px;}
+.InfoBox .Single H4 { font-size: 1.2em; line-height: 14px; text-transform: uppercase}
+.InfoBox .Single H4 A { color: #000; text-decoration: underline;}
+.InfoBox .Single H4 A:hover { text-decoration: none}
+.InfoBox .Single .Spacer { display: inline-block; margin-left: 5px; margin-right: 5px;}
+.InfoBox .Single H4 .Lnk { text-decoration: none}
+.InfoBox .Single H4 .Lnk:hover { text-decoration: underline}
+.InfoBox FIGURE IMG { width: 100%; height: auto}
+.InfoBox .Video {height: 0; padding-bottom: 56.25%; position: relative; width: 100%;}
+.InfoBox .Video IFRAME {height: 100%;left: 0; position: absolute; top: 0; width: 100%;}
+.InfoBox .Categoria { margin-bottom: 22px;}
+.InfoBox .Categoria H4 { display: inline-block; background: #333; color: #fff; font-size: 1.2em; line-height: 14px; text-transform: uppercase; padding: 5px 11px; }
+.InfoBox .Categoria H4 A { color: #fff;}
+.InfoBox .InnerData H3 { font-size: 2.6em; line-height: 28px; margin-bottom: 20px; margin-top: 12px;}
+.InfoBox .InnerData H3 A { color: #000;}
+.InfoBox .InnerData H3 A:hover { text-decoration: underline}
+.InfoBox .Categoria + H3 { margin-top: 0}
+.InfoBox .InnerData P { font-size: 1.4em; line-height: 19px; margin-bottom: 20px; margin-top: 15px;}
+.InfoBox .InnerData H3 + P { margin-top: -10px;}
+.InfoBox .InnerHead H3 { font-size: 2.6em; line-height: 28px; margin-bottom: 20px;}
+.InfoBox .InnerHead H3 A { color: #000;}
+.InfoBox .InnerHead H3 A:hover { text-decoration: underline}
+/**/
+.SocialToolBar .Comentarios { font-size: 1.3em; line-height: 15px; color: #000; position: relative; top: -4px; text-decoration: underline}
+.SocialToolBar .Comentarios .fa { font-size: 1.3em; margin-right: 5px;}
+.SocialToolBar .Comentarios:hover { text-decoration: none}
+.SocialToolBar .IconSep { margin-left: 10px; margin-right: 10px;}
+.SocialToolBar .Label { font-size: 1.2em; line-height: 14px; text-transform: uppercase; position: relative; top: -5px;}
+.SocialToolBar .Label .fa { font-size: 1.3em; margin-left: 7px;}
+.SocialToolBar .LabelLayer A { color: #000}
+.SocialToolBar .LabelLayer A:hover { color: rgba(0,0,0,.75)}
+.SocialToolBar .LabelLayer .fa { font-size: 1.9em; line-height: 19px; position: relative; top: -3px; margin-left: 15px;}
+.SocialToolBar .Share { display: inline-block;}
+/**/
+.InfoBox .Espiritualidad H4 { background: #f8bb72;}
+.InfoBox .Espiritualidad H4:hover { background-color: rgba(248,187,114,.75); }
+.InfoBox .Cultura H4 { background: #a186bd;}
+.InfoBox .Cultura H4:hover { background-color: rgba(161,134,189,.75); }
+.InfoBox .Solidaridad H4 { background: #ceaa8e;}
+.InfoBox .Solidaridad H4:hover { background-color: rgba(206,170,142,.75); }
+.InfoBox .Genero H4 { background: #fa9099;}
+.InfoBox .Genero H4:hover { background-color: rgba(250,144,153,.75); }
+.InfoBox .VivirBien H4 { background: #64cdb4;}
+.InfoBox .VivirBien H4:hover { background-color: rgba(100,205,180,.75); }
+.InfoBox .Tendencias H4 { background: #7bcbeb;}
+.InfoBox .Tendencias H4:hover { background-color: rgba(123,203,235,.75); }
+/**/
+.BoxGris { background: #f5f5f5;}
+/**/
+.FullImg .InnerBox { position: relative; overflow: hidden}
+.FullImg .InnerBox .Data { position: absolute; left: 0; bottom: 0; background: rgba(58,58,58,.60); padding: 22px; color: #fff; width: 100%; transform: translateY(50px); transition: all 0.3s ease-in}
+.FullImg .InnerBox .Data:hover { transform: translateY(0)}
+.FullImg .InnerBox H3 { margin-top: 0}
+.FullImg .InnerBox H3 A { color: #fff;}
+.FullImg .SocialToolBar .Comentarios { color: #fff;}
+.FullImg .SocialToolBar .LabelLayer A { color: #fff}
+.FullImg .SocialToolBar .LabelLayer A:hover { color: rgba(255,255,255,.75)}
+.FullImg .SocialToolBar .IconSep { background: url(../images/layout/separador-blaco.png) no-repeat;}
+/**/
+.Opina IMG { float: left; border-radius: 100%; margin-right: 11px; border: 1px solid #cbcbca;}
+.Opina.Single H4 { line-height: 19px; margin-top: 2px;}
+/**/
+.InfoBox .Doble H5 {font-size: 1.2em; line-height: 14px; float: left}
+.InfoBox .Doble H4 { font-size: 1.2em; line-height: 14px; text-transform: uppercase; float: right; color: #19af8b;}
+.InfoBox .Doble H4 A { color: #19af8b; text-decoration: underline}
+.InfoBox .Doble H4 A:hover { text-decoration: none}
+/**/
+.Frase { background: #7bd3be;}
+.Frase .InnerBox H3 {color: #fff; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; line-height: 35px; font-size: 2.8em;}
+.Frase .InnerBox H3 A { color: #fff;}
+.Frase .InnerBox .InnerData P { color: #fff; font-size: 1.6em; line-height: 18px; text-transform: uppercase; margin-bottom: 30px;}
+.SocialActions .Label { text-transform: uppercase; position: relative; top: -3px;}
+.SocialActions .Label .fa { font-size: 1.9em; line-height: 19px; margin-right: 12px; color: #000}
+.SocialActions .Label .fa:hover { color: rgba(0,0,0,.75)}
+.SocialActions .IconSep { margin-right: 12px;}
+.SocialActions .Send { font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; position: relative; top: -5px; text-transform: uppercase}
+.SocialActions .Send:hover { text-decoration: none}
+/**/
+.Advertise {border: none; padding: 0; text-align: center}
+/**/
+.InfoBox .Canal { padding-top: 5px; margin-top: -5px;}
+.InfoBox .Canal H4 { float: left}
+.InfoBox .Canal H5 { float: right; font-size: 1.2em; line-height: 14px; text-transform: uppercase; margin-top: -5px;}
+.InfoBox .Canal H5 A { color: #000; text-decoration: underline; position: relative; top: -3px;}
+.InfoBox .Canal H5 A:hover { text-decoration: none}
+.InfoBox .Canal H5 .fa { margin-left: 7px; position: relative; font-size: 1.8em;}
+/**/
+.Encuesta H4 { font-family: "museo_slab700", Arial, Helvetica, sans-serif; font-size: 2.1em; line-height: 23px; color: #fbb96d; margin-bottom: 20px;}
+.Encuesta H3 { font-size: 2.6em; line-height: 28px; margin-bottom: 20px;}
+.Encuesta LI { font-size: 1.4em; line-height: 16px; margin-bottom: 15px;}
+.Encuesta LABEL { position: relative; top: 3px;}
+.Encuesta .Actions { overflow: hidden; padding-top: 15px;}
+.Encuesta .Lnk { font-size: 1.2em; line-height: 14px; color: #000; text-transform: uppercase; text-decoration: underline; float: left; margin-top: 10px;}
+.Encuesta .Lnk:hover { text-decoration: none}
+.Encuesta INPUT[type="submit"] { float: right; border: 1px solid #000; background: #000; color: #fff; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; width: 76px; height: 34px;}
+.Encuesta INPUT[type="submit"]:hover { color: #000; background: transparent}
+/**/
+.Agenda H3 { font-size: 2.1em; line-height: 23px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 20px;}
+.Agenda H3 STRONG { color: #3fba9c; font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.Agenda H3 .IconSep { margin-left: 7px; margin-right: 7px;}
+.Agenda UL { margin-bottom: 20px;}
+.Agenda LI {display: table; table-layout: fixed; width: 100%; margin-bottom: 1px;}
+.Agenda .Date { display: table-cell; background: #87d6c3; width: 26%; vertical-align: middle; font-size: 1.4em; line-height: 16px; color: #fff; text-transform: uppercase; padding-left: 14px;}
+.Agenda .Data { display: table-cell; background: #fff; width: 74%; padding: 10px 10px 10px 14px; font-size: 1.4em; line-height: 19px; }
+.Agenda .Data A { text-transform: uppercase; color: #35b596; font-size: 0.9em;}
+.Agenda .Data A SPAN { text-decoration: underline}
+.Agenda .Data A:hover SPAN { text-decoration: none}
+.Agenda .Lnk { font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; text-transform: uppercase}
+.Agenda .Lnk:hover { text-decoration: none}
+/**/
+.MasVisto H3 { font-family: "museo_slab700", Arial, Helvetica, sans-serif; font-size: 2.1em; line-height: 23px; color: #fbb96d; margin-bottom: 25px;}
+.MasVisto LI { font-size: 1.4em; line-height: 16px; margin-bottom: 20px;}
+.MasVisto LI A { color: #000;}
+.MasVisto LI A:hover { text-decoration: underline}
+.MasVisto LI STRONG { margin-right: 5px; font-size: 1.1em}
+/**/
+.FullImgDoble { padding: 0; width: 65.8119%;}
+.FullImgDoble .Categoria { position: absolute; top: 0; left: 0; margin-left: 22px;}
+/**/
+.LoadBar { width: 100%; text-align: center; margin-bottom: 45px;}
+.LoadBar A { display: block; width: 370px; height: 34px; background: #000; color: #fff; text-align: center; margin: 0 auto; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-top: 8px; border: 1px solid #000}
+.LoadBar A:hover { color: #000; background: transparent}
+
+/*CATEGORIA*/
+.CatHead.Solidaridad { background: #dcc0aa;}
+.CatHead.Psicologia { background: #b1e09e;}
+.CatHead.VivirBien { background: #7bd3be;}
+.CatHead.Tendendias { background: #7bcbeb;}
+.CatHead.Genero { background: #fa9099;}
+.CatHead.Espiritualidad { background: #fac68a;}
+.CatHead.Cultura { background: #a186bd;}
+.CatHead { height: 75px; border-top: 1px solid #d4d7d7; border-bottom: 1px solid #d4d7d7; text-align: center; color: #fff; padding-top: 24px;}
+.CatHead H2 { font-size: 2.6em; line-height: 28px; text-transform: uppercase;}
+.CatHead H2 .fa { font-size: 0.8em;}
+
+/*ARTICULO*/
+.Articulo { margin-top: 30px; width: 65.8119%; float: left}
+.Articulo .Head H4 { font-size: 1.2em; line-height: 14px; color: #fff; display: inline-block; padding: 3px 10px; text-transform: uppercase; margin-bottom: 30px; }
+.Articulo H4.Solidaridad { background: #dcc0aa;}
+.Articulo H4.Psicologia { background: #b1e09e;}
+.Articulo H4.VivirBien { background: #7bd3be;}
+.Articulo H4.Tendendias { background: #7bcbeb;}
+.Articulo H4.Genero { background: #fa9099;}
+.Articulo H4.Espiritualidad { background: #fac68a;}
+.Articulo H4.Cultura { background: #a186bd;}
+.Articulo .Head P { font-size: 1.2em; line-height: 14px; margin-bottom: 12px;}
+.Articulo .Head P A { color: #000; text-decoration: underline}
+.Articulo .Head P A:hover { text-decoration: none}
+.Articulo .Head H2 { font-size: 5.5em; line-height: 58px; margin-bottom: 15px;}
+.Articulo .Head H3 { font-size: 2em; line-height: 27px; margin-bottom: 25px;}
+.Articulo .Ancla { position: relative; top: -50px}
+/**/
+.SocialBar {margin-bottom: 15px;}
+.SocialBar UL { width: 100%; overflow: hidden; padding-left: 6%; background: url(../images/categoria/social-lines.png) repeat-x left 55%;}
+.SocialBar LI { float: left; background: #fff;}
+.SocialBar LI:first-child { padding-top: 15px; padding-left: 15px;}
+.SocialBar LI:last-child { padding-right: 15px;}
+.SocialBar .Comentarios { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.SocialBar .Comentarios A { color: #f3aa53; text-decoration: underline}
+.SocialBar .Comentarios .Lnk { font-size: 0.9em; color: #000}
+.SocialBar .Comentarios .Lnk:hover { text-decoration: none}
+.SocialBar .IconSep { margin-left: 15px; margin-right: 15px; position: relative; top: 5px;}
+.SocialBar .Suscribite { font-size: 1.2em; line-height: 14px; text-transform: uppercase}
+.SocialBar .Suscribite A { color: #000;}
+.SocialBar .Suscribite A:hover { text-decoration: underline}
+.SocialBar .Suscribite .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
+.SocialBar .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
+.SocialBar .Share A { color: #000}
+.SocialBar .Share .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
+.SocialBar .Share .fa-facebook {padding: 11px 14px;}
+.SocialBar .Share .fa-facebook:hover { color: #fff; background: #405da9; border-color: #405da9}
+.SocialBar .Share .fa-twitter:hover { color: #fff; background: #00c3ff; border-color: #00c3ff}
+.SocialBar .Share .fa-google-plus:hover { color: #fff; background: #d6402b; border-color: #d6402b}
+.SocialBar .Share .fa-envelope:hover { color: #fff; background: #8e8e91; border-color: #8e8e91}
+/**/
+.Nota .Imagen { position: relative; overflow: hidden; margin-bottom: 28px;}
+.Nota .Imagen .CaptionBar { position: absolute; left: 0; bottom: 0; color: #fff; width: 100%; overflow: hidden}
+.Nota .Imagen .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase; height: 41px; display: block; background: rgba(58,58,58,.70); width: 23%; float: left; padding-left: 20px; padding-top: 11px;}
+.Nota .Imagen .Label { position: relative; top: -3px;}
+.Nota .Imagen .Share .fa { color: #fff; font-size: 1.8em; margin-left: 13px;}
+.Nota .Imagen .Caption { font-size: 1.3em; line-height: 15px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; height: 41px; display: block; background: rgba(58,58,58,.70); width: 76.8%; float: left; margin-left: 0.2%; padding-left: 18px; padding-top: 14px;}
+.Nota .Imagen .ShowFullPic { color: #fff; background: rgba(0,0,0,0.60); font-size: 1.4em; position: absolute; top: 0; right: 0; padding: 12px;}
+/**/
+.Nota P { font-size: 1.4em; line-height: 27px; margin-bottom: 28px}
+.Nota H3 { font-size: 2.4em; line-height: 28px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+.Nota IMG { width: 100%; height: auto;}
+/**/
+.Nota .Imagenes { position: relative; margin-bottom: 28px; overflow: hidden}
+.Nota .Imagenes .Item { position: relative; float: left}
+.Nota .Imagenes .CaptionBar { width: 100%; overflow: hidden; position: absolute; left: 0; bottom: 0;}
+.Nota .Imagenes .Counter { display:block; float: left; height: 41px; background: rgba(58,58,58,.70); color: #fff; width: 12%; font-size: 1.4em; line-height: 16px; padding-left: 40px; padding-top: 13px;}
+.Nota .Imagenes .Caption { display: block; float: left; height: 41px; background: rgba(58,58,58,.70); color: #fff; width: 87.8%; margin-left: 0.2%; padding-left: 18px; font-size: 1.3em; line-height: 15px; padding-top: 14px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif;}
+.Nota .Imagenes .Control { position: absolute; bottom: 0; color: #fff; font-size: 2.5em; padding: 8px;}
+.Nota .Imagenes .Prev { left: 10px;}
+.Nota .Imagenes .Next { right: 10px;}
+/**/
+.Nota BLOCKQUOTE { background: #fac68a; float: right; width: 48%; padding: 28px; margin-left: 4%;}
+.Nota BLOCKQUOTE P { color: #fff; font-size: 2em; line-height: 27px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif}
+.Nota BLOCKQUOTE .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
+.Nota BLOCKQUOTE .Label { position: relative; top: -3px;}
+.Nota BLOCKQUOTE .Share A { color: #000; font-size: 1.7em; margin-left: 12px;}
+/**/
+.Tags { margin-bottom: 28px;}
+.Tags P { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
+.Tags P STRONG { display: inline-block; padding: 4px 0px 2px; border: 1px solid #fff; margin-right: 5px; }
+.Tags P A { color: #000}
+.Tags P A STRONG {border: 1px solid #000; padding: 4px 10px 2px;}
+/**/
+.Recibir { background: #fac68a; color: #fff; padding: 28px; overflow: hidden; margin-bottom: 40px;}
+.Recibir H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab700", Arial, Helvetica, sans-serif; margin-bottom: 15px;}
+.Recibir P { font-size: 1.4em; line-height: 16px; color: #000; text-transform: uppercase; margin-bottom: 15px;}
+.Recibir INPUT[type="text"] {float: left; border: none; width: 244px; height: 34px; margin-right: 10px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 16px;}
+.Recibir INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.Recibir INPUT[type="text"]:focus:-moz-placeholder {color: #fff; opacity: 1}
+.Recibir INPUT[type="text"]:focus::-moz-placeholder {color: #fff; opacity: 1}
+.Recibir INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.Recibir INPUT[type="submit"] { float: left; border: 1px solid #000; background: #000; color: #fff; text-transform: uppercase; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; height: 34px; width: 134px;}
+.Recibir INPUT[type="submit"]:hover { color: #000; background: transparent;}
+/**/
+.Comentarios { margin-bottom: 40px;}
+.Comentarios H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; margin-bottom: 16px;}
+.Comentarios H3 STRONG {font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.Comentarios H3 SPAN { color: #fbb461;}
+/**/
+.SideBar { margin-top: 30px; width: 31.6239%; float: right;}
+.SideBar .InfoBox { width: 100%;}
+/**/
+.UltimasNotas { border-top: 1px solid #d0d2d2;}
+.UltimasNotas .Titulo { padding-top: 30px; padding-bottom: 30px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; font-size: 2.4em; line-height: 26px;}
+.UltimasNotas .Titulo STRONG { font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.UltimasNotas LI { float: left; width: 31.6239%; margin-left: 2.5641%}
+.UltimasNotas LI:first-child { margin-left: 0}
+.UltimasNotas LI .InfoBox { width: 100%;}
+
+
+
+
+
+>>>>>>> 2b74214c5a6d526814d8be158e276b183c9d81f7
