@@ -165,11 +165,12 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .MobileNav { display: none}
 /**/
 .ColumnistasBar { border-bottom: 1px solid #dbdddd;}
-.ColumnistasBar UL {width: 100%; overflow: hidden}
+.ColumnistasBar UL {width: 100%; overflow: hidden; min-height: 50px;}
 .ColumnistasBar LI {float: left;}
 .ColumnistasBar LI:first-child { padding-top: 29px; padding-right: 14px;}
 .ColumnistasBar A { display: block; padding: 17px 10px; border-left: 1px solid #fff; border-right: 1px solid #fff; position: relative;}
-.ColumnistasBar A:hover { background: #f5f5f5; overflow: hidden; border-left: 1px solid #dbdddd; border-right: 1px solid #dbdddd;}
+.ColumnistasBar A:hover,
+.ColumnistasBar A.Selected { background: #f5f5f5; overflow: hidden; border-left: 1px solid #dbdddd; border-right: 1px solid #dbdddd;}
 .ColumnistasBar H4 { color: #fbb96d; font-size: 1.5em; line-height: 17px; font-family: "museo_slab700", Arial, Helvetica, sans-serif;}
 .ColumnistasBar IMG { border: 1px solid #cbcbca; border-radius: 100%; overflow: hidden; position: absolute; left: 10px; top: 17px}
 .ColumnistasBar FIGCAPTION { font-size: 1.2em; line-height: 16px; color: #000; text-transform: uppercase; padding-top: 7px; padding-left: 49px;}
@@ -496,7 +497,23 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .UltimasNotas LI:first-child { margin-left: 0}
 .UltimasNotas LI .InfoBox { width: 100%;}
 
-
-
+/*COLUMNISTA*/
+.Autor { border-bottom: 1px solid #dbdddd; overflow: hidden; padding-bottom: 17px; margin-bottom: 30px;}
+.Autor IMG { border-radius: 100%; overflow: hidden; float: left; margin-right: 15px;}
+.Autor FIGCAPTION { float: left; text-transform: uppercase; font-size: 1.2em; line-height: 14px; padding-top: 14px;}
+.Autor FIGCAPTION A { color: #000; text-decoration: underline;}
+.Autor FIGCAPTION A:hover { text-decoration: none}
+.Columnista { background: #fac68a; padding-top: 36px; padding-bottom: 36px; margin-bottom: 42px;}
+.Columnista FIGURE { float: left; width: 11.1965%;}
+.Columnista IMG { border-radius: 100%; overflow: hidden; width: 100%; height: auto;}
+.Columnista .Data { float: left; width: 88%; padding-left: 2.5%;}
+.Columnista .Data H2 { font-size: 3em; line-height: 32px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; margin-bottom: 10px;}
+.Columnista .Data H2 STRONG { color: #fff; font-family: "museo_slab500", Arial, Helvetica, sans-serif}
+.Columnista .Data P { font-size: 1.4em; line-height: 19px; margin-bottom: 20px;}
+.Columnista .Redes { font-size: 1.4em; line-height: 16px;}
+.Columnista .Redes A { color: #000; position:relative; top: -5px;}
+.Columnista .Redes .fa { font-size: 1.3em;}
+.Columnista .Redes .IconSep { margin-left: 10px; margin-right: 10px;}
+.RowTitle H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 
 

@@ -64,13 +64,13 @@
 						</span>
 					</form>
 				</li>
-				<li><a href="#"><strong>ESPIRITUALIDAD</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="#"><strong>GÉNERO</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="#"><strong>CULTURA</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="#"><strong>TENDENCIAS</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="#"><strong>PSICOLOGÍA</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="#"><strong>VIVIR BIEN</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="#"><strong>SOLIDARIDAD</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>ESPIRITUALIDAD</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>GÉNERO</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>CULTURA</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>TENDENCIAS</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>PSICOLOGÍA</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>VIVIR BIEN</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>SOLIDARIDAD</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>blogs</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>columnistas</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>videos</strong><i class="fa fa-angle-right"></i></a></li>
