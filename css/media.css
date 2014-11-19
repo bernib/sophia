@@ -133,9 +133,9 @@
 	.ColumnistasBar LI A:hover { border-right: none; border-left: 1px solid #e2e4e4;}
 	.ColumnistasBar .Control { width: 32px; height: 100px; color: #000; text-align: center; padding-top: 40px; font-size: 2.4em; top: 0; position: absolute; display: block; z-index: 10}
 	.ColumnistasBar .Next2 { right: 0; border-left: 1px solid #DBDDDD; background: #fff;}
-	.ColumnistasBar .Next2:hover { border-left: 1px solid #DBDDDD;}
-	.ColumnistasBar .Prev2 { left: 0;}
-	.ColumnistasBar .Prev2:hover { border: none}
+	.ColumnistasBar .Next2:hover { border-left: 1px solid #DBDDDD;background: #fff;}
+	.ColumnistasBar .Prev2 { left: 0; background: #fff; border-right: 1px solid #DBDDDD;}
+	.ColumnistasBar .Prev2:hover { border-right: 1px solid #DBDDDD;background: #fff;}
 	/**/
 	#MsGrid .grid-sizer { width: 100%;}
 	.InfoBox { width: 100%; padding: 16px;}
@@ -146,6 +146,33 @@
 	.Foot .Sophia { text-align: center}
 	.Foot .Cell H2 A { margin-left: auto; margin-right: auto;}
 	.Foot .Cell H3 { text-align: center}
+	/**/
+	.Articulo H4.Cultura { margin-bottom: 15px;}
+	.Articulo .Head H2 { font-size: 3.5em; line-height: 37px;}
+	.Articulo .Head H3 { font-size: 1.6em; line-height: 18px;}
+	.SocialBar UL { background: none}
+	.SocialBar LI:first-child { padding-left: 0;}
+	.SocialBar LI:last-child { padding-right:0}
+	.SocialBar LI:nth-child(1) { width: 40%}
+	.SocialBar LI:nth-child(2) { width: 60%}
+	.SocialBar LI:nth-child(3) { width: 100%; border-top: 1px solid #333; border-bottom: 1px solid #333; padding-top: 12px; padding-bottom: 12px; text-align: center}
+	.SocialBar .IconSep { position: relative; top: 0px;}
+	.SocialBar .Suscribite STRONG { display: inline-block; width: 100px; padding-top: 8px;}
+	.SocialBar .Suscribite + .IconSep { display: none}
+	.SocialBar .Suscribite .fa { position: relative; top: -5px;}
+	.SocialBar .Share STRONG { display: block; margin-bottom: 10px;}
+	.Nota .Imagen .Share { padding-left: 0; text-align: center; padding-top: 13px;}
+	.Nota .Imagen .Label { display: none}
+	.Nota .Imagen .Share .fa { font-size: 1.6em; margin-left: 6px; margin-right: 6px;}
+	.Nota .Imagen .Caption { padding-top: 5px;; font-size: 1.1em;}
+	.Nota P { line-height: 20px;}
+	.Nota BLOCKQUOTE { width: 100%; margin-left: 0; margin-bottom: 28px; padding: 18px;}
+	.Nota .Imagenes .Counter {width: 29%;}
+	.Nota .Imagenes .Caption { width: 70.8%;}
+	.Recibir { text-align: center}
+	.Recibir INPUT[type="text"] { width: 100%; margin-bottom: 20px; float: none}
+	.Recibir INPUT[type="submit"] { float: none; margin: 0 auto;}
+	.UltimasNotas LI { width: 100%; margin-left: 0}
 }
 @media screen and (max-width: 430px) {
 	.TopBanner { display: block}
@@ -183,7 +210,6 @@
 	.FullImgDoble .InnerBox .Data { position: static; background: rgba(58, 58, 58, 1);}
 	.Agenda .Date { padding-left: 3%;}
 	.Frase .InnerBox H3 { font-size: 2.4em;}
-	
 }
 @media screen and (max-width: 320px) {
 	.ColumnistasBar LI:first-child { width: 125px;}
