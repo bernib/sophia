@@ -172,7 +172,11 @@
 	.Recibir { text-align: center}
 	.Recibir INPUT[type="text"] { width: 100%; margin-bottom: 20px; float: none}
 	.Recibir INPUT[type="submit"] { float: none; margin: 0 auto;}
-	.UltimasNotas LI { width: 100%; margin-left: 0}
+	.UltimasNotas LI,
+	.Destacadas LI { width: 100%; margin-left: 0}
+	/**/
+	.Columnista FIGURE { float: none; margin: 0 auto; width: 30%}
+	.Columnista .Data { float: none; width: 100%; padding-top: 20px; padding-left: 0}
 }
 @media screen and (max-width: 430px) {
 	.TopBanner { display: block}
@@ -210,6 +214,11 @@
 	.FullImgDoble .InnerBox .Data { position: static; background: rgba(58, 58, 58, 1);}
 	.Agenda .Date { padding-left: 3%;}
 	.Frase .InnerBox H3 { font-size: 2.4em;}
+	/**/
+	.Columnista .Data H2 {}
+	.Columnista .Data H2 STRONG { display: block}
+	.Columnista .Redes A { display: block; top: 0; margin-bottom: 10px;}
+	.Columnista .Redes .IconSep { display: none}
 }
 @media screen and (max-width: 320px) {
 	.ColumnistasBar LI:first-child { width: 125px;}

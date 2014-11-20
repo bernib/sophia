@@ -343,7 +343,7 @@
 				</div>
 			</div>
 			
-			<!--<div class="InfoBox BoxGris Encuesta">
+			<div class="InfoBox BoxGris Encuesta">
 				<h4>Encuesta</h4>
 				<h3>¿Qué te pareció nuestra edición aniversario?</h3>
 				<form>
@@ -370,7 +370,7 @@
 						<input type="submit" name="submit3" id="submit3" value="VOTAR">
 					</div>
 				</form>
-			</div>-->
+			</div>
 			
 			<div class="InfoBox BoxGris">
 				<div class="Head Single Opina">
@@ -416,7 +416,7 @@
 				</div>
 			</div>
 			
-			<!--<div class="InfoBox BoxGris Agenda">
+			<div class="InfoBox BoxGris Agenda">
 				<h3><strong>Agenda</strong> <span class="IconSep"></span> Octubre</h3>
 				<ul>
 					<li><strong class="Date">Mar. 09</strong> <span class="Data">“Talleres surtidos” decoración y ambientación. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
@@ -424,7 +424,7 @@
 					<li><strong class="Date">Sáb. 30</strong> <span class="Data">“Mujeres tenían que ser”  Martes en teatro La Comedia. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
 				</ul>
 				<a href="#" class="Lnk">Toda la agenda</a>
-			</div>-->
+			</div>
 			
 			<div class="InfoBox BoxGris FullImg">
 				<div class="Head Single">
@@ -445,7 +445,7 @@
 				</div>
 			</div>
 			
-			<!--<div class="InfoBox BoxGris MasVisto">
+			<div class="InfoBox BoxGris MasVisto">
 				<h3>Lo + visto</h3>
 				<ul>
 					<li><strong>1.</strong> <a href="#">China Zorrilla, adiós a una grande</a></li>
@@ -454,7 +454,7 @@
 					<li><strong>4.</strong> <a href="#">Solo para golosos</a></li>
 					<li><strong>5.</strong> <a href="#">Crsisis religiosa</a></li>
 				</ul>
-			</div>-->
+			</div>
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
@@ -500,73 +500,6 @@
 		</div>
 	</div>
 </main>
-<!-- DESTACADAS -->
-<section class="Row Destacadas">
-	<div class="Wrapper">
-		<ul class="Row">
-			<li class="Item">
-			
-				<div class="InfoBox BoxGris Agenda">
-					<h3><strong>Agenda</strong> <span class="IconSep"></span> Octubre</h3>
-					<ul>
-						<li><strong class="Date">Mar. 09</strong> <span class="Data">“Talleres surtidos” decoración y ambientación. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
-						<li><strong class="Date">Mié. 21</strong> <span class="Data">“Quino por Mafalda” en Museo del Humor. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
-						<li><strong class="Date">Sáb. 30</strong> <span class="Data">“Mujeres tenían que ser”  Martes en teatro La Comedia. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
-					</ul>
-					<a href="#" class="Lnk">Toda la agenda</a>
-				</div>
-			
-			</li>
-			<li class="Item">
-			
-				<div class="InfoBox BoxGris Encuesta">
-					<h4>Encuesta</h4>
-					<h3>¿Qué te pareció nuestra edición aniversario?</h3>
-					<form>
-						<ul>
-							<li>
-								<input type="radio" name="radio" id="radio" value="radio">
-								<label for="radio">Me pareció muy valiosa</label>
-							</li>
-							<li> 
-								<input type="radio" name="radio2" id="radio2" value="radio2">
-								<label for="radio2">Muy buena, un poco extensa</label>
-							</li>
-							<li>
-								<input type="radio" name="radio3" id="radio3" value="radio3">
-								<label for="radio3">No me gustó, demasiados contenidos</label> 
-							</li>
-							<li> 
-								<input type="radio" name="radio4" id="radio4" value="radio4">
-								<label for="radio4">Me encantó, espero más números así!</label>
-							</li>
-						</ul>
-						<div class="Actions">
-							<a href="#" class="Lnk">Resultados</a>
-							<input type="submit" name="submit3" id="submit3" value="VOTAR">
-						</div>
-					</form>
-				</div>
-			
-			</li>
-			<li class="Item">
-			
-				<div class="InfoBox BoxGris MasVisto">
-					<h3>Lo + visto</h3>
-					<ul>
-						<li><strong>1.</strong> <a href="#">China Zorrilla, adiós a una grande</a></li>
-						<li><strong>2.</strong> <a href="#">Ema Watson asombró al mundo</a></li>
-						<li><strong>3.</strong> <a href="#">Darle una chance a la paz</a></li>
-						<li><strong>4.</strong> <a href="#">Solo para golosos</a></li>
-						<li><strong>5.</strong> <a href="#">Crsisis religiosa</a></li>
-					</ul>
-				</div>
-			
-			</li>
-		</ul>
-	</div>
-</section>
-<!-- BLOGS -->
 <section class="Row Blogs">
 	<div class="Wrapper Desktop">
 		<div class="Head">
@@ -695,6 +628,72 @@
 		</div>
 	</div>
 </section>
+<!-- DESTACADAS -->
+<!--<section class="Row Destacadas">
+	<div class="Wrapper">
+		<ul class="Row">
+			<li class="Item">
+			
+				<div class="InfoBox BoxGris Agenda">
+					<h3><strong>Agenda</strong> <span class="IconSep"></span> Octubre</h3>
+					<ul>
+						<li><strong class="Date">Mar. 09</strong> <span class="Data">“Talleres surtidos” decoración y ambientación. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
+						<li><strong class="Date">Mié. 21</strong> <span class="Data">“Quino por Mafalda” en Museo del Humor. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
+						<li><strong class="Date">Sáb. 30</strong> <span class="Data">“Mujeres tenían que ser”  Martes en teatro La Comedia. <a href="#"><strong>+ <span>info</span></strong></a></span></li>
+					</ul>
+					<a href="#" class="Lnk">Toda la agenda</a>
+				</div>
+			
+			</li>
+			<li class="Item">
+			
+				<div class="InfoBox BoxGris Encuesta">
+					<h4>Encuesta</h4>
+					<h3>¿Qué te pareció nuestra edición aniversario?</h3>
+					<form>
+						<ul>
+							<li>
+								<input type="radio" name="radio" id="radio" value="radio">
+								<label for="radio">Me pareció muy valiosa</label>
+							</li>
+							<li> 
+								<input type="radio" name="radio2" id="radio2" value="radio2">
+								<label for="radio2">Muy buena, un poco extensa</label>
+							</li>
+							<li>
+								<input type="radio" name="radio3" id="radio3" value="radio3">
+								<label for="radio3">No me gustó, demasiados contenidos</label> 
+							</li>
+							<li> 
+								<input type="radio" name="radio4" id="radio4" value="radio4">
+								<label for="radio4">Me encantó, espero más números así!</label>
+							</li>
+						</ul>
+						<div class="Actions">
+							<a href="#" class="Lnk">Resultados</a>
+							<input type="submit" name="submit3" id="submit3" value="VOTAR">
+						</div>
+					</form>
+				</div>
+			
+			</li>
+			<li class="Item">
+			
+				<div class="InfoBox BoxGris MasVisto">
+					<h3>Lo + visto</h3>
+					<ul>
+						<li><strong>1.</strong> <a href="#">China Zorrilla, adiós a una grande</a></li>
+						<li><strong>2.</strong> <a href="#">Ema Watson asombró al mundo</a></li>
+						<li><strong>3.</strong> <a href="#">Darle una chance a la paz</a></li>
+						<li><strong>4.</strong> <a href="#">Solo para golosos</a></li>
+						<li><strong>5.</strong> <a href="#">Crsisis religiosa</a></li>
+					</ul>
+				</div>
+			
+			</li>
+		</ul>
+	</div>
+</section>-->
 <!-- BANNER -->
 <?php include("inc_bottom-banner.php"); ?>
 <?php include("inc_footer.php"); ?>

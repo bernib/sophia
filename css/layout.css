@@ -385,6 +385,14 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .LoadBar { width: 100%; text-align: center; margin-bottom: 45px;}
 .LoadBar A { display: block; width: 370px; height: 34px; background: #000; color: #fff; text-align: center; margin: 0 auto; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-top: 8px; border: 1px solid #000}
 .LoadBar A:hover { color: #000; background: transparent}
+/**/
+.Destacadas { border-bottom: 1px solid #d0d2d2; padding-top: 30px;}
+.Destacadas .Item { float: left; width: 31.6239%; margin-left: 2.5641%}
+.Destacadas .Item:first-child { margin-left: 0}
+.Destacadas .Item .InfoBox { width: 100%; min-height: 340px;}
+.Destacadas .Agenda H3 STRONG { color: #FBB96D}
+.Destacadas .Agenda .Date { background: #FBB96D}
+.Destacadas .Agenda .Data A {color: #FBB96D}
 
 /*CATEGORIA*/
 .CatHead.Solidaridad { background: #dcc0aa;}
