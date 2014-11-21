@@ -161,6 +161,10 @@
 	.SocialBar .Suscribite + .IconSep { display: none}
 	.SocialBar .Suscribite .fa { position: relative; top: -5px;}
 	.SocialBar .Share STRONG { display: block; margin-bottom: 10px;}
+	.SocialBar .Share .fa-facebook { color: #fff; background: #405da9; border-color: #405da9}
+	.SocialBar .Share .fa-twitter { color: #fff; background: #00c3ff; border-color: #00c3ff}
+	.SocialBar .Share .fa-google-plus { color: #fff; background: #d6402b; border-color: #d6402b}
+	.SocialBar .Share .fa-envelope { color: #fff; background: #8e8e91; border-color: #8e8e91}
 	.Nota .Imagen .Share { padding-left: 0; text-align: center; padding-top: 13px;}
 	.Nota .Imagen .Label { display: none}
 	.Nota .Imagen .Share .fa { font-size: 1.6em; margin-left: 6px; margin-right: 6px;}
@@ -173,10 +177,12 @@
 	.Recibir INPUT[type="text"] { width: 100%; margin-bottom: 20px; float: none}
 	.Recibir INPUT[type="submit"] { float: none; margin: 0 auto;}
 	.UltimasNotas LI,
+	.Articulo .UltimasNotas LI,
 	.Destacadas LI { width: 100%; margin-left: 0}
 	/**/
+	.Columnista { margin-top: 20px;}
 	.Columnista FIGURE { float: none; margin: 0 auto; width: 30%}
-	.Columnista .Data { float: none; width: 100%; padding-top: 20px; padding-left: 0}
+	.Columnista .Data { float: none; width: 100%; padding-top: 20px; padding-left: 20px; padding-right: 20px;}
 }
 @media screen and (max-width: 430px) {
 	.TopBanner { display: block}
@@ -215,7 +221,8 @@
 	.Agenda .Date { padding-left: 3%;}
 	.Frase .InnerBox H3 { font-size: 2.4em;}
 	/**/
-	.Columnista .Data H2 {}
+	.Columnista .Data H2 { text-align: center}
+	.Columnista .Data H2 SPAN { display: none}
 	.Columnista .Data H2 STRONG { display: block}
 	.Columnista .Redes A { display: block; top: 0; margin-bottom: 10px;}
 	.Columnista .Redes .IconSep { display: none}

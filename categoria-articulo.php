@@ -104,6 +104,59 @@
 				<h3><strong>Comentarios</strong> <span><i class="fa fa-comments"></i> (23)</span></h3>
 				<div class="Widget"><img src="images/categoria/fb-fake.png" width="773" height="111" alt=""/></div>
 			</section>
+			<section class="Row UltimasNotas">
+				<h3 class="Titulo">Ultimas notas de <strong>Cultura</strong></h3>
+				<ul class="Row">
+					<li>
+						
+						<div class="InfoBox">
+							<div class="InnerBox">
+								<figure> <a href="#"><img src="images/home/pic-01.jpg" width="326" height="187" alt=""/></a>
+								</figure>
+								<div class="Data">
+									<div class="InnerData">
+										<h3><a href="#">Aires de libertad</a></h3>
+										<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</li>
+					<li>
+						
+						<div class="InfoBox">
+							<div class="InnerBox">
+								<figure> <a href="#"><img src="images/categoria/pic-06.jpg" width="326" height="187" alt=""/></a>
+								</figure>
+								<div class="Data">
+									<div class="InnerData">
+										<h3><a href="#">El humor puede salvarnos</a></h3>
+										<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</li>
+					<!--<li>
+						
+						<div class="InfoBox">
+							<div class="InnerBox">
+								<figure> <a href="#"><img src="images/categoria/pic-07.jpg" width="326" height="187" alt=""/></a>
+								</figure>
+								<div class="Data">
+									<div class="InnerData">
+										<h3><a href="#">La audacia de abrir diálogos imposibles</a></h3>
+										<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</li>-->
+				</ul>
+			</section>
 		</article>
 		<aside class="SideBar">
 		
@@ -231,7 +284,7 @@
 			</div>
 			
 		</aside>
-		<section class="Row UltimasNotas">
+		<!--<section class="Row UltimasNotas">
 			<h3 class="Titulo">Ultimas notas de <strong>Cultura</strong></h3>
 			<ul class="Row">
 				<li>
@@ -283,7 +336,7 @@
 				
 				</li>
 			</ul>
-		</section>
+		</section>-->
 	</div>
 </main>
 <!-- BANNER -->

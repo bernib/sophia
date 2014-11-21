@@ -504,6 +504,8 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .UltimasNotas LI { float: left; width: 31.6239%; margin-left: 2.5641%}
 .UltimasNotas LI:first-child { margin-left: 0}
 .UltimasNotas LI .InfoBox { width: 100%;}
+.Articulo .UltimasNotas LI { width: 49%; margin-left: 2%}
+.Articulo .UltimasNotas LI:first-child { margin-left: 0}
 
 /*COLUMNISTA*/
 .Autor { border-bottom: 1px solid #dbdddd; overflow: hidden; padding-bottom: 17px; margin-bottom: 30px;}
@@ -520,7 +522,8 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Columnista .Data P { font-size: 1.4em; line-height: 19px; margin-bottom: 20px;}
 .Columnista .Redes { font-size: 1.4em; line-height: 16px;}
 .Columnista .Redes A { color: #000; position:relative; top: -5px;}
-.Columnista .Redes .fa { font-size: 1.3em;}
+.Columnista .Redes A:hover { text-decoration: underline}
+.Columnista .Redes .fa { font-size: 1.3em; margin-right: 3px;}
 .Columnista .Redes .IconSep { margin-left: 10px; margin-right: 10px;}
 .RowTitle H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 

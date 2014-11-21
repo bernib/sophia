@@ -83,6 +83,51 @@
 				<h3><strong>Comentarios</strong> <span><i class="fa fa-comments"></i> (23)</span></h3>
 				<div class="Widget"><img src="images/categoria/fb-fake.png" width="773" height="111" alt=""/></div>
 			</section>
+			<section class="Row UltimasNotas">
+				<h3 class="Titulo">Columnas anteriores de  <strong>Cristina Miguens</strong></h3>
+				<ul class="Row">
+					<li>
+						
+						<div class="InfoBox BoxGris">
+							<div class="Head Doble">
+								<h5>04.07.2014</h5>
+							</div>
+							<div class="InnerBox">
+								<div class="Data">
+									<div class="InnerData">
+										<h3><a href="#">Aires de libertad</a></h3>
+										<p>Siempre lo supe. Desde que desembarqué fortuitamente en esta redacción supe que para mí Sophia, la Sabiduría, no era una revista sino una causa: la de proponer un modelo diferente de mujer ...</p>
+									</div>
+									<div class="SocialToolBar">
+										<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</li>
+					<li>
+						
+						<div class="InfoBox BoxGris">
+							<div class="Head Doble">
+								<h5>04.07.2014</h5>
+							</div>
+							<div class="InnerBox">
+								<div class="Data">
+									<div class="InnerData">
+										<h3><a href="#">Herman@s del Alma</a></h3>
+										<p>Hace unos días estalló la noticia en todos los medios de comunicación del mundo: reapareció el nieto apropiado de Estela de Carlotto, la presidenta de Abuelas de Plaza de Mayo, Ignacio Hurban ...</p>
+									</div>
+									<div class="SocialToolBar">
+										<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					</li>
+				</ul>
+			</section>
 		</article>
 		<aside class="SideBar">
 		
@@ -210,7 +255,7 @@
 			</div>
 			
 		</aside>
-		<section class="Row UltimasNotas">
+		<!--<section class="Row UltimasNotas">
 			<h3 class="Titulo">Columnas anteriores de  <strong>Cristina Miguens</strong></h3>
 			<ul class="Row">
 				<li>
@@ -274,7 +319,7 @@
 				
 				</li>
 			</ul>
-		</section>
+		</section>-->
 	</div>
 </main>
 <!-- BANNER -->

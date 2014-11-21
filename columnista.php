@@ -169,10 +169,10 @@
 	<div class="Wrapper">
 		<figure><img src="images/columnistas/cristina.jpg" width="131" height="131" alt=""/></figure>
 		<div class="Data">
-			<h2>Cristina Miguens <strong>| Punto de Vista</strong></h2>
+			<h2>Cristina Miguens <strong><span>|</span> Punto de Vista</strong></h2>
 			<p>Cristina Miguens es ingeniera industrial y empresaria. Más allá de su carrera profesional, ha dedicado su vida a colaborar con fundaciones y ONG que apoyan la salud y la educación de mujeres y niños, y del desarrollo de comunidades aborígenes. Ha hecho estudios de teología, psicología y mitología. Preside la Fundación Alumbrar y es miembro asesor de la UTDT. Por esas vueltas de la vida, es la editora responsable de Sophia.</p>
 			<div class="Redes">
-				<a href="#" target="_blank"><i class="fa fa-twitter"></i> <strong>@cristinamiguens</strong></a> <span class="IconSep"></span> <a href="mailto:cristina@sophia.com.ar"><i class="fa fa-envelope"></i> cristina@sophia.com.ar</a>
+				<a href="#" target="_blank"><i class="fa fa-twitter"></i><strong>@cristinamiguens</strong></a> <span class="IconSep"></span> <a href="mailto:cristina@sophia.com.ar"><i class="fa fa-envelope"></i>cristina@sophia.com.ar</a>
 			</div>
 		</div>
 	</div>
