@@ -17,9 +17,9 @@
 	<div class="Wrapper">
 		<article class="Articulo">
 			<div class="Head">
-				<h4 class="Cultura"><strong>Cultura</strong></h4>
-				<p>Sábado 2 de Agosto de 2014  |  Por <a href="#"><strong>Eugenia Sidoti</strong></a></p>
-				<h2>De Vietnam con amor</h2>
+				<h4 class="cultura"><strong><a href="#">cultura</a></strong></h4>
+				<p>Sábado 2 de Agosto de 2014  |  Por <strong>Eugenia Sidoti</strong></p>
+				<h1>De Vietnam con amor</h1>
 				<h3>En Sapa, una ciudad ubicada al norte de Vietnam, las mujeres trabajan y llevan a sus hijos a través de un viaje único y lleno de magia por las verdes montañas vietnamitas. </h3>
 			</div>
 			<div class="SocialBar">
@@ -90,7 +90,7 @@
 			</section>
 			<span class="Ancla" id="Suscribite"></span>
 			<section class="Tags">
-				<p><strong>ETIQUETAS</strong> <a href="#"><strong>CULTURA</strong></a> <a href="#"><strong>MUNDO</strong></a></p>
+				<p><strong>ETIQUETAS</strong> <a href="#"><strong>cultura</strong></a> <a href="#"><strong>MUNDO</strong></a></p>
 			</section>
 			<section class="Recibir">
 				<h3>¿Te gustaría recibir artículos como este en tu e-mail?</h3>
@@ -105,7 +105,7 @@
 				<div class="Widget"><img src="images/categoria/fb-fake.png" width="773" height="111" alt=""/></div>
 			</section>
 			<section class="Row UltimasNotas">
-				<h3 class="Titulo">Ultimas notas de <strong>Cultura</strong></h3>
+				<h3 class="Titulo">Ultimas notas de <strong>cultura</strong></h3>
 				<ul class="Row">
 					<li>
 						
@@ -201,8 +201,8 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria Solidaridad">
-						<h4><a href="#"><strong>SOLIDARIDAD</strong></a></h4>
+					<div class="Categoria solidaridad">
+						<h4><a href="#"><strong>solidaridad</strong></a></h4>
 					</div>
 					<div class="Data">
 						<div class="InnerData">
@@ -218,8 +218,8 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria Cultura">
-						<h4><a href="#"><strong>Cultura</strong></a></h4>
+					<div class="Categoria cultura">
+						<h4><a href="#"><strong>cultura</strong></a></h4>
 					</div>
 					<div class="Data">
 						<div class="InnerData">
@@ -285,7 +285,7 @@
 			
 		</aside>
 		<!--<section class="Row UltimasNotas">
-			<h3 class="Titulo">Ultimas notas de <strong>Cultura</strong></h3>
+			<h3 class="Titulo">Ultimas notas de <strong>cultura</strong></h3>
 			<ul class="Row">
 				<li>
 					

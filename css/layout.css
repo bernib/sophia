@@ -297,18 +297,18 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .SocialToolBar .LabelLayer .fa { font-size: 1.9em; line-height: 19px; position: relative; top: -3px; margin-left: 15px;}
 .SocialToolBar .Share { display: inline-block;}
 /**/
-.InfoBox .Espiritualidad H4 { background: #f8bb72;}
-.InfoBox .Espiritualidad H4:hover { background-color: rgba(248,187,114,.75); }
-.InfoBox .Cultura H4 { background: #a186bd;}
-.InfoBox .Cultura H4:hover { background-color: rgba(161,134,189,.75); }
-.InfoBox .Solidaridad H4 { background: #ceaa8e;}
-.InfoBox .Solidaridad H4:hover { background-color: rgba(206,170,142,.75); }
-.InfoBox .Genero H4 { background: #fa9099;}
-.InfoBox .Genero H4:hover { background-color: rgba(250,144,153,.75); }
-.InfoBox .VivirBien H4 { background: #64cdb4;}
-.InfoBox .VivirBien H4:hover { background-color: rgba(100,205,180,.75); }
-.InfoBox .Tendencias H4 { background: #7bcbeb;}
-.InfoBox .Tendencias H4:hover { background-color: rgba(123,203,235,.75); }
+.InfoBox .espiritualidad H4 { background: #f8bb72;}
+.InfoBox .espiritualidad H4:hover { background-color: rgba(248,187,114,.75); }
+.InfoBox .cultura H4 { background: #a186bd;}
+.InfoBox .cultura H4:hover { background-color: rgba(161,134,189,.75); }
+.InfoBox .solidaridad H4 { background: #ceaa8e;}
+.InfoBox .solidaridad H4:hover { background-color: rgba(206,170,142,.75); }
+.InfoBox .genero H4 { background: #fa9099;}
+.InfoBox .genero H4:hover { background-color: rgba(250,144,153,.75); }
+.InfoBox .vivir-bien H4 { background: #64cdb4;}
+.InfoBox .vivir-bien H4:hover { background-color: rgba(100,205,180,.75); }
+.InfoBox .tendencias H4 { background: #7bcbeb;}
+.InfoBox .tendencias H4:hover { background-color: rgba(123,203,235,.75); }
 /**/
 .BoxGris { background: #f5f5f5;}
 /**/
@@ -361,13 +361,13 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Encuesta INPUT[type="submit"]:hover { color: #000; background: transparent}
 /**/
 .Agenda H3 { font-size: 2.1em; line-height: 23px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 20px;}
-.Agenda H3 STRONG { color: #3fba9c; font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.Agenda H3 STRONG { color: #FBB96D; font-family: "museo_slab700", Arial, Helvetica, sans-serif}
 .Agenda H3 .IconSep { margin-left: 7px; margin-right: 7px;}
 .Agenda UL { margin-bottom: 20px;}
 .Agenda LI {display: table; table-layout: fixed; width: 100%; margin-bottom: 1px;}
-.Agenda .Date { display: table-cell; background: #87d6c3; width: 26%; vertical-align: middle; font-size: 1.4em; line-height: 16px; color: #fff; text-transform: uppercase; padding-left: 14px;}
+.Agenda .Date { display: table-cell; background: #FBB96D; width: 26%; vertical-align: middle; font-size: 1.4em; line-height: 16px; color: #fff; text-transform: uppercase; padding-left: 14px;}
 .Agenda .Data { display: table-cell; background: #fff; width: 74%; padding: 10px 10px 10px 14px; font-size: 1.4em; line-height: 19px; }
-.Agenda .Data A { text-transform: uppercase; color: #35b596; font-size: 0.9em;}
+.Agenda .Data A { text-transform: uppercase; color: #FBB96D; font-size: 0.9em;}
 .Agenda .Data A SPAN { text-decoration: underline}
 .Agenda .Data A:hover SPAN { text-decoration: none}
 .Agenda .Lnk { font-size: 1.2em; line-height: 14px; color: #000; text-decoration: underline; text-transform: uppercase}
@@ -395,13 +395,13 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Destacadas .Agenda .Data A {color: #FBB96D}
 
 /*CATEGORIA*/
-.CatHead.Solidaridad { background: #dcc0aa;}
-.CatHead.Psicologia { background: #b1e09e;}
-.CatHead.VivirBien { background: #7bd3be;}
-.CatHead.Tendendias { background: #7bcbeb;}
-.CatHead.Genero { background: #fa9099;}
-.CatHead.Espiritualidad { background: #fac68a;}
-.CatHead.Cultura { background: #a186bd;}
+.CatHead.solidaridad { background: #dcc0aa;}
+.CatHead.psicologia { background: #b1e09e;}
+.CatHead.vivir-bien { background: #7bd3be;}
+.CatHead.tendencias { background: #7bcbeb;}
+.CatHead.genero { background: #fa9099;}
+.CatHead.espiritualidad { background: #fac68a;}
+.CatHead.cultura { background: #a186bd;}
 .CatHead { height: 75px; border-top: 1px solid #d4d7d7; border-bottom: 1px solid #d4d7d7; text-align: center; color: #fff; padding-top: 24px;}
 .CatHead H2 { font-size: 2.6em; line-height: 28px; text-transform: uppercase;}
 .CatHead H2 .fa { font-size: 0.8em;}
@@ -409,17 +409,18 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 /*ARTICULO*/
 .Articulo { margin-top: 30px; width: 65.8119%; float: left}
 .Articulo .Head H4 { font-size: 1.2em; line-height: 14px; color: #fff; display: inline-block; padding: 3px 10px; text-transform: uppercase; margin-bottom: 30px; }
-.Articulo H4.Solidaridad { background: #dcc0aa;}
-.Articulo H4.Psicologia { background: #b1e09e;}
-.Articulo H4.VivirBien { background: #7bd3be;}
-.Articulo H4.Tendendias { background: #7bcbeb;}
-.Articulo H4.Genero { background: #fa9099;}
-.Articulo H4.Espiritualidad { background: #fac68a;}
-.Articulo H4.Cultura { background: #a186bd;}
+.Articulo .Head H4 A { color: #fff;}
+.Articulo H4.solidaridad { background: #dcc0aa;}
+.Articulo H4.psicologia { background: #b1e09e;}
+.Articulo H4.vivir-bien { background: #7bd3be;}
+.Articulo H4.tendencias { background: #7bcbeb;}
+.Articulo H4.genero { background: #fa9099;}
+.Articulo H4.espiritualidad { background: #fac68a;}
+.Articulo H4.cultura { background: #a186bd;}
 .Articulo .Head P { font-size: 1.2em; line-height: 14px; margin-bottom: 12px;}
 .Articulo .Head P A { color: #000; text-decoration: underline}
 .Articulo .Head P A:hover { text-decoration: none}
-.Articulo .Head H2 { font-size: 5.5em; line-height: 58px; margin-bottom: 15px;}
+.Articulo .Head H1 { font-size: 5.5em; line-height: 58px; margin-bottom: 15px;}
 .Articulo .Head H3 { font-size: 2em; line-height: 27px; margin-bottom: 25px;}
 .Articulo .Ancla { position: relative; top: -50px}
 /**/
@@ -454,7 +455,9 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Nota .Imagen .ShowFullPic { color: #fff; background: rgba(0,0,0,0.60); font-size: 1.4em; position: absolute; top: 0; right: 0; padding: 12px;}
 /**/
 .Nota P { font-size: 1.4em; line-height: 27px; margin-bottom: 28px}
+.Nota H2 { font-size: 2.8em; line-height: 30px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota H3 { font-size: 2.4em; line-height: 28px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+.Nota H4 { font-size: 2em; line-height: 22px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota IMG { width: 100%; height: auto;}
 /**/
 .Nota .Imagenes { position: relative; margin-bottom: 28px; overflow: hidden}

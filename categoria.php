@@ -13,8 +13,8 @@
 <!-- MAIN NAV -->
 <?php include("inc_nav.php"); ?>
 <!-- CATEGORIA -->
-<section class="Row CatHead Solidaridad">
-	<h2><i class="fa fa-bookmark"></i> SOLIDARIDAD</h2>
+<section class="Row CatHead solidaridad">
+	<h2><i class="fa fa-bookmark"></i> solidaridad</h2>
 </section>
 <!-- CONTENT -->
 <main class="Row">
@@ -162,7 +162,7 @@
 
 		</section>
 		<div class="LoadBar">
-			<a href="#"><strong>+ DE SOLIDARIDAD</strong></a>
+			<a href="#"><strong>+ DE solidaridad</strong></a>
 		</div>
 	</div>
 </main>

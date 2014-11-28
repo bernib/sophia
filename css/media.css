@@ -147,8 +147,8 @@
 	.Foot .Cell H2 A { margin-left: auto; margin-right: auto;}
 	.Foot .Cell H3 { text-align: center}
 	/**/
-	.Articulo H4.Cultura { margin-bottom: 15px;}
-	.Articulo .Head H2 { font-size: 3.5em; line-height: 37px;}
+	.Articulo H4.cultura { margin-bottom: 15px;}
+	.Articulo .Head H1 { font-size: 3.5em; line-height: 37px;}
 	.Articulo .Head H3 { font-size: 1.6em; line-height: 18px;}
 	.SocialBar UL { background: none}
 	.SocialBar LI:first-child { padding-left: 0;}

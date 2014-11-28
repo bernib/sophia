@@ -4,10 +4,10 @@
 			<a href="index.php">Sophia - Despliega el Alma</a>
 			<span class="IconSep"></span>
 		</li>
-		<li><a href="categoria.php"><strong>Espiritualidad</strong></a></li>
+		<li><a href="categoria.php"><strong>espiritualidad</strong></a></li>
 		<li><a href="categoria.php"><strong>Género</strong></a></li>
-		<li><a href="categoria.php"><strong>Cultura</strong></a></li>
-		<li><a href="categoria.php"><strong>Tendencias</strong></a></li>
+		<li><a href="categoria.php"><strong>cultura</strong></a></li>
+		<li><a href="categoria.php"><strong>tendencias</strong></a></li>
 		<li><a href="categoria.php"><strong>Psicología</strong></a></li>
 		<li><a href="#"><strong>Vivir Bien</strong> <i class="fa fa-caret-down"></i></a>
 			<ul class="Menu">
@@ -17,7 +17,7 @@
 				<li><a href="#">Jardín</a></li>
 			</ul>
 		</li>
-		<li><a href="categoria.php"><strong>Solidaridad</strong></a></li>
+		<li><a href="categoria.php"><strong>solidaridad</strong></a></li>
 		<li class="SepL"><a href="#"><strong>Blogs</strong> <i class="fa fa-caret-down"></i></a>
 			<ul class="Menu">
 				<li><a href="#">Desde Buenos Aires</a></li>
@@ -64,13 +64,13 @@
 						</span>
 					</form>
 				</li>
-				<li><a href="categoria.php"><strong>ESPIRITUALIDAD</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>espiritualidad</strong><i class="fa fa-angle-right"></i></a></li>
 				<li><a href="categoria.php"><strong>GÉNERO</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="categoria.php"><strong>CULTURA</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="categoria.php"><strong>TENDENCIAS</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>cultura</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>tendencias</strong><i class="fa fa-angle-right"></i></a></li>
 				<li><a href="categoria.php"><strong>PSICOLOGÍA</strong><i class="fa fa-angle-right"></i></a></li>
 				<li><a href="categoria.php"><strong>VIVIR BIEN</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="categoria.php"><strong>SOLIDARIDAD</strong><i class="fa fa-angle-right"></i></a></li>
+				<li><a href="categoria.php"><strong>solidaridad</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>blogs</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>columnistas</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>videos</strong><i class="fa fa-angle-right"></i></a></li>

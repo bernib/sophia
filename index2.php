@@ -175,8 +175,8 @@
 		
 			<div class="InfoBox FullImg FullImgDoble">
 				<div class="InnerBox">
-					<div class="Categoria Cultura">
-						<h4><a href="#"><strong>Cultura</strong></a></h4>
+					<div class="Categoria cultura">
+						<h4><a href="#"><strong>cultura</strong></a></h4>
 					</div>
 					<figure> <a href="#"><img src="images/home/pic-00.jpg" width="767" height="419" alt=""/></a>
 					</figure>
@@ -238,8 +238,8 @@
 				<div class="InnerBox">
 					<figure> <a href="#"><img src="images/home/pic-01.jpg" width="326" height="187" alt=""/></a>
 					</figure>
-					<div class="Categoria Espiritualidad">
-						<h4><a href="#"><strong>Espiritualidad</strong></a></h4>
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
 					</div>
 					<div class="Data">
 						<div class="InnerData">
@@ -274,8 +274,8 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria Solidaridad">
-						<h4><a href="#"><strong>SOLIDARIDAD</strong></a></h4>
+					<div class="Categoria solidaridad">
+						<h4><a href="#"><strong>solidaridad</strong></a></h4>
 					</div>
 					<div class="Data">
 						<div class="InnerData">
@@ -328,8 +328,8 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria Cultura">
-						<h4><a href="#"><strong>Cultura</strong></a></h4>
+					<div class="Categoria cultura">
+						<h4><a href="#"><strong>cultura</strong></a></h4>
 					</div>
 					<div class="Data">
 						<div class="InnerData">
@@ -402,7 +402,7 @@
 					<figure class="Video">
 						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
 					</figure>
-					<div class="Categoria Genero">
+					<div class="Categoria genero">
 						<h4><a href="#"><strong>Género</strong></a></h4>
 					</div>
 					<div class="Data">
@@ -458,8 +458,8 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria Tendencias">
-						<h4><a href="#"><strong>Tendencias</strong></a></h4>
+					<div class="Categoria tendencias">
+						<h4><a href="#"><strong>tendencias</strong></a></h4>
 					</div>
 					<div class="Data">
 						<div class="InnerData">
@@ -477,7 +477,7 @@
 				<div class="InnerBox">
 					<figure> <a href="#"><img src="images/home/pic-06.jpg" width="326" height="187" alt=""/></a>
 					</figure>
-					<div class="Categoria VivirBien">
+					<div class="Categoria vivir-bien">
 						<h4><a href="#"><strong>vivir bien</strong></a></h4>
 					</div>
 					<div class="Data">
