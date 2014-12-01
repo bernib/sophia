@@ -226,6 +226,7 @@
 	.Columnista .Data H2 STRONG { display: block}
 	.Columnista .Redes A { display: block; top: 0; margin-bottom: 10px;}
 	.Columnista .Redes .IconSep { display: none}
+	.ColumnistasBar LI A { border: none}
 }
 @media screen and (max-width: 320px) {
 	.ColumnistasBar LI:first-child { width: 125px;}
