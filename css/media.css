@@ -178,7 +178,7 @@
 	.Recibir INPUT[type="submit"] { float: none; margin: 0 auto;}
 	.UltimasNotas LI,
 	.Articulo .UltimasNotas LI,
-	.Destacadas LI { width: 100%; margin-left: 0}
+	.Destacadas .Item { width: 100%; margin-left: 0}
 	/**/
 	.Columnista { margin-top: 20px;}
 	.Columnista FIGURE { float: none; margin: 0 auto; width: 30%}
