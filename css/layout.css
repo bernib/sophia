@@ -405,6 +405,13 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .CatHead { height: 75px; border-top: 1px solid #d4d7d7; border-bottom: 1px solid #d4d7d7; text-align: center; color: #fff; padding-top: 24px;}
 .CatHead H2 { font-size: 2.6em; line-height: 28px; text-transform: uppercase;}
 .CatHead H2 .fa { font-size: 0.8em;}
+.CatHead.entrevistas,
+.CatHead.videos { background: #fff; border-bottom: 1px solid #d7d9d9; color: #91999a;}
+.CatHead.entrevistas H2,
+.CatHead.videos H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
+.CatHead.videos H2 SPAN { display: inline-block; border-left: 1px solid #c9cdcd; position: relative; top: -3px; padding-left: 20px; margin-left: 5px;}
+.CatHead.videos H2 A { font-family: "karlaregular", Arial, Helvetica, sans-serif; font-size: 1em; color: #080804; font-size: 0.3em; text-transform: uppercase; line-height: 18px;}
+.CatHead.videos H2 .fa { margin-left: 8px;}
 
 /*ARTICULO*/
 .Articulo { margin-top: 30px; width: 65.8119%; float: left}
