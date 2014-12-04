@@ -82,7 +82,7 @@
 			</div>
 			
 			<div class="InfoBox BlogsBox">
-				<h3><strong>Blogs</strong> <span class="IconSep"></span> Sophia</h3>
+				<h3><strong>Otros Blogs</strong> <span class="IconSep"></span> Sophia</h3>
 				<ul>
 					<li>
 						<figure><a href="#"><img src="images/blogs/thumb-1.jpg" width="155" height="90" alt=""/></a></figure>

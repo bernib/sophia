@@ -400,6 +400,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .BlogsBox H4 A:hover { text-decoration: underline}
 .BlogsBox P,
 .BlogsBox P A { color: #000;}
+.BlogsBox P A:hover { text-decoration: underline}
 .BlogsBox P SPAN {display: block; font-size: 1.2em; line-height: 14px; margin-bottom: 5px;}
 .BlogsBox P STRONG {font-size: 1.4em; line-height: 16px;}
 /**/
@@ -430,9 +431,11 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .CatHead H2 { font-size: 2.6em; line-height: 28px; text-transform: uppercase;}
 .CatHead H2 .fa { font-size: 0.8em;}
 .CatHead.entrevistas,
-.CatHead.videos { background: #fff; border-bottom: 1px solid #d7d9d9; color: #91999a;}
+.CatHead.videos,
+.CatHead.la-revista { background: #fff; border-bottom: 1px solid #d7d9d9; color: #91999a;}
 .CatHead.entrevistas H2,
-.CatHead.videos H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
+.CatHead.videos H2,
+.CatHead.la-revista H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
 .CatHead.videos H2 SPAN { display: inline-block; border-left: 1px solid #c9cdcd; position: relative; top: -3px; padding-left: 20px; margin-left: 5px;}
 .CatHead.videos H2 A { font-family: "karlaregular", Arial, Helvetica, sans-serif; font-size: 1em; color: #080804; font-size: 0.3em; text-transform: uppercase; line-height: 18px;}
 .CatHead.videos H2 .fa { margin-left: 8px;}
@@ -565,4 +568,62 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Columnista .Redes .IconSep { margin-left: 10px; margin-right: 10px;}
 .RowTitle H3 { font-size: 2.4em; line-height: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 
+/*REVISTA*/
+.PediLaRevista { margin-bottom: 60px;}
+.PediLaRevista H3 { font-size: 3.2em; line-height: 34px; text-transform: uppercase; text-align: center; padding-bottom: 25px; margin-bottom: 30px;}
+.PediLaRevista H3 .Line { display: inline-block; border-left: 1px solid #c8cccc; height: 54px; position: relative; margin-left: 10px; margin-right: 10px;}
+.PediLaRevista H3 SPAN { color: #f6ba75;}
+.PediLaRevista .Modalidad {width: 31.7948%; float: left; position: relative}
+.PediLaRevista .Modalidad IMG { width: 100%; height: auto;}
+.PediLaRevista .Modalidad FIGCAPTION { background: url(../images/revista/cartelito.png) no-repeat; width: 270px; height: 61px; position: absolute; left: 50%; top: -24px; margin-left: -135px; text-align: center; text-transform: uppercase; padding-top: 8px;}
+.PediLaRevista .Modalidad FIGCAPTION SPAN { font-size: 1.3em; line-height: 17px;}
+.PediLaRevista .Modalidad FIGCAPTION STRONG { font-size: 1.5em; line-height: 19px;}
+.PediLaRevista .Modalidad FIGURE { margin-bottom: 30px;}
+.PediLaRevista .Modalidad H4 { font-size: 1.7em; line-height: 19px; color: #f6ae5a; text-transform: uppercase; text-align: center; margin-bottom: 15px;}
+.PediLaRevista .Modalidad UL { overflow: hidden; width: 90%; margin-left: 5%;}
+.PediLaRevista .Modalidad LI { float: left; width: 25%; text-align: center; color: #f9a94c; font-size: 1.1em; line-height: 13px; text-transform: uppercase; border-left: 1px solid #f8d7b2}
+.PediLaRevista .Modalidad LI:first-child { border-left: none;}
+.PediLaRevista .Modalidad LI .fa { font-size: 3em; line-height: 30px; margin-bottom: 10px;}
+.PediLaRevista .Modalidad LI STRONG { display: block;}
+.PediLaRevista .Intro { width: 65.8119%; margin-left: 2.3931%; float: left}
+.PediLaRevista .Texto { float: left; width: 48.3116%; font-size: 1.5em; line-height: 25px;}
+.PediLaRevista .Tapa { float: right; width: 48.3116%; background: #f5f5f5; border: 1px solid #d7d9d9; padding: 30px;}
+.PediLaRevista .Tapa FIGURE { width: 48.0769%; float: left}
+.PediLaRevista .Tapa IMG { width: 100%; height: auto;}
+.PediLaRevista .Tapa .Data { margin-left: 6.4102%; width: 45%; float: left;}
+.PediLaRevista .Tapa H5 { font-size: 1.4em; line-height: 16px; color: #f9ba71; text-transform: uppercase; margin-bottom: 10px;}
+.PediLaRevista .Tapa H4 { margin-bottom: 8px;}
+.PediLaRevista .Tapa H4 STRONG { font-size: 1.4em; line-height: 30px;}
+.PediLaRevista .Tapa H4 SPAN { font-size: 1.8em; line-height: 30px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+.PediLaRevista .Tapa .Lnk { display: block; font-size: 1.4em; line-height: 16px; color: #000; text-decoration: underline; text-transform: uppercase;}
+.PediLaRevista .Tapa .Lnk:hover { text-decoration: none}
+.PediLaRevista .Tapa .Lnk + .Lnk { margin-top: 60px; text-transform: none}
+.PediLaRevista .Intro .Row { background: #eaf9ff; margin-top: 40px; padding: 20px;}
+.PediLaRevista .Precio { float: left; display: block; text-align: right}
+.PediLaRevista .Precio H4 { font-size: 2.4em; line-height: 26px; color: #53b6de; margin-bottom: 6px;}
+.PediLaRevista .Precio P { font-size: 1.1em; line-height: 13px; text-transform: uppercase}
+.PediLaRevista .Btn { float: left; display: block; font-size: 1.7em; color: #fff; text-transform: uppercase; background: #000; height: 47px; padding-left: 15px; padding-right: 15px; padding-top: 15px; margin-left: 16px; margin-right: 25px; border: 1px solid #000;}
+.PediLaRevista .Btn:hover { border: 1px solid #000; background: transparent; color: #000;}
+.PediLaRevista .MedioPago { float: left}
+.PediLaRevista .MedioPago P EM { font-size: 1.2em; line-height: 14px; color: #3d9abf; display: inline-block; margin-bottom: 5px; margin-top: 5px;}
+.PediLaRevista .MedioPago P STRONG { font-size: 1.2em; line-height: 14px; font-family: "karlabolditalic", Arial, Helvetica, sans-serif;}
+.PediLaRevista .MedioPago IMG { position: relative; margin-left: 5px; top: -3px;}
+.Pedila { background: #fac68a; border-bottom: 1px solid #fff;}
+.Pedila UL { width: 100%; float: left}
+.Pedila LI { width: 33.3333%; float: left; border-left: 1px solid #fff; padding-top: 24px; padding-bottom: 24px; min-height: 140px; padding-left: 3%}
+.Pedila LI:first-child { border-left: none; padding-left: 1%}
+.Pedila H4 { font-size: 1.6em; line-height: 18px; text-transform: uppercase; margin-bottom: 15px;}
+.Pedila H4 .fa { position: relative; margin-left: -15px; margin-right: 10px;}
+.Pedila P { font-size: 1.4em; line-height: 19px;}
+.Pedila P A { color: #000; text-decoration: none}
+.Pedila P A:hover { text-decoration: underline}
+.Pedila2 {background: #fac68a;}
+.Pedila2 P { font-size: 1.2em; line-height: 14px; padding-top: 10px; padding-bottom: 10px;}
+.Pedila2 P A { color: #000; text-decoration: underline;}
+.Pedila2 P A:hover { text-decoration: none}
 
+/*POST*/
+.blog-dashboard + .Row .SocialBar .Comentarios A { color: #7bd3be;}
+.blog-dashboard + .Row .Nota BLOCKQUOTE { background: #7bd3be}
+.blog-dashboard + .Row .Recibir {background: #7bd3be}
+.blog-dashboard + .Row .Comentarios H3 SPAN {color: #7bd3be}

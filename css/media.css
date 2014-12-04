@@ -110,10 +110,11 @@
 	.Foot .Final P { width: 70%; line-height: 20px;}
 	.AccessLayer .Arrow { right: 34%;}
 }
-
 @media screen and (max-width: 750px) {
 	.BotBanner { display: none;}
 	.CatHead.blog-dashboard { height: auto;}
+	.Destacadas .Item { width: 100%; margin-left: 0}
+	.Destacadas .Item .InfoBox { min-height: 100%}
 }
 @media screen and (max-width: 630px) {
 	.MobileNav .Menu UL { width: 100%}
@@ -130,8 +131,8 @@
 	.ColumnistasBar UL { margin-top: 0; display: block; width: 100%; overflow: hidden;}
 	.ColumnistasBar LI { display: block; float: left; width: 130px; height: 100px; overflow: hidden}
 	.ColumnistasBar LI:first-child { width: 130px; text-align: center}
-	.ColumnistasBar LI A { border-left: 1px solid #e2e4e4; border-right: none}
-	.ColumnistasBar LI A:hover { border-right: none; border-left: 1px solid #e2e4e4;}
+	.ColumnistasBar LI A { border-left: 1px solid #fff; border-right: none}
+	.ColumnistasBar LI A:hover { border-right: none; border-left: 1px solid #fff;}
 	.ColumnistasBar .Control { width: 32px; height: 100px; color: #000; text-align: center; padding-top: 40px; font-size: 2.4em; top: 0; position: absolute; display: block; z-index: 10}
 	.ColumnistasBar .Next2 { right: 0; border-left: 1px solid #DBDDDD; background: #fff;}
 	.ColumnistasBar .Next2:hover { border-left: 1px solid #DBDDDD;background: #fff;}
@@ -179,11 +180,12 @@
 	.Recibir INPUT[type="submit"] { float: none; margin: 0 auto;}
 	.UltimasNotas LI,
 	.Articulo .UltimasNotas LI,
-	.Destacadas .Item { width: 100%; margin-left: 0}
 	/**/
 	.Columnista { margin-top: 20px;}
 	.Columnista FIGURE { float: none; margin: 0 auto; width: 30%}
 	.Columnista .Data { float: none; width: 100%; padding-top: 20px; padding-left: 20px; padding-right: 20px;}
+	.CatHead.blog-dashboard H2 { font-size: 3.2em; line-height: 32px; padding-bottom: 5px;}
+	.CatHead.blog-dashboard H2 SPAN { display: none}
 }
 @media screen and (max-width: 430px) {
 	.TopBanner { display: block}

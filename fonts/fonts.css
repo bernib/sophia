@@ -34,7 +34,6 @@
     font-style: normal;
 
 }
-/*
 @font-face {
     font-family: 'karlabolditalic';
     src: url('karla-bolditalic-webfont.eot');
@@ -46,8 +45,7 @@
     font-weight: normal;
     font-style: normal;
 
-}*/
-/**/
+}
 @font-face {
     font-family: 'museo_slab500';
     src: url('museo_slab_500-webfont.eot');
