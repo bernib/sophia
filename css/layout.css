@@ -437,7 +437,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .CatHead.videos H2,
 .CatHead.la-revista H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
 .CatHead.videos H2 SPAN { display: inline-block; border-left: 1px solid #c9cdcd; position: relative; top: -3px; padding-left: 20px; margin-left: 5px;}
-.CatHead.videos H2 A { font-family: "karlaregular", Arial, Helvetica, sans-serif; font-size: 1em; color: #080804; font-size: 0.3em; text-transform: uppercase; line-height: 18px;}
+.CatHead.videos H2 A { font-family: "karlaregular", Arial, Helvetica, sans-serif; font-size: 1em; color: #080804; font-size: 0.3em; text-transform: uppercase; line-height: 18px; position: relative; top: -6px;}
 .CatHead.videos H2 .fa { margin-left: 8px;}
 .CatHead.blog-dashboard {background: #fff; color: #000;}
 .CatHead.blog-dashboard H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
