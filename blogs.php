@@ -109,8 +109,8 @@
 						<div class="Data">
 							<h4><a href="#"><strong>DESDE LONDRES</strong></a></h4>
 							<p>
-								<span>04.07.2014</span></
-								<a href="#"><strong>Paseando por Portobello Road</strong></p>
+								<span>04.07.2014</span>
+								<a href="#"><strong>Paseando por Portobello Road</strong></a></p>
 							</p>
 						</div>
 					</li>

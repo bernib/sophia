@@ -35,7 +35,7 @@ EM { font-style: normal; font-family: "karlaitalic", Arial, Helvetica, sans-seri
 .Wrapper {text-align: left; margin: 0px auto; width: 100%; max-width: 1170px;}
 .Row { width: 100%; float: left}
 .IconSep { display: inline-block; background: url(../images/layout/separador.png) no-repeat; width: 4px; height: 20px; position: relative}
-MAIN { border-bottom: 1px solid #d0d2d2;}
+MAIN { border-bottom: 1px solid #fff;}/*#d0d2d2*/
 
 /*HEAD*/
 .Banner { text-align: center; width: 100%; float: left}
@@ -286,6 +286,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .InfoBox .InnerHead H3 A { color: #000;}
 .InfoBox .InnerHead H3 A:hover { text-decoration: underline}
 .InfoBox .Contacto A { font-size: 1.4em; line-height: 16px; color: #000; display: inline-block; margin-bottom: 12px;}
+.InfoBox .Contacto A:hover { text-decoration: underline}
 .InfoBox .Contacto .fa-twitter { font-size: 1.4em}
 .InfoBox .Contacto .fa-envelope { font-size: 1.1em; margin-right: 2px;}
 /**/
@@ -438,7 +439,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .CatHead.la-revista H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
 .CatHead.videos H2 SPAN { display: inline-block; border-left: 1px solid #c9cdcd; position: relative; top: -3px; padding-left: 20px; margin-left: 5px;}
 .CatHead.videos H2 A { font-family: "karlaregular", Arial, Helvetica, sans-serif; font-size: 1em; color: #080804; font-size: 0.3em; text-transform: uppercase; line-height: 18px; position: relative; top: -6px;}
-.CatHead.videos H2 .fa { margin-left: 8px;}
+.CatHead.videos H2 .fa { margin-left: 8px; font-size: 3em; color: #91999A;}
 .CatHead.blog-dashboard {background: #fff; color: #000;}
 .CatHead.blog-dashboard H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
 .CatHead.blog-dashboard H2 STRONG { color: #3fba9c; font-family: "museo_slab300", Arial, Helvetica, sans-serif;}

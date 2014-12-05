@@ -14,7 +14,7 @@
 <?php include("inc_nav.php"); ?>
 <!-- CATEGORIA -->
 <section class="Row CatHead videos">
-	<h2>Videos <span><a href="#">Canal sophia</a><i class="fa fa-youtube"></i></span></h2>
+	<h2>Videos <span><a href="#">Canal sophia</a></span><a href="#"><i class="fa fa-youtube"></i></a></h2>
 </section>
 <!-- CONTENT -->
 <main class="Row">

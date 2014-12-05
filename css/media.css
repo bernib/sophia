@@ -34,6 +34,10 @@
 	.Nota .Imagenes .Counter {width: 19%;}
 	.Nota .Imagenes .Caption {width: 80.8%;}
 	.Agenda .Date { padding-left: 3%;}
+	/**/
+	.PediLaRevista .MedioPago { padding-top: 15px; width: 100%;}
+	.Pedila P BR { display: none}
+	.Pedila LI { min-height: 170px; padding-right: 15px;}
 }
 @media screen and (max-width: 1020px) {
 	.TopBanner { display: none}
@@ -109,12 +113,28 @@
 	.Foot .Final { border: none; padding-top: 0;}
 	.Foot .Final P { width: 70%; line-height: 20px;}
 	.AccessLayer .Arrow { right: 34%;}
+	/**/
+	.PediLaRevista .Modalidad { width: 40%}
+	.PediLaRevista .Intro { width: 55%; margin-left: 5%;}
+	.PediLaRevista .Texto { width: 100%; margin-bottom: 20px;}
+	.PediLaRevista .Tapa { width: 100%;}
+	.PediLaRevista .Intro .Row { position: relative; left: -81%; width: 181%}
+	.PediLaRevista .MedioPago { width: auto; padding-top: 0;}
+	.PediLaRevista .Modalidad UL { width: 100%;}
 }
 @media screen and (max-width: 750px) {
 	.BotBanner { display: none;}
 	.CatHead.blog-dashboard { height: auto;}
 	.Destacadas .Item { width: 100%; margin-left: 0}
 	.Destacadas .Item .InfoBox { min-height: 100%}
+	.PediLaRevista .Modalidad { width: 100%; margin-bottom: 30px;}
+	.PediLaRevista .Intro { width: 100%; margin-left: 0}
+	.PediLaRevista .Intro .Row { left: 0; width: 100%;}
+	.PediLaRevista .MedioPago { width: 100%; padding-top: 15px;}
+	.Pedila LI { width: 100%; border-left: none; border-bottom: 1px solid #fff; min-height: 100%;}
+	.Pedila LI:first-child { padding-left: 3%;}
+	.Pedila LI:last-child { border-bottom: none}
+	.PediLaRevista .Modalidad UL { margin-left: 0}
 }
 @media screen and (max-width: 630px) {
 	.MobileNav .Menu UL { width: 100%}
@@ -179,13 +199,29 @@
 	.Recibir INPUT[type="text"] { width: 100%; margin-bottom: 20px; float: none}
 	.Recibir INPUT[type="submit"] { float: none; margin: 0 auto;}
 	.UltimasNotas LI,
-	.Articulo .UltimasNotas LI,
+	.Articulo .UltimasNotas LI { width: 100%; margin-left: 0}
 	/**/
 	.Columnista { margin-top: 20px;}
 	.Columnista FIGURE { float: none; margin: 0 auto; width: 30%}
 	.Columnista .Data { float: none; width: 100%; padding-top: 20px; padding-left: 20px; padding-right: 20px;}
 	.CatHead.blog-dashboard H2 { font-size: 3.2em; line-height: 32px; padding-bottom: 5px;}
 	.CatHead.blog-dashboard H2 SPAN { display: none}
+	/**/
+	.PediLaRevista .Modalidad FIGURE { margin-bottom: 15px;}
+	.PediLaRevista .Texto {line-height: 19px;}
+	.PediLaRevista .Tapa { padding: 10px;}
+	.PediLaRevista .Intro .Row { margin-top: 20px; text-align: center}
+	.PediLaRevista .Precio { width: 100%; float: none; text-align: center; margin-bottom: 15px;}
+	.PediLaRevista .Btn { float: none; margin: 0 auto;}
+	.PediLaRevista .MedioPago IMG { margin-top: 15px;}
+	.PediLaRevista { margin-bottom: 20px;}
+	.Pedila LI { padding-left: 7%}
+	.Pedila LI:first-child { padding-left: 7%}
+	.PediLaRevista H3 { text-align: center; font-size: 2.6em; line-height: 30px; margin-top: 15px; margin-bottom: 15px;}
+	.PediLaRevista H3 SPAN { display: block;}
+	.PediLaRevista H3 .Line { display: none}
+	.PediLaRevista .Tapa .Data { margin-left: 3%; width: 47%}
+	.PediLaRevista .Tapa .Lnk + .Lnk { margin-top: 40px;}
 }
 @media screen and (max-width: 430px) {
 	.TopBanner { display: block}
