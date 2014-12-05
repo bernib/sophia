@@ -113,6 +113,9 @@
 							<div class="InnerBox">
 								<figure> <a href="#"><img src="images/home/pic-01.jpg" width="326" height="187" alt=""/></a>
 								</figure>
+								<div class="Categoria espiritualidad">
+									<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+								</div>
 								<div class="Data">
 									<div class="InnerData">
 										<h3><a href="#">Aires de libertad</a></h3>
@@ -129,6 +132,9 @@
 							<div class="InnerBox">
 								<figure> <a href="#"><img src="images/categoria/pic-06.jpg" width="326" height="187" alt=""/></a>
 								</figure>
+								<div class="Categoria espiritualidad">
+									<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+								</div>
 								<div class="Data">
 									<div class="InnerData">
 										<h3><a href="#">El humor puede salvarnos</a></h3>
