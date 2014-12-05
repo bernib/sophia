@@ -26,6 +26,9 @@
 				
 			<div class="InfoBox">
 				<div class="InnerBox">
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
 							<h3><a href="categoria-articulo.php">El sueño del hobby propio</a></h3>
@@ -40,13 +43,14 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="InnerHead">	
-						<h3><a href="categoria-articulo.php">Con la música a todas partes</a></h3>
-					</div>
 					<figure> <a href="#"><img src="images/categoria/pic-01.jpg" width="326" height="187" alt=""/></a>
 					</figure>
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
-						<div class="InnerData">	
+						<div class="InnerData">
+						<h3><a href="categoria-articulo.php">Con la música a todas partes</a></h3>
 							<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>
 						</div>
 						<div class="SocialToolBar">
@@ -58,13 +62,14 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="InnerHead">	
-						<h3><a href="categoria-articulo.php">Pampa Mía</a></h3>
-					</div>
 					<figure> <a href="#"><img src="images/categoria/pic-02.jpg" width="326" height="187" alt=""/></a>
 					</figure>
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
+							<h3><a href="categoria-articulo.php">Pampa Mía</a></h3>
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
@@ -76,13 +81,14 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="InnerHead">	
-						<h3><a href="categoria-articulo.php">Amar el Fín del mundo</a></h3>
-					</div>
 					<figure> <a href="#"><img src="images/categoria/pic-03.jpg" width="326" height="187" alt=""/></a>
 					</figure>
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
+							<h3><a href="categoria-articulo.php">Amar el Fín del mundo</a></h3>
 							<p>Adiós a una grande</p>
 						</div>
 						<div class="SocialToolBar">
@@ -94,6 +100,9 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
 							<h3><a href="categoria-articulo.php">El sueño del hobby propio</a></h3>
@@ -112,13 +121,14 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="InnerHead">	
-						<h3><a href="categoria-articulo.php">Ellas por la paz</a></h3>
-					</div>
 					<figure> <a href="#"><img src="images/categoria/pic-04.jpg" width="326" height="187" alt=""/></a>
 					</figure>
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
+							<h3><a href="categoria-articulo.php">Ellas por la paz</a></h3>
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
@@ -130,13 +140,14 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="InnerHead">	
-						<h3><a href="categoria-articulo.php">Un mundo mejor es posible</a></h3>
-					</div>
 					<figure> <a href="#"><img src="images/categoria/pic-05.jpg" width="326" height="187" alt=""/></a>
 					</figure>
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
+							<h3><a href="categoria-articulo.php">Un mundo mejor es posible</a></h3>
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
@@ -148,6 +159,9 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
+					<div class="Categoria espiritualidad">
+						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+					</div>
 					<div class="Data">
 						<div class="InnerData">
 							<h3><a href="categoria-articulo.php">El sueño del hobby propio</a></h3>
