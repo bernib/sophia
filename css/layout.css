@@ -456,6 +456,9 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Articulo H4.genero { background: #fa9099;}
 .Articulo H4.espiritualidad { background: #fac68a;}
 .Articulo H4.cultura { background: #a186bd;}
+.Articulo section UL {width: 100%; margin:10px 0 20px 10px}
+.Articulo section UL li {width: 100%; font-size: 1.3em; line-height: 22px; list-style-type: disc; margin-left:5px; }
+
 .Articulo .Head P { font-size: 1.2em; line-height: 14px; margin-bottom: 12px;}
 .Articulo .Head P A { color: #000; text-decoration: underline}
 .Articulo .Head P A:hover { text-decoration: none}

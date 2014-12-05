@@ -87,6 +87,14 @@
 					Sapa es una pequeña ciudad ubicada al norte de Vietnam, muy cerca de la frontera con China. Una región donde hay meses en que la vegetación florece y entonces las mujeres rezan, cantan y veneran el fruto de sus manos. Artesanías que venderán, más tarde, en el mercado central. <br>
 					Saludan en su lengua o en un inglés esmerado, y se ríen ante la aventura de vender aquello que hacen, tanto a sus vecinos como a quienes llegan desde lejos. Las mujeres de Sapa son amables aun cuando en sus ojos rasgados se adivina el cansancio de días enteros de trabajo. Y siempre están dispuestas a ofrecer estadía en sus hogares a los turistas que recién arriban, obnubilados por la magia del lugar. <br>
 				Mientras tanto, sus chicos juegan y corren a su alrededor, a la espera de que ellas les digan algo en voz baja, incomprensible para el oído extranjero, y entonces los tomen nuevamente de la mano. Cuando atardece, es tiempo de volver juntos a casa.</p>
+				
+				<ul>
+					<li>Opción lista 1</li>
+					<li>Opción lista 2</li>
+					<li>Opción lista 3</li>
+					<li>Opción lista 4</li>
+				</ul>
+
 			</section>
 			<span class="Ancla" id="Suscribite"></span>
 			<section class="Tags">
