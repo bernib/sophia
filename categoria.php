@@ -26,7 +26,7 @@
 				
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria espiritualidad">
+					<div class="Categoria solidaridad">
 						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
 					</div>
 					<div class="Data">
@@ -45,7 +45,7 @@
 				<div class="InnerBox">
 					<figure> <a href="#"><img src="images/categoria/pic-01.jpg" width="326" height="187" alt=""/></a>
 					</figure>
-					<div class="Categoria espiritualidad">
+					<div class="Categoria solidaridad">
 						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
 					</div>
 					<div class="Data">
@@ -64,7 +64,7 @@
 				<div class="InnerBox">
 					<figure> <a href="#"><img src="images/categoria/pic-02.jpg" width="326" height="187" alt=""/></a>
 					</figure>
-					<div class="Categoria espiritualidad">
+					<div class="Categoria solidaridad">
 						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
 					</div>
 					<div class="Data">
@@ -83,7 +83,7 @@
 				<div class="InnerBox">
 					<figure> <a href="#"><img src="images/categoria/pic-03.jpg" width="326" height="187" alt=""/></a>
 					</figure>
-					<div class="Categoria espiritualidad">
+					<div class="Categoria solidaridad">
 						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
 					</div>
 					<div class="Data">
@@ -100,7 +100,7 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<div class="Categoria espiritualidad">
+					<div class="Categoria solidaridad">
 						<h4><a href="#"><strong>espiritualidad</strong></a></h4>
 					</div>
 					<div class="Data">

@@ -113,8 +113,8 @@
 							<div class="InnerBox">
 								<figure> <a href="#"><img src="images/home/pic-01.jpg" width="326" height="187" alt=""/></a>
 								</figure>
-								<div class="Categoria espiritualidad">
-									<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+								<div class="Categoria cultura">
+									<h4><a href="#"><strong>lectura</strong></a></h4>
 								</div>
 								<div class="Data">
 									<div class="InnerData">
@@ -132,8 +132,8 @@
 							<div class="InnerBox">
 								<figure> <a href="#"><img src="images/categoria/pic-06.jpg" width="326" height="187" alt=""/></a>
 								</figure>
-								<div class="Categoria espiritualidad">
-									<h4><a href="#"><strong>espiritualidad</strong></a></h4>
+								<div class="Categoria cultura">
+									<h4><a href="#"><strong>educación</strong></a></h4>
 								</div>
 								<div class="Data">
 									<div class="InnerData">
