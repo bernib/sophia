@@ -26,9 +26,7 @@
 				
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<figure class="Video">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
 					<div class="Categoria genero">
 						<h4><a href="#"><strong>Género</strong></a></h4>
 					</div>
@@ -45,9 +43,7 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<figure class="Video">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
 					<div class="Categoria espiritualidad">
 						<h4><a href="#"><strong>Espiritualidad</strong></a></h4>
 					</div>
@@ -64,9 +60,7 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<figure class="Video">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
 					<div class="Categoria cultura">
 						<h4><a href="#"><strong>Cultura</strong></a></h4>
 					</div>
@@ -83,9 +77,7 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<figure class="Video">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
 					<div class="Categoria solidaridad">
 						<h4><a href="#"><strong>Solidaridad</strong></a></h4>
 					</div>
@@ -102,9 +94,7 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<figure class="Video">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
 					<div class="Categoria espiritualidad">
 						<h4><a href="#"><strong>Espiritualidad</strong></a></h4>
 					</div>
@@ -121,9 +111,7 @@
 			
 			<div class="InfoBox">
 				<div class="InnerBox">
-					<figure class="Video">
-						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
 					<div class="Categoria cultura">
 						<h4><a href="#"><strong>Cultura</strong></a></h4>
 					</div>
