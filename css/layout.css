@@ -332,7 +332,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Opina IMG { float: left; border-radius: 100%; margin-right: 11px; border: 1px solid #cbcbca;}
 .Opina.Single H4 { line-height: 19px; margin-top: 2px;}
 /**/
-.BlogAutor IMG { float: left; margin-right: 11px;}
+.BlogAutor IMG { float: left; margin-right: 11px; border: 1px solid #000}
 .BlogAutor.Single { margin-bottom: 15px;}
 .BlogAutor.Single H4 { line-height: 20px; margin-top: 2px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; color: #fff; font-size: 1.8em; text-transform: none;}
 .BlogAutor.Single H4 STRONG { font-family: "museo_slab700", Arial, Helvetica, sans-serif; color: #000; display: inline-block; margin-bottom: 4px;}
