@@ -399,9 +399,10 @@
 					<h5><a href="#">Canal sophia</a><i class="fa fa-youtube"></i></h5>
 				</div>
 				<div class="InnerBox">
-					<figure class="Video">
+					<figure class="VideoPic"><a href="#"><img src="images/home/video-pic.jpg" width="326" height="187" alt=""/><span></span></a></figure>
+					<!--<figure class="Video">
 						<iframe width="560" height="315" src="//www.youtube.com/embed/c9SUAcNlVQ4" frameborder="0" allowfullscreen></iframe>
-					</figure>
+					</figure>-->
 					<div class="Categoria genero">
 						<h4><a href="#"><strong>Género</strong></a></h4>
 					</div>
