@@ -435,13 +435,15 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .CatHead H2 .fa { font-size: 0.8em;}
 .CatHead.entrevistas,
 .CatHead.videos,
-.CatHead.la-revista { background: #fff; border-bottom: 1px solid #d7d9d9; color: #91999a;}
+.CatHead.la-revista,
+.CatHead.resultado-busqueda { background: #fff; border-bottom: 1px solid #d7d9d9; color: #91999a;}
 .CatHead.entrevistas H2,
 .CatHead.videos H2,
-.CatHead.la-revista H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
+.CatHead.la-revista H2,
+.CatHead.resultado-busqueda H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
 .CatHead.videos H2 SPAN { display: inline-block; border-left: 1px solid #c9cdcd; position: relative; top: -3px; padding-left: 20px; margin-left: 5px;}
 .CatHead.videos H2 A { font-family: "karlaregular", Arial, Helvetica, sans-serif; font-size: 1em; color: #080804; font-size: 0.3em; text-transform: uppercase; line-height: 18px; position: relative; top: -6px;}
-.CatHead.videos H2 .fa { margin-left: 8px; font-size: 1em; color: #91999A;}
+.CatHead.videos H2 .fa { margin-left: 8px; font-size: 3em; color: #91999A;}
 .CatHead.blog-dashboard {background: #fff; color: #000;}
 .CatHead.blog-dashboard H2 { font-family: "museo_slab100", Arial, Helvetica, sans-serif; font-size: 4em; line-height: 42px; text-transform: none; position: relative; top: -4px;}
 .CatHead.blog-dashboard H2 STRONG { color: #3fba9c; font-family: "museo_slab300", Arial, Helvetica, sans-serif;}
@@ -633,3 +635,38 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .blog-dashboard + .Row .Nota BLOCKQUOTE { background: #7bd3be}
 .blog-dashboard + .Row .Recibir {background: #7bd3be}
 .blog-dashboard + .Row .Comentarios H3 SPAN {color: #7bd3be}
+
+/*RESULTADO DE LA BUSQUEA*/
+.Filtro { border-bottom: 1px solid #d7d9d9; background: #f5f5f5;}
+.Filtro H4 { display: block; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-right: 10px; float: left; margin-top: 16px;}
+.Filtro UL { display: block; float: left; margin-top: 16px;}
+.Filtro LI { display: inline; font-size: 1.3em; line-height: 15px; padding-right: 10px;}
+.Filtro FIELDSET { display: block; border-left: 1px solid #d7d9d9; padding-left: 14px; float: right; padding-top: 8px; padding-bottom: 8px;}
+.Filtro INPUT[type="checkbox"] { vertical-align: middle}
+.Filtro INPUT[type="text"] { border: 1px solid #d0d2d2; height: 34px; width: 264px; font-size: 1.4em; line-height: 16px; padding-left: 15px; float: left}
+.Filtro INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.Filtro INPUT[type="text"]:focus:-moz-placeholder {color: #fff; opacity: 1}
+.Filtro INPUT[type="text"]:focus::-moz-placeholder {color: #fff; opacity: 1}
+.Filtro INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.Filtro INPUT[type="submit"] { border: 1px solid #000; background: #000; color: #fff; width: 80px; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; text-transform: uppercase; float: left; margin-left: 8px;}
+.Filtro INPUT[type="submit"]:hover { background: transparent; color: #000;}
+.ResultadoTitle { border-bottom: 1px solid #d7d9d9; background: #f5f5f5;}
+.ResultadoTitle H3 { text-align: center; font-size: 1.8em; line-height: 20px; font-family: "museo_slab300", Arial, Helvetica, sans-serif; padding-top: 20px; padding-bottom: 20px;}
+.ResultadoTitle H3 STRONG {font-family: "museo_slab700", Arial, Helvetica, sans-serif}
+.ResultadoTitle H3 STRONG + STRONG { color: #fbb96d;}
+.Resultados UL { width: 100%; padding-bottom: 30px; padding-top: 20px;}
+.Resultados LI { border-top: 1px solid #d4d7d7; padding-top: 26px; padding-bottom: 26px;}
+.Resultados LI:first-child { border-top: none}
+.Resultados H4 { font-size: 1.2em; line-height: 14px; text-transform: uppercase; margin-bottom: 12px;}
+.Resultados H4 A { color: #000;}
+.Resultados H4 A:hover { text-decoration: underline}
+.Resultados H4 SPAN A { text-decoration: underline}
+.Resultados H2 { font-size: 2.6em; line-height: 28px; margin-bottom: 12px;}
+.Resultados H2 A { color: #000;}
+.Resultados H2 A:hover { text-decoration: underline}
+.Resultados P { font-size: 1.4em; line-height: 16px;}
+.Resultados H5 { font-size: 1.2em; line-height: 14px; margin-bottom: 12px;}
+
+
+
+

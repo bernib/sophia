@@ -21,7 +21,7 @@
 	<div class="Row Filtro">
 		<div class="Wrapper">
 			<form>
-				<h4>Mostrar solo resultados de: </h4>
+				<h4><strong>Mostrar solo resultados de:</strong></h4>
 				<ul>
 					<li>
 						<input name="checkbox2" type="checkbox" id="checkbox2" checked="checked">
@@ -45,7 +45,7 @@
 					</li>
 				</ul>
 				<fieldset>
-					<input name="textfield5" type="text" id="textfield5" placeholder="Nueva Búsqueda">
+					<input name="textfield5" type="text" id="textfield5" placeholder="NUEVA BÚSQUEDA">
 					<input type="submit" name="submit3" id="submit3" value="Buscar">
 				</fieldset>
 			</form>
@@ -60,27 +60,27 @@
 		<div class="Wrapper">
 			<ul>
 				<li>
-					<h4><a href="#">Entrevista</a></h4>
+					<h4><a href="#"><strong>Entrevista</strong></a></h4>
 					<h2><a href="#">Beatriz Sarlo</a></h2>
 					<p>Por el camino de las ideas</p>
 				</li>
 				<li>
-					<h4><a href="#">solidaridad</a></h4>
+					<h4><a href="#"><strong>solidaridad</strong></a></h4>
 					<h2><a href="#">De Vietnam con amor</a></h2>
 					<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 				</li>
 				<li>
-					<h4>Por Cristina Miguens <a href="#">Punto de vista</a></h4>
+					<h4>Por <strong>Cristina Miguens</strong> <span><a href="#">Punto de vista</a></span></h4>
 					<h2><a href="#">El alma, nuestro punto de partida</a></h2>
 					<p>Hace un mes estuve en Córdoba invitada por un grupo de mujeres jóvenes ...</p>
 				</li>
 				<li>
-					<h4><a href="#">vivir bien</a></h4>
+					<h4><a href="#"><strong>vivir bien</strong></a></h4>
 					<h2><a href="#">La cocina de Pía: El futuro en tu mesa</a></h2>
 					<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 				</li>
 				<li>
-					<h4><a href="#">BLOG: DESDE NUEVA YORK</a></h4>
+					<h4><a href="#">BLOG: <strong>DESDE NUEVA YORK</strong></a></h4>
 					<h5>04.07.2014</h5>
 					<h2><a href="#">Sólo para golosos</a></h2>
 					<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>

@@ -38,6 +38,7 @@
 	.PediLaRevista .MedioPago { padding-top: 15px; width: 100%;}
 	.Pedila P BR { display: none}
 	.Pedila LI { min-height: 170px; padding-right: 15px;}
+	.Filtro FIELDSET { width: 100%; border-left: none; padding-left: 0; margin-top: 10px; margin-bottom: 10px;}
 }
 @media screen and (max-width: 1020px) {
 	.TopBanner { display: none}
@@ -222,6 +223,15 @@
 	.PediLaRevista H3 .Line { display: none}
 	.PediLaRevista .Tapa .Data { margin-left: 3%; width: 47%}
 	.PediLaRevista .Tapa .Lnk + .Lnk { margin-top: 40px;}
+	.CatHead.resultado-busqueda H2 {font-size: 3em;}
+}
+@media screen and (max-width: 490px) {
+	.Filtro UL { width: 100%;}
+	.Filtro LI { width: 50%; display: block; float: left}
+	.Filtro INPUT[type="text"] { width: 73%;}
+	.Filtro INPUT[type="submit"] { width: 26%; margin-left: 1%;}
+	.CatHead.resultado-busqueda H2 {font-size: 2.4em;}
+	.ResultadoTitle H3 { line-height: 28px;}
 }
 @media screen and (max-width: 430px) {
 	.TopBanner { display: block}
