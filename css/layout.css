@@ -673,3 +673,18 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Msj404 H3 { font-size: 2.2em; line-height: 24px;}
 .Msj404 H3 A { color: #000; text-decoration: underline}
 .Msj404 H3 A:hover { text-decoration: none;}
+
+/**/
+.Modal .fancybox-skin { background: #fac68a; border-radius: 0; color: #000;}
+.Modal .fancybox-close { background: url(../images/layout/close.png) no-repeat; width: 22px; height: 225px; top: 20px; right: 20px;}
+.ModalBg { background: #fac68a; float: none; clear: both; width: 100%; max-width: 770px;}
+.ModalBg H2 { margin: 0 auto 25px; text-align: center; background: url(../images/layout/logo-modal.png) no-repeat; width: 126px; height: 45px; text-indent: -5000px; }
+.ModalBody { text-align: center; border-top: 1px solid #d1aa7b; padding-top: 28px; padding-bottom: 28px;}
+.RecibirNotas H3 { font-size: 3em; line-height: 32px; text-transform: uppercase; margin-bottom: 24px;}
+.RecibirNotas P { font-size: 1.8em; line-height: 20px; margin-bottom: 40px;}
+.RecibirNotas FIELDSET { width: 100%; overflow: hidden; margin: 0 auto; display: block; max-width: 440px}
+.RecibirNotas INPUT[type="text"] { float: left; height: 34px; border: none; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 15px; width: 60%;}
+.RecibirNotas INPUT[type="submit"] { float: left; border: 1px solid #000; background: #000; color: #fff; width: 38%; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; margin-left: 2%}
+.RecibirNotas INPUT[type="submit"]:hover { background: transparent; color: #000}
+
+

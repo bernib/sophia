@@ -700,5 +700,27 @@
 <?php include("inc_bottom-banner.php"); ?>
 <?php include("inc_footer.php"); ?>
 <?php include("inc_foot.php"); ?>
+<!-- MODAL -->
+<a href="#Modal" class="ShowModal">
+<script>
+	$(function(){
+		$(".ShowModal").trigger('click');	 
+	});
+</script>
+<div class="Modal" id="Modal" style="display: none">
+	<div class="ModalBg RecibirNotas">
+		<h2>Sophia</h2>
+		<div class="ModalBody">
+			<h3>¿Te gustaría recibir NOTAS como<br> estA en tu e-mail?</h3>
+			<p>Suscribite aquí y te las enviaremos a tu casilla todas las semanas</p>
+			<form>
+				<fieldset>
+					<input type="text" name="textfield5" id="textfield5" placeholder="E-mail">
+					<input type="submit" name="submit4" id="submit4" value="SUSCRIBIRME!">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
 </body>
 </html>

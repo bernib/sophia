@@ -145,6 +145,22 @@ $(function(){
 		}
     });
 	
+
+	$(".ShowModal").fancybox({
+		maxWidth	: 700,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '100%',
+		height		: 'auto',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'fade',
+		closeEffect	: 'fade',
+		wrapCSS : 'Modal',
+		padding : [25,25,25,25]
+	});
+
+	
 	/*MENU MOBILE*/
 	var Pantalla = $(window).height();
 	
