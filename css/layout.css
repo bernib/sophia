@@ -684,6 +684,10 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .RecibirNotas P { font-size: 1.8em; line-height: 20px; margin-bottom: 40px;}
 .RecibirNotas FIELDSET { width: 100%; overflow: hidden; margin: 0 auto; display: block; max-width: 440px}
 .RecibirNotas INPUT[type="text"] { float: left; height: 34px; border: none; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 15px; width: 60%;}
+.RecibirNotas INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.RecibirNotas INPUT[type="text"]:focus:-moz-placeholder {color: #fff; opacity: 1}
+.RecibirNotas INPUT[type="text"]:focus::-moz-placeholder {color: #fff; opacity: 1}
+.RecibirNotas INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
 .RecibirNotas INPUT[type="submit"] { float: left; border: 1px solid #000; background: #000; color: #fff; width: 38%; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; margin-left: 2%}
 .RecibirNotas INPUT[type="submit"]:hover { background: transparent; color: #000}
 
