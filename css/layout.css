@@ -135,6 +135,8 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .MainNav .LogoBar + LI A { margin-left: 0}
 .MainNav LI:last-child A { margin-right: 0}
 .MainNav LI A { font-size: 1.4em; line-height: 16px; text-transform: uppercase; color: #fff; display: inline-block; margin-left: 8px; margin-right: 8px;}
+.MainNav LI A:hover,
+.MainNav LI:hover > A { color: #000;}
 .MainNav LI .Menu { position: absolute; background: #919699; border-top: 1px solid #fff; left: 0; top: 29px; min-width: 110px; padding-top: 8px; padding-bottom: 8px; display: none}
 .MainNav LI .Menu LI { float: none; margin-top: 0; padding-bottom: 0}
 .MainNav LI .Menu LI A { font-size: 1.5em; line-height: 17px; display: block; margin: 0; padding: 8px 22px; text-transform: none; white-space: nowrap }
@@ -320,7 +322,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .BoxGreen { background: #7bd3be}
 /**/
 .FullImg .InnerBox { position: relative; overflow: hidden}
-.FullImg .InnerBox .Data { position: absolute; left: 0; bottom: 0; background: rgba(58,58,58,.60); padding: 22px; color: #fff; width: 100%; transform: translateY(50px); transition: all 0.3s ease-in}
+.FullImg .InnerBox .Data { position: absolute; left: 0; bottom: 0; background: rgba(58,58,58,.60); padding: 22px; color: #fff; width: 100%; transform: translateY(82px); transition: all 0.3s ease-in}
 .FullImg .InnerBox .Data:hover { transform: translateY(0)}
 .FullImg .InnerBox H3 { margin-top: 0}
 .FullImg .InnerBox H3 A { color: #fff;}
