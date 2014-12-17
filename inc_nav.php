@@ -69,10 +69,35 @@
 				<li><a href="categoria.php"><strong>cultura</strong><i class="fa fa-angle-right"></i></a></li>
 				<li><a href="categoria.php"><strong>tendencias</strong><i class="fa fa-angle-right"></i></a></li>
 				<li><a href="categoria.php"><strong>PSICOLOGÍA</strong><i class="fa fa-angle-right"></i></a></li>
-				<li><a href="categoria.php"><strong>VIVIR BIEN</strong><i class="fa fa-angle-right"></i></a></li>
+				<li class="HasMenu"><a href="categoria.php"><strong>VIVIR BIEN</strong><i class="fa fa-angle-right"></i></a>
+					<ul>
+						<li><a href="#">Cocina</a></li>
+						<li><a href="#">Moda</a></li>
+						<li><a href="#">Deco</a></li>
+						<li><a href="#">Jardín</a></li>
+					</ul>
+				</li>
 				<li><a href="categoria.php"><strong>solidaridad</strong><i class="fa fa-angle-right"></i></a></li>
-				<li class="Level-2"><a href="#"><strong>blogs</strong><i class="fa fa-angle-right"></i></a></li>
-				<li class="Level-2"><a href="#"><strong>columnistas</strong><i class="fa fa-angle-right"></i></a></li>
+				<li class="Level-2 HasMenu"><a href="#"><strong>blogs</strong><i class="fa fa-angle-right"></i></a>
+					<ul>
+						<li><a href="#">Desde Buenos Aires</a></li>
+						<li> <a href="#">Desde Nueva York</a></li>
+						<li> <a href="#">Desde Londres</a></li>
+						<li> <a href="#">Desde Estocolmo</a></li>
+						<li> <a href="#">Desde Miami</a></li>
+						<li><a href="#"> Desde Madrid</a></li>
+					</ul>
+				</li>
+				<li class="Level-2 HasMenu"><a href="#"><strong>columnistas</strong><i class="fa fa-angle-right"></i></a>
+					<ul>
+						<li><a href="#">Cristina Miguens</a></li>
+						<li><a href="#">Miguel Espeche</a></li>
+						<li><a href="#">Virginia Gawell</a></li>
+						<li><a href="#">Maritchú Seitún</a></li>
+						<li><a href="#"> Amado Suarez</a></li>
+						<li><a href="#">Columnista invitado</a></li>
+					</ul>
+				</li>
 				<li class="Level-2"><a href="#"><strong>videos</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-2"><a href="#"><strong>entrevistas</strong><i class="fa fa-angle-right"></i></a></li>
 				<li class="Level-3"><a href="#"><strong>SUSCRÍBETE AL NEWSLETTER</strong><i class="fa fa-angle-right"></i></a></li>
