@@ -164,9 +164,9 @@ $(function(){
 	/*MENU MOBILE*/
 	var Pantalla = $(window).height();
 	
-	if(Pantalla < 700){
-		$(".MobileMenu").css({"height": "" + Pantalla - 48 + "", "overflow" : "auto"});
-		$(".AccessLayer").css({"height": "" + Pantalla - 48 + "", "overflow" : "auto"});
+	if(Pantalla < 800){
+		$(".MobileMenu").css({"height": " + Pantalla - 48 + ", "overflow" : "auto"});
+		$(".AccessLayer").css({"height": " + Pantalla - 48 + ", "overflow" : "auto"});
 	}
 
 	

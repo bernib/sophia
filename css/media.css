@@ -75,7 +75,7 @@
 	.MobileNav .Menu UL UL { position: static; width: 100%; background: #afb4b5; display: none; float: none; padding-bottom: 10px;}
 	.MobileNav .Menu UL UL LI { border-bottom: none;}
 	.MobileNav .Menu UL UL LI A { display: block; position: relative; padding-left: 42px; font-size: 1.6em; line-height: 18px; color: #fff; height: auto; padding-bottom: 5px; padding-top: 5px; text-transform: none}
-	.MobileNav .Menu .HasMenu:hover UL { display: block;}
+	.MobileNav .Menu .HasMenu UL { display: block;}
 	.FixThis LI { margin-top: 0; padding-bottom: 0}
 	.FixThis .Box .IconSep { display: inline-block}
 	.MobileNav .Search { padding-top: 12px; padding-bottom: 12px; display: none;}
