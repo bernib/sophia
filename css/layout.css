@@ -374,6 +374,19 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Encuesta .Lnk:hover { text-decoration: none}
 .Encuesta INPUT[type="submit"] { float: right; border: 1px solid #000; background: #000; color: #fff; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; width: 76px; height: 34px;}
 .Encuesta INPUT[type="submit"]:hover { color: #000; background: transparent}
+
+/*encuesta resultados*/
+.wp-polls p strong { font-size: 2.6em; line-height: 28px; margin-bottom: 20px; font-weight: normal !important;}
+.wp-polls p { text-align: left !important}
+ul.wp-polls-ul { margin: 0 0 15px 0 !important; padding-bottom: 15px; border-bottom: 1px solid #d4d7d7;}
+
+ul.wp-polls-ul li { margin: 15px 0 0 0 !important; font-size:1.3em; line-height:18px;}
+ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:block;}
+
+.wp-polls .pollbar {height:13px !important; margin-top:5px !important; background-image:none !important; background-color:#f6ae5a;}
+
+#polls-2-ans p, #polls-2-ans p strong { font-size: 1.2em !important; line-height: 16px; text-transform: uppercase;}
+
 /**/
 .Agenda H3 { font-size: 2.1em; line-height: 23px; font-family: "museo_slab500", Arial, Helvetica, sans-serif; margin-bottom: 20px;}
 .Agenda H3 STRONG { color: #FBB96D; font-family: "museo_slab700", Arial, Helvetica, sans-serif}
@@ -507,6 +520,8 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Nota H2 { font-size: 2.8em; line-height: 30px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota H3 { font-size: 2.4em; line-height: 28px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota H4 { font-size: 2em; line-height: 22px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+.Nota H5 { font-size: 1.7em; line-height: 18px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+
 .Nota IMG { width: 100%; height: auto;}
 /**/
 .Nota .Imagenes { position: relative; margin-bottom: 28px; overflow: hidden}
@@ -613,7 +628,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .PediLaRevista .Precio { float: left; display: block; text-align: right}
 .PediLaRevista .Precio H4 { font-size: 2.4em; line-height: 26px; color: #53b6de; margin-bottom: 6px;}
 .PediLaRevista .Precio P { font-size: 1.1em; line-height: 13px; text-transform: uppercase}
-.PediLaRevista .Btn { float: left; display: block; font-size: 1.7em; color: #fff; text-transform: uppercase; background: #000; height: 47px; padding-left: 15px; padding-right: 15px; padding-top: 15px; margin-left: 16px; margin-right: 25px; border: 1px solid #000;}
+.PediLaRevista .Btn { float: left; display: block; font-size: 1.7em; color: #fff; text-transform: uppercase; background: #000; height: 47px; padding-left: 15px; padding-right: 15px; padding-top: 15px; margin-left: 16px; margin-right: 15px; border: 1px solid #000;}
 .PediLaRevista .Btn:hover { border: 1px solid #000; background: transparent; color: #000;}
 .PediLaRevista .MedioPago { float: left}
 .PediLaRevista .MedioPago P EM { font-size: 1.2em; line-height: 14px; color: #3d9abf; display: inline-block; margin-bottom: 5px; margin-top: 5px;}
@@ -632,6 +647,19 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Pedila2 P { font-size: 1.2em; line-height: 14px; padding-top: 10px; padding-bottom: 10px;}
 .Pedila2 P A { color: #000; text-decoration: underline;}
 .Pedila2 P A:hover { text-decoration: none}
+
+/*SUMARIO*/
+.revista-sumario {float:left; width: 100% !important;}
+.revista-sumario img {float:left; width: 370px !important; height: 481px !important; border:1px solid #d7d9d9; margin: 0 0 15px 0 !important;}
+.revista-sumario A {color: #fbb96d; text-decoration: underline; font-size: 1.1em; display: inline; float:left;}
+.revista-sumario A:hover {color: #fbb96d; text-decoration: none !important}
+.revista-sumario h5 {display: inline !important; float:left; margin-right:5px; font-family: "museo_slab500", Arial, Helvetica, sans-serif;}
+.revista-sumario P {font-size: 1.3em; line-height: 16px;}
+
+
+.revista-sumario .sumario {float:left; width:383px; margin: -27px 0 35px 15px !important;}
+.revista-sumario .sumario ul {float:left; width:383px; margin:0 0 15px 0 !important;}
+.revista-sumario .sumario ul li {float:left; width:368px; font-size: 1.3em; line-height: 18px !important; list-style-type: disc; margin:0 0 5px 15px !important;}
 
 /*POST*/
 .blog-dashboard + .Row .SocialBar .Comentarios A { color: #7bd3be;}
@@ -694,4 +722,5 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .RecibirNotas INPUT[type="submit"] { float: left; border: 1px solid #000; background: #000; color: #fff; width: 38%; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; margin-left: 2%}
 .RecibirNotas INPUT[type="submit"]:hover { background: transparent; color: #000}
 
+/**/
 

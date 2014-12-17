@@ -32,10 +32,10 @@
 			<section class="Nota">
 				<div class="Imagen">
 					<!--<a href="#" class="ShowFullPic"><i class="fa fa-expand"></i></a>-->
-					<img src="images/categoria/nota-pic-01.jpg" width="770" height="421" alt=""/>
+					<img src="images/categoria/nota-pic-01.jpg" width="770" height="900" alt=""/>
 					<div class="CaptionBar">
 						<span class="Share"><span class="Label">Compartí</span> <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span>
-						<span class="Caption">Una mujer en Vietnam lleva a su hijo sobre su espalda</span>
+						<span class="Caption">Una mujer en Vietnam lleva a su hijo sobre su espaldas</span>
 					</div>
 				</div>
 				<p>En estas mujeres, encontramos la inspiración para vivir y acompañar el recorrido amoroso y esforzado de todas las madres del mundo. </p>

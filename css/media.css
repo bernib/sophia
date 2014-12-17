@@ -140,6 +140,7 @@
 	.Pedila LI:first-child { padding-left: 3%;}
 	.Pedila LI:last-child { border-bottom: none}
 	.PediLaRevista .Modalidad UL { margin-left: 0}
+	.revista-sumario img {width: 330px !important; height: 455px !important;}
 }
 @media screen and (max-width: 630px) {
 	.MobileNav .Menu UL { width: 100%}
@@ -283,11 +284,21 @@
 	.Columnista .Redes A { display: block; top: 0; margin-bottom: 10px;}
 	.Columnista .Redes .IconSep { display: none}
 	.ColumnistasBar LI A { border: none}
+	
+	.revista-sumario img {width: 400px !important; height: 520px !important;}
+	.revista-sumario .sumario {width:400px; margin: 0 !important;}
+	.revista-sumario .sumario ul {width:400px;}
+	.revista-sumario .sumario ul li {width:385px;}
 }
 @media screen and (max-width: 320px) {
 	.ColumnistasBar LI:first-child { width: 125px;}
 	.ColumnistasBar LI { width: 125px;}
 	.ColumnistasBar .Next2:hover {border-left: 1px solid #DBDDDD;}
+	
+	.revista-sumario img {width: 308px !important; height: 400px !important;}
+	.revista-sumario .sumario {width:308px; margin: 0 !important;}
+	.revista-sumario .sumario ul {width:308px;}
+	.revista-sumario .sumario ul li {width:293px;}
 }
 @media screen and (orientation: portrait) {}
 @media screen and (orientation: landscape) {}
