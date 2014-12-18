@@ -148,7 +148,7 @@ $(function(){
 
 	$(".ShowModal").fancybox({
 		maxWidth	: 700,
-		maxHeight	: 600,
+		maxHeight	: '100%',
 		fitToView	: false,
 		width		: '100%',
 		height		: 'auto',

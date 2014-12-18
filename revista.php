@@ -54,7 +54,7 @@
 							<h4><strong>$55</strong> ARS*</h4>
 							<p><strong>cada ejemplar + envío</strong></p>
 						</div>
-						<a href="#" class="Btn"><strong>¡COMPRAR AHORA!</strong></a>
+						<a href="#ModalRevista" class="Btn ShowModal"><strong>¡COMPRAR AHORA!</strong></a>
 						<div class="MedioPago">
 							<p><em>* varía de acuerdo al precio de tapa.</em></p>
 							<p><strong>Compra seguro con tu tarjeta de crédito a través de:</strong> <a href="#"><img src="images/revista/mercado-pago.png" width="94" height="23" alt=""/></a></p>
@@ -92,5 +92,42 @@
 </main>
 <?php include("inc_footer.php"); ?>
 <?php include("inc_foot.php"); ?>
+<!-- MODAL -->
+<div class="Modal" id="ModalRevista" style="display: none">
+	<div class="ModalBg PedirRevista">
+		<h2>Sophia</h2>
+		<div class="ModalBody">
+			<h3>Titulo del formulario</h3>
+			<p>Completá el siguiente formulario, hacé click en el botón "SUSCRIBIRME" y elegí la forma de pago (los ampos marcados con "*" son obligatorios</p>
+			<form>
+				<div class="FormRevista">
+					<fieldset class="Column Col-1">
+						<h4><strong>Datos personales</strong></h4>
+						<input name="nombre" type="text" id="Nombre/s" placeholder="Nombre/s (*)" />
+						<input name="apellido" type="text" id="Apellido/s" placeholder="Apellido/s (*)" />
+						<input name="dni" type="text" id="DNI" placeholder="DNI" />
+						<input name="tel" type="text" id="Teléfono de contacto" placeholder="Teléfono de contacto (*)" />
+						<input name="email" type="text" id="Email"  placeholder="Email (*)"/>
+						<input name="fecha_nac" type="text" id="Fecha de Nacimiento" placeholder="Fecha de Nacimiento (*)" />
+					</fieldset>
+					<fieldset class="Column Col-2">
+						<h4><strong>Domicilio de entrega</strong></h4>
+						<input name="calle" type="text" id="Calle" placeholder="Calle (*)" />
+						<input name="numero" type="text" id="Nº" class="corto num" placeholder="Nº (*)"  />
+						<input name="piso" type="text" id="Piso" class="corto" placeholder="Piso" />
+						<input name="depto" type="text" id="Depto" class="corto" placeholder="Depto." />
+						<input name="cp" type="text" id="Código postal" placeholder="Código postal (*)" />
+						<input name="ciudad" type="text" id="Ciudad" placeholder="Ciudad/Localidad (*)" class="clear" />
+						<input name="provincia" type="text" id="Provincia" placeholder="Provincia (*)"  />
+						<input name="pais" type="text" id="Pais" placeholder="Pais (*)"  />
+					</fieldset>
+					<div class="Action">
+						<input type="submit" value="Enviar">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 </body>
 </html>

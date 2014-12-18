@@ -229,6 +229,12 @@
 	.PediLaRevista .Tapa .Data { margin-left: 3%; width: 47%}
 	.PediLaRevista .Tapa .Lnk + .Lnk { margin-top: 40px;}
 	.CatHead.resultado-busqueda H2 {font-size: 3em;}
+	
+	.FormRevista .Column { width: 100%;}
+	.FormRevista .Col-1 { float: left}
+	.FormRevista .Col-2 { float: left}
+	.FormRevista INPUT[type="text"].corto { width: 31%; margin-left: 2%}
+	.FormRevista INPUT[type="text"].num { margin-left: 0}
 }
 @media screen and (max-width: 490px) {
 	.Filtro UL { width: 100%;}

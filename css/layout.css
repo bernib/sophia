@@ -722,5 +722,22 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .RecibirNotas INPUT[type="submit"] { float: left; border: 1px solid #000; background: #000; color: #fff; width: 38%; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif; margin-left: 2%}
 .RecibirNotas INPUT[type="submit"]:hover { background: transparent; color: #000}
 
-/**/
-
+/*MODAL REVISTA*/
+.PedirRevista H3 { font-size: 3em; line-height: 32px; text-transform: uppercase; margin-bottom: 24px;}
+.PedirRevista P { font-size: 1.8em; line-height: 20px; margin-bottom: 40px;}
+.FormRevista { width: 100%; overflow: hidden; display: block; text-align: left}
+.FormRevista H4 { text-align: left; font-size: 1.6em; line-height: 18px; margin-bottom: 15px;}
+.FormRevista .Column { width: 49%;}
+.FormRevista .Col-1 { float: left}
+.FormRevista .Col-2 { float: right}
+.FormRevista INPUT[type="text"] { height: 34px; border: none; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 15px; width: 100%; margin-bottom: 15px;}
+.FormRevista INPUT[type="text"].corto { width: 31.5%; margin-left: 2%}
+.FormRevista INPUT[type="text"].num { margin-left: 0}
+.FormRevista INPUT[type="text"]:focus::-webkit-input-placeholder {color: #fff;}
+.FormRevista INPUT[type="text"]:focus:-moz-placeholder {color: #fff; opacity: 1}
+.FormRevista INPUT[type="text"]:focus::-moz-placeholder {color: #fff; opacity: 1}
+.FormRevista INPUT[type="text"]:focus:-ms-input-placeholder { color: #fff;}
+.FormRevista .Action { float: left; width: 100%; text-align: center}
+.FormRevista INPUT[type="submit"] { border: 1px solid #000; background: #000; color: #fff; width: 49%; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif;}
+.FormRevista INPUT[type="submit"]:hover { background: transparent; color: #000}
+.FormRevista INPUT[type="text"].Error { color: #df2d1f;}
