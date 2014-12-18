@@ -182,7 +182,7 @@
 					</figure>
 					<div class="Data">
 						<div class="InnerData">
-							<h3><a href="#">De Vietnam con amor</a></h3>
+							<h3><a href="#">De Vietnam con amor De Vietnam con amor De Vietnam con amor De Vietnam con amor</a></h3>
 							<p>Adiós a una grande</p>
 						</div>
 						<div class="SocialToolBar">

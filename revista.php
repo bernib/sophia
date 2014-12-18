@@ -97,8 +97,8 @@
 	<div class="ModalBg PedirRevista">
 		<h2>Sophia</h2>
 		<div class="ModalBody">
-			<h3>Titulo del formulario</h3>
-			<p>Completá el siguiente formulario, hacé click en el botón "SUSCRIBIRME" y elegí la forma de pago (los ampos marcados con "*" son obligatorios</p>
+			<h3>Suscribite a La Revista</h3>
+			<p>Completá el siguiente formulario, hacé click en el botón "SUSCRIBIRME" y elegí la forma de pago (los ampos marcados con "*" son obligatorios)</p>
 			<form>
 				<div class="FormRevista">
 					<fieldset class="Column Col-1">
