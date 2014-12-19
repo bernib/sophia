@@ -38,7 +38,7 @@ EM { font-style: normal; font-family: "karlaitalic", Arial, Helvetica, sans-seri
 MAIN { border-bottom: 1px solid #fff;}/*#d0d2d2*/
 
 /*HEAD*/
-.Banner { text-align: center; width: 100%; float: left}
+.Banner { text-align: center; width: 100%; float: left; border-bottom: 1px solid #fff;}
 .TopBanner .Mobile { display: none}
 /**/
 .TopNav { border-top: 1px solid #d0d2d2; border-bottom: 1px solid #d0d2d2; padding-top: 9px; padding-bottom: 7px; height: 35px; position: relative; z-index: 100}
@@ -191,7 +191,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .Blogs .Slider LI { float: left; width: 181px; padding-right: 26px;}
 .Blogs .Slider H4 { font-size: 1.2em; line-height: 14px; color: #51c4a8; margin-bottom: 10px;}
 .Blogs .Slider H4 A {color: #51c4a8; text-decoration: underline}
-.Blogs .Slider H4:hover { text-decoration: none}
+.Blogs .Slider H4:hover { text-decoration: none !important}
 .Blogs .Slider FIGURE { margin-bottom: 12px;}
 .Blogs .Slider P { color: #000;}
 .Blogs .Slider P A { color: #000;}
@@ -346,7 +346,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .InfoBox .Doble H4 A:hover { text-decoration: none}
 /**/
 .Frase { background: #7bd3be;}
-.Frase .InnerBox H3 {color: #fff; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; line-height: 35px; font-size: 2.8em;}
+.Frase .InnerBox H3 {color: #fff; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; line-height: 30px; font-size: 2.4em;}
 .Frase .InnerBox H3 A { color: #fff;}
 .Frase .InnerBox .InnerData P { color: #fff; font-size: 1.6em; line-height: 18px; text-transform: uppercase; margin-bottom: 30px;}
 .SocialActions .Label { text-transform: uppercase; position: relative; top: -3px;}
@@ -393,7 +393,7 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .Agenda H3 .IconSep { margin-left: 7px; margin-right: 7px;}
 .Agenda UL { margin-bottom: 20px;}
 .Agenda LI {display: table; table-layout: fixed; width: 100%; margin-bottom: 1px;}
-.Agenda .Date { display: table-cell; background: #FBB96D; width: 26%; vertical-align: middle; font-size: 1.4em; line-height: 16px; color: #fff; text-transform: uppercase; padding-left: 14px;}
+.Agenda .Date { display: table-cell; background: #FBB96D; width: 26%; vertical-align: middle; font-size: 1.1em; line-height: 16px; color: #fff; text-transform: uppercase; padding: 0 10px;}
 .Agenda .Data { display: table-cell; background: #fff; width: 74%; padding: 10px 10px 10px 14px; font-size: 1.4em; line-height: 19px; }
 .Agenda .Data A { text-transform: uppercase; color: #FBB96D; font-size: 0.9em;}
 .Agenda .Data A SPAN { text-decoration: underline}
@@ -482,7 +482,7 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .Articulo .Head P { font-size: 1.2em; line-height: 14px; margin-bottom: 12px;}
 .Articulo .Head P A { color: #000; text-decoration: underline}
 .Articulo .Head P A:hover { text-decoration: none}
-.Articulo .Head H1 { font-size: 5.5em; line-height: 58px; margin-bottom: 15px;}
+.Articulo .Head H1 { font-size: 4.8em; line-height: 55px; margin-bottom: 15px;}
 .Articulo .Head H3 { font-size: 2em; line-height: 27px; margin-bottom: 25px;}
 .Articulo .Ancla { position: relative; top: -50px}
 /**/
@@ -516,8 +516,8 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .Nota .Imagen .Caption { font-size: 1.3em; line-height: 15px; font-family: "museo_slab500_italic", Arial, Helvetica, sans-serif; height: 41px; display: block; background: rgba(58,58,58,.70); width: 76.8%; float: left; margin-left: 0.2%; padding-left: 18px; padding-top: 14px;}
 .Nota .Imagen .ShowFullPic { color: #fff; background: rgba(0,0,0,0.60); font-size: 1.4em; position: absolute; top: 0; right: 0; padding: 12px;}
 /**/
-.Nota P { font-size: 1.4em; line-height: 27px; margin-bottom: 28px}
-.Nota H2 { font-size: 2.8em; line-height: 30px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
+.Nota P { font-size: 1.5em; line-height: 26px; margin-bottom: 28px}
+.Nota H2 { font-size: 2.6em; line-height: 37px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota H3 { font-size: 2.4em; line-height: 28px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota H4 { font-size: 2em; line-height: 22px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
 .Nota H5 { font-size: 1.7em; line-height: 18px; margin-bottom: 26px; font-family: "museo_slab300", Arial, Helvetica, sans-serif}
@@ -741,3 +741,25 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .FormRevista INPUT[type="submit"] {float:right; border: 1px solid #000; background: #000; color: #fff; width: 49%; height: 34px; font-size: 1.4em; font-family: "karlabold", Arial, Helvetica, sans-serif;}
 .FormRevista INPUT[type="submit"]:hover { background: transparent; color: #000}
 .FormRevista INPUT[type="text"].Error { color: #df2d1f;}
+
+/**Form contacto**/
+#wpcf7-f638-p636-o1 {background-color:#f5f5f5; border:1px solid #d4d7d7; padding: 10% 20%;}
+
+#wpcf7-f638-p636-o1 input {height: 34px; font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 14px;
+width: 100%;}
+
+#wpcf7-f638-p636-o1 textarea {font-size: 1.4em; line-height: 16px; text-transform: uppercase; padding-left: 14px;
+width: 100%;}
+
+
+#wpcf7-f638-p636-o1 input.wpcf7-submit {float:right; font-size: 1.2em !important; color: #fff; background: #000; border: none; width: 30%; height: 34px;
+font-family: "karlabold", Arial, Helvetica, sans-serif;}
+
+#wpcf7-f638-p636-o1 input.wpcf7-submit:hover { background: #f5f5f5; color: #000; border: 1px solid #000}
+
+/**Agenda interna**/
+p.tribe-events-back a, .tribe-events-nav-next a, .tribe-events-nav-previous a { color:#f8ae59; text-decoration: underline !important; font-size:1.1em}
+p.tribe-events-back a:hover, .tribe-events-nav-next a:hover, .tribe-events-nav-previous a:hover  { color:#f8ae59; text-decoration: none !important; font-size:1.1em;}
+
+ 
+
