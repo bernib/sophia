@@ -610,6 +610,9 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .PediLaRevista .Modalidad LI { float: left; width: 25%; text-align: center; color: #f9a94c; font-size: 1.1em; line-height: 13px; text-transform: uppercase; border-left: 1px solid #f8d7b2}
 .PediLaRevista .Modalidad LI:first-child { border-left: none;}
 .PediLaRevista .Modalidad LI .fa { font-size: 3em; line-height: 30px; margin-bottom: 10px;}
+.PediLaRevista .Modalidad LI .fa-mar { width: 31px; height: 31px; background: url(../images/revista/fa-marzo.png) no-repeat; line-height: 0; font-size: 0; margin-bottom: 6px;}
+.PediLaRevista .Modalidad LI .fa-jun {width: 31px; height: 31px; background: url(../images/revista/fa-junio.png) no-repeat; line-height: 0; font-size: 0; margin-bottom: 6px;}
+.PediLaRevista .Modalidad LI .fa-sep {width: 31px; height: 31px; background: url(../images/revista/fa-septiembre.png) no-repeat; line-height: 0; font-size: 0; margin-bottom: 6px;}
 .PediLaRevista .Modalidad LI STRONG { display: block;}
 .PediLaRevista .Intro { width: 65.8119%; margin-left: 2.3931%; float: left}
 .PediLaRevista .Texto { float: left; width: 48.3116%; font-size: 1.5em; line-height: 25px;}

@@ -32,9 +32,9 @@
 					<h4><strong>4 ejemplares al año</strong></h4>
 					<ul>
 						<li><i class="fa fa-sun-o"></i><strong>DICIEMBRE</strong></li>
-						<li><i class="fa fa-sun-o"></i><strong>MARZO</strong></li>
-						<li><i class="fa fa-sun-o"></i><strong>JUNIO</strong></li>
-						<li><i class="fa fa-sun-o"></i><strong>SEPTIEMBRE</strong></li>
+						<li><i class="fa fa-mar"></i><strong>MARZO</strong></li>
+						<li><i class="fa fa-jun"></i><strong>JUNIO</strong></li>
+						<li><i class="fa fa-sep"></i><strong>SEPTIEMBRE</strong></li>
 					</ul>
 				</div>
 				<div class="Intro">

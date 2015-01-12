@@ -44,11 +44,18 @@ $(function(){
 	});
 	
 	/*MOBILE NAV*/
+	var Pantalla = $(window).height();
+
 	$(".ShowMenu").click(function(e){
 		e.preventDefault();
 		$(".MobileMenu").stop().slideToggle();
 		$(this).toggleClass("Open");	
 	});
+	
+	//if(Pantalla < 800){
+		$(".MobileMenu").css({"height": Pantalla - 58, "overflow" : "auto"});
+		$(".AccessLayer").css({"height": Pantalla - 58, "overflow" : "auto"});
+	//}
 	
 	/*MASONRY HOME*/
 	var $container = $('#MsGrid');
@@ -159,15 +166,6 @@ $(function(){
 		wrapCSS : 'Modal',
 		padding : [25,25,25,25]
 	});
-
-	
-	/*MENU MOBILE*/
-	var Pantalla = $(window).height();
-	
-	if(Pantalla < 800){
-		$(".MobileMenu").css({"height": " + Pantalla - 48 + ", "overflow" : "auto"});
-		$(".AccessLayer").css({"height": " + Pantalla - 48 + ", "overflow" : "auto"});
-	}
 
 	
 	/*ANCHOR*/
