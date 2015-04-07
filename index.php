@@ -6,6 +6,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- BANNER -->
 <?php include("inc_top-banner.php"); ?>
 <!-- HEADER -->
@@ -186,7 +195,7 @@
 							<p>Adiós a una grande</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -205,7 +214,7 @@
 							<p>Hace un mes estuve en Córdoba invitada por un grupo de mujeres jóvenes ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -225,7 +234,7 @@
 							<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -247,7 +256,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -266,7 +275,7 @@
 							<p>Adiós a una grande</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -283,7 +292,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -303,7 +312,7 @@
 							<p>Si estamos en paz, si estamos contentos Podemos florecer como una flor ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -320,7 +329,7 @@
 							<p><em>- Henry ford -</em></p>
 						</div>
 						<div class="SocialActions">
-							<p><span class="Label"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-envelope"></i></a></span> <span class="IconSep"></span> <a href="#" class="Send">Enviá una frase</a></p>
+							<div><span class="Label"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -337,7 +346,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -385,7 +394,7 @@
 							<p>Si estamos en paz, si estamos contentos Podemos florecer como una flor ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>25</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -411,7 +420,7 @@
 							<h3><a href="#">Emma Watson asombró al mundo</a></h3>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -440,7 +449,7 @@
 							<p>"Estoy ocupada en capturar el momento"</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -468,7 +477,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -487,7 +496,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>

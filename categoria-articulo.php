@@ -6,6 +6,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- BANNER -->
 <?php include("inc_top-banner.php"); ?>
 <!-- HEADER -->
@@ -25,8 +34,9 @@
 			<div class="SocialBar">
 				<ul>
 					<li><span class="Comentarios"><a href="#"><i class="fa fa-comments"></i> <strong>(23)</strong></a> <a href="#" class="Lnk"><strong>comentá</strong></a></span></li>
-					<li><span class="IconSep"></span><span class="Suscribite"><a href="#Suscribite" class="anchorLink"><strong>SUSCRIBITE Al newsletter</strong><i class="fa fa-plus"></i></a></span><span class="IconSep"></span></li>
-					<li><span class="Share"><strong>CompartÍ</strong><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-envelope"></i></a></span></li>
+					<li><span class="IconSep"></span><span class="Suscribite"><a href="#Suscribite" class="anchorLink"><strong class="Texto">SUSCRIBITE<br> Al newsletter</strong><i class="fa fa-plus"></i></a></span><span class="IconSep"></span></li>
+					<li><span class="Share"><strong>CompartÍ</strong><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-whatsapp"></i></a><a href="#"><i class="fa fa-envelope"></i></a></span></li>
+					<li><span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
 				</ul>
 			</div>
 			<section class="Nota">

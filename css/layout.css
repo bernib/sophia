@@ -324,7 +324,7 @@ NAV { background: #919699; height: 44px; width: 100%; float: left; position: rel
 .FullImg .InnerBox { position: relative; overflow: hidden}
 .FullImg .InnerBox .Data { position: absolute; left: 0; bottom: 0; background: rgba(58,58,58,.60); padding: 22px; color: #fff; width: 100%; transform: translateY(108px); transition: all 0.3s ease-in; -webkit-transform: translateY(108px); -webkit-transition: all 0.3s ease-in; }
 .FullImg .InnerBox .Data:hover { transform: translateY(0); -webkit-transform: translateY(0); }
-.FullImg .InnerBox .Data P { min-height: 34px;}
+.FullImg .InnerBox .Data .WidgetBar { min-height: 34px;}
 .FullImg .InnerBox H3 { margin-top: 0; min-height: 30px;}
 .FullImg .InnerBox H3 A { color: #fff;}
 .FullImg .SocialToolBar .Comentarios { color: #fff;}
@@ -487,26 +487,30 @@ ul.wp-polls-ul li small {font-size:0.8em !important; color:#808285; display:bloc
 .Articulo .Ancla { position: relative; top: -50px}
 /**/
 .SocialBar {margin-bottom: 15px;}
-.SocialBar UL { width: 100%; overflow: hidden; padding-left: 6%; background: url(../images/categoria/social-lines.png) repeat-x left 55%;}
+.SocialBar UL { width: 100%; overflow: hidden; padding-left: 0; /*background: url(../images/categoria/social-lines.png) repeat-x left 55%;*/}
 .SocialBar LI { float: left; background: #fff;}
-.SocialBar LI:first-child { padding-top: 15px; padding-left: 15px;}
+.SocialBar LI:first-child { padding-top: 15px; padding-left: 0;}
 .SocialBar LI:last-child { padding-right: 15px;}
-.SocialBar .Comentarios { font-size: 1.4em; line-height: 16px; text-transform: uppercase}
+.SocialBar .Comentarios { font-size: 1.4em; line-height: 16px; text-transform: uppercase; position: relative; top: -4px;}
 .SocialBar .Comentarios A { color: #f3aa53;}
 .SocialBar .Comentarios .Lnk { font-size: 0.9em; color: #000; text-decoration: underline}
 .SocialBar .Comentarios .Lnk:hover { text-decoration: none}
 .SocialBar .IconSep { margin-left: 15px; margin-right: 15px; position: relative; top: 5px;}
 .SocialBar .Suscribite { font-size: 1.2em; line-height: 14px; text-transform: uppercase}
 .SocialBar .Suscribite A { color: #000;}
-.SocialBar .Suscribite .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
+.SocialBar .Suscribite .Texto { display: inline-block; text-align: right; position: relative; top: 4px;}
+.SocialBar .Suscribite .fa { font-size: 1.5em; padding: 7px 8px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
 .SocialBar .Share { font-size: 1.2em; line-height: 14px; text-transform: uppercase;}
 .SocialBar .Share A { color: #000}
-.SocialBar .Share .fa { font-size: 1.5em; padding: 11px 12px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
-.SocialBar .Share .fa-facebook {padding: 11px 14px;}
+.SocialBar .Share .fa { font-size: 1.5em; padding: 7px 8px; border: 1px solid #000; border-radius: 100%; margin-left: 8px; }
+.SocialBar .Share .fa-facebook {padding: 7px 10px;}
 .SocialBar .Share .fa-facebook:hover { color: #fff; background: #405da9; border-color: #405da9}
 .SocialBar .Share .fa-twitter:hover { color: #fff; background: #00c3ff; border-color: #00c3ff}
 .SocialBar .Share .fa-google-plus:hover { color: #fff; background: #d6402b; border-color: #d6402b}
+.SocialBar .Share .fa-whatsapp { font-size: 1.8em; padding: 5px 6px;}
+.SocialBar .Share .fa-whatsapp:hover { color: #fff; background: #00bd00; border-color: #00bd00}
 .SocialBar .Share .fa-envelope:hover { color: #fff; background: #8e8e91; border-color: #8e8e91}
+.SocialBar LI .fb-like { margin-top: 6px;}
 /**/
 .Nota .Imagen { position: relative; overflow: hidden; margin-bottom: 28px;}
 .Nota .Imagen .CaptionBar { position: absolute; left: 0; bottom: 0; color: #fff; width: 100%; overflow: hidden}

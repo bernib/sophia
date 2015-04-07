@@ -6,6 +6,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- BANNER -->
 <?php include("inc_top-banner.php"); ?>
 <!-- HEADER -->
@@ -37,7 +46,7 @@
 							<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -56,7 +65,7 @@
 							<p>Me animo a decir que todas las personas que visitaron Nueva York en algún momento se ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -162,7 +171,7 @@
 							<p>Una de las preguntas típicas que me hace la gente que viene a visitar Nueva York es: ¿dónde puedo ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -181,7 +190,7 @@
 							<p>Seguro están todos al tanto de la tormenta que se vivió en Nueva York y otras ciudades del este...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -200,7 +209,7 @@
 							<p>Seguro están todos al tanto de la tormenta que se vivió en Nueva York y otras ciudades del este... </p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -221,7 +230,7 @@
 							<p>Seguro están todos al tanto de la tormenta que se vivió en Nueva York y otras ciudades del este... </p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -240,7 +249,7 @@
 							<p>Seguro están todos al tanto de la tormenta que se vivió en Nueva York y otras ciudades del este... </p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -261,7 +270,7 @@
 							<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>

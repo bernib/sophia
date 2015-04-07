@@ -6,6 +6,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- BANNER -->
 <?php include("inc_top-banner.php"); ?>
 <!-- HEADER -->
@@ -28,11 +37,19 @@
 				<h1>Aires de libertad</h1>
 				<h3>En Sapa, una ciudad ubicada al norte de Vietnam, las mujeres trabajan y llevan a sus hijos a través de un viaje único y lleno de magia por las verdes montañas vietnamitas. </h3>
 			</div>
-			<div class="SocialBar">
+			<!--<div class="SocialBar">
 				<ul>
 					<li><span class="Comentarios"><a href="#"><i class="fa fa-comments"></i> <strong>(23)</strong></a> <a href="#" class="Lnk"><strong>comentá</strong></a></span></li>
 					<li><span class="IconSep"></span><span class="Suscribite"><a href="#Suscribite" class="anchorLink"><strong>SUSCRIBITE Al newsletter</strong><i class="fa fa-plus"></i></a></span><span class="IconSep"></span></li>
 					<li><span class="Share"><strong>CompartÍ</strong><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-envelope"></i></a></span></li>
+				</ul>
+			</div>-->
+			<div class="SocialBar">
+				<ul>
+					<li><span class="Comentarios"><a href="#"><i class="fa fa-comments"></i> <strong>(23)</strong></a> <a href="#" class="Lnk"><strong>comentá</strong></a></span></li>
+					<li><span class="IconSep"></span><span class="Suscribite"><a href="#Suscribite" class="anchorLink"><strong class="Texto">SUSCRIBITE<br> Al newsletter</strong><i class="fa fa-plus"></i></a></span><span class="IconSep"></span></li>
+					<li><span class="Share"><strong>CompartÍ</strong><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-whatsapp"></i></a><a href="#"><i class="fa fa-envelope"></i></a></span></li>
+					<li><span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
 				</ul>
 			</div>
 			<section class="Nota">
@@ -99,7 +116,7 @@
 										<p>Siempre lo supe. Desde que desembarqué fortuitamente en esta redacción supe que para mí Sophia, la Sabiduría, no era una revista sino una causa: la de proponer un modelo diferente de mujer ...</p>
 									</div>
 									<div class="SocialToolBar">
-										<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+										<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 									</div>
 								</div>
 							</div>
@@ -119,7 +136,7 @@
 										<p>Hace unos días estalló la noticia en todos los medios de comunicación del mundo: reapareció el nieto apropiado de Estela de Carlotto, la presidenta de Abuelas de Plaza de Mayo, Ignacio Hurban ...</p>
 									</div>
 									<div class="SocialToolBar">
-										<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+										<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 									</div>
 								</div>
 							</div>
@@ -144,7 +161,7 @@
 							<p>Hace un mes estuve en Córdoba invitada por un grupo de mujeres jóvenes ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -164,7 +181,7 @@
 							<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -181,7 +198,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -198,7 +215,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>

@@ -6,6 +6,15 @@
 
 <body>
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- BANNER -->
 <?php include("inc_top-banner.php"); ?>
 <!-- HEADER -->
@@ -34,7 +43,7 @@
 							<p>El humor puede salvarnos</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -50,7 +59,7 @@
 							<p>Hablar de lo que no se habla</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -66,7 +75,7 @@
 							<p>Por el camino de las ideas</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -82,7 +91,7 @@
 							<p>"Estoy ocupada en capturar el momento"</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -98,7 +107,7 @@
 							<p>No hay éxito sin sacrificio</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -114,7 +123,7 @@
 							<p>Escribo para organizar un mundo que ... </p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
