@@ -217,7 +217,7 @@
 							<p>Tan importante como visitar los museos, recorrer sus barrios y pasear por el Central Park ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -234,7 +234,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
@@ -251,7 +251,7 @@
 							<p>El peligro de las "usuras afectivas", menos visibles que las monetarias, pero igual ...</p>
 						</div>
 						<div class="SocialToolBar">
-							<p><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google-plus"></i></a></span></span></p>
+							<div class="WidgetBar"><a href="#" class="Comentarios"><i class="fa fa-comments"></i>14</a> <span class="IconSep"></span> <span class="Share"><span class="Label">Compartí </span> <span class="LabelLayer"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a></span></span> <span class="IconSep"></span> <div class="fb-like" data-href="https://www.facebook.com/andrea.canosa.79?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></div>
 						</div>
 					</div>
 				</div>
